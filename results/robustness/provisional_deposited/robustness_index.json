@@ -1,0 +1,30 @@
+{
+  "primary": "provisional_deposited",
+  "n_variants": 24,
+  "variants": [
+    "loo/provisional_deposited__without_CD_1",
+    "loo/provisional_deposited__without_CD_2",
+    "loo/provisional_deposited__without_CD_3",
+    "loo/provisional_deposited__without_CD_4",
+    "loo/provisional_deposited__without_CD_MP_1",
+    "loo/provisional_deposited__without_CD_MP_2",
+    "loo/provisional_deposited__without_CD_MP_3",
+    "loo/provisional_deposited__without_CD_MP_4",
+    "loo/provisional_deposited__without_CD_MP_5",
+    "loo/provisional_deposited__without_MD_1",
+    "loo/provisional_deposited__without_MD_2",
+    "loo/provisional_deposited__without_MD_3",
+    "loo/provisional_deposited__without_MD_4",
+    "loo/provisional_deposited__without_MD_5",
+    "loo/provisional_deposited__without_MD_MP_1",
+    "loo/provisional_deposited__without_MD_MP_2",
+    "loo/provisional_deposited__without_MD_MP_3",
+    "loo/provisional_deposited__without_MD_MP_4",
+    "loo/provisional_deposited__without_MD_MP_5",
+    "provisional_deposited__cov_clock_phase",
+    "provisional_deposited__cov_depth",
+    "provisional_deposited__cov_muscle",
+    "provisional_deposited__cov_quality_proxy",
+    "provisional_deposited__drop_MD_1"
+  ]
+}

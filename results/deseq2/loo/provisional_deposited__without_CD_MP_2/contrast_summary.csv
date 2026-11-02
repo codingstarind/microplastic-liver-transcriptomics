@@ -1,0 +1,5 @@
+"contrast","meaning","n_genes_tested","n_outlier_flagged_NA","n_independent_filtered","n_padj_lt_0.05","n_padj_lt_0.05_absLFC_ge_0.38","pi0_storey_lambda0.5","sign_check_vs_group_means","corr_with_group_means"
+"PE_in_CD","CD+PE vs CD+Veh (PE effect under control diet)",13692,42,1064,802,588,0.76701723634239,0.9988,0.8086
+"PE_in_MD","MD+PE vs MD+Veh (PE effect under MASH diet)",13692,42,267,517,326,0.784399649430324,0.9977,0.9188
+"Diet_in_Veh","MD+Veh vs CD+Veh (diet effect without PE)",13692,42,0,2537,1797,0.586327782646801,0.9989,0.8802
+"Interaction","(MD+PE - MD+Veh) - (CD+PE - CD+Veh), log2 scale",13692,42,1593,71,71,0.908997955010225,0.9978,0.8423

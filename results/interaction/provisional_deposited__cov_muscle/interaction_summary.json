@@ -1,0 +1,18 @@
+{
+  "label": "provisional_deposited__cov_muscle",
+  "n_genes_tested_interaction": 10571,
+  "n_interaction_fdr_lt_0.05": 16,
+  "patterns": {
+    "CD-only, interaction supported": 6,
+    "Opposing": 6,
+    "MD-only, interaction supported": 4
+  },
+  "n_muscle_tracking_among_interaction_genes": 0,
+  "frac_muscle_tracking_among_tested": 0.010973417841263836,
+  "median_abs_interaction_log2FC_fdr_genes": 0.828257541774881,
+  "median_interaction_ci_width_all_genes": 0.8350319389791059,
+  "n_genes_PE_effect_same_sign_both_diets": 380,
+  "of_which_interaction_fdr_lt_0.05": 0,
+  "of_which_interaction_ci_excludes_0": 21,
+  "n_genes_PE_effect_opposite_sign_both_diets_ci": 38
+}

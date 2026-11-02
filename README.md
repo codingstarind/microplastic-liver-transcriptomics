@@ -139,3 +139,18 @@ checks on every push and pull request.
 - [`reports/eda_report.md`](reports/eda_report.md): figures with axes, rationale, observations and caveats
 - [`reports/preliminary_observations.md`](reports/preliminary_observations.md): candidate questions for Phase 2
 - [`milestone_progress.md`](milestone_progress.md): progress against the milestone presentation requirements
+
+## AI Assistance, Scientific Responsibility & Academic Integrity
+
+This project used AI tools **extensively**, mainly **Claude Code** (Anthropic, Claude Opus 5.5). Claude Code wrote and ran nearly all of the code, produced the figures, ran the statistical analyses, managed the repository's commits and pull requests, and drafted most of the written reports. AI outputs (results, interpretations, candidate hypotheses and draft conclusions) are treated as **drafts for the team's review**, not as accepted scientific claims.
+
+| AI assistance | Student team responsibility |
+|---|---|
+| Writing, running and debugging Python/R code and pipelines | Choosing the research problem, dataset and project scope |
+| Running DESeq2, pathway, concordance and robustness analyses | Deciding which methods and analyses to adopt |
+| Tests, data-integrity checks, sensitivity analyses | Examining and accepting or rejecting computational results |
+| Figures, layout and labelling | Deciding what the figures show scientifically |
+| Summarising literature, explaining concepts, drafting reports and proposing candidate questions and hypotheses | Adopting hypotheses, interpreting biology and statistics, weighing limitations |
+| Presentation and communication support | Final conclusions and all submitted claims |
+
+The final scientific claims and interpretations are owned by the student team. Some team confirmations are still pending (adopted hypotheses, results reviewed, other AI tools used); they are listed in the detailed declaration: **[reports/ai_usage_declaration.md](reports/ai_usage_declaration.md)**.
