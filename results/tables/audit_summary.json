@@ -1,0 +1,162 @@
+{
+  "file": "GSE294180_MP_raw_counts_gene_level.csv.gz",
+  "raw_shape_rows_x_columns": [
+    55836,
+    20
+  ],
+  "raw_columns": [
+    "Unnamed: 0",
+    "CD_MP_1_S48",
+    "CD_MP_2_S49",
+    "CD_MP_3_S50",
+    "CD_MP_4_S51",
+    "CD_MP_5_S52",
+    "CD_1_S39",
+    "CD_2_S40",
+    "CD_3_S41",
+    "CD_4_S42",
+    "MD_MP_1_S53",
+    "MD_MP_2_S54",
+    "MD_MP_3_S55",
+    "MD_MP_4_S56",
+    "MD_MP_5_S57",
+    "MD_1_S43",
+    "MD_2_S44",
+    "MD_3_S45",
+    "MD_4_S46",
+    "MD_5_S47"
+  ],
+  "raw_column_dtypes": {
+    "Unnamed: 0": "str",
+    "CD_MP_1_S48": "int64",
+    "CD_MP_2_S49": "int64",
+    "CD_MP_3_S50": "int64",
+    "CD_MP_4_S51": "int64",
+    "CD_MP_5_S52": "int64",
+    "CD_1_S39": "int64",
+    "CD_2_S40": "int64",
+    "CD_3_S41": "int64",
+    "CD_4_S42": "int64",
+    "MD_MP_1_S53": "int64",
+    "MD_MP_2_S54": "int64",
+    "MD_MP_3_S55": "int64",
+    "MD_MP_4_S56": "int64",
+    "MD_MP_5_S57": "int64",
+    "MD_1_S43": "int64",
+    "MD_2_S44": "int64",
+    "MD_3_S45": "int64",
+    "MD_4_S46": "int64",
+    "MD_5_S47": "int64"
+  },
+  "annotation_columns": [
+    "gene"
+  ],
+  "first_gene_ids": [
+    "0610005C13Rik",
+    "0610006L08Rik",
+    "0610009E02Rik",
+    "0610009L18Rik",
+    "0610010K14Rik"
+  ],
+  "integrity": {
+    "n_genes": 55836,
+    "n_samples": 19,
+    "dtypes": [
+      "int64"
+    ],
+    "gene_id_formats": {
+      "symbol": 55359,
+      "ensembl_unversioned": 477
+    },
+    "n_duplicate_gene_ids": 0,
+    "n_duplicate_ids_after_version_strip": 0,
+    "n_duplicate_count_profiles": 3833,
+    "n_missing_values": 0,
+    "n_infinite_values": 0,
+    "n_negative_values": 0,
+    "min_value": 0.0,
+    "max_value": 936728.0,
+    "non_integer_fraction": 0.0,
+    "fraction_zero": 0.6755733897391232,
+    "n_genes_all_zero": 29651,
+    "n_genes_zero_in_any_sample": 41986
+  },
+  "value_type_evidence": {
+    "column_sum_min": 10398820.0,
+    "column_sum_max": 15456729.0,
+    "columns_sum_to_1e6": false,
+    "non_integer_fraction": 0.0,
+    "min_nonzero_value": 1.0,
+    "fraction_nonzero_below_1": 0.0,
+    "fraction_values_integer_multiple_of_column_min": 1.0,
+    "n_fractional_values": 0,
+    "fractional_part_quartiles": []
+  },
+  "sample_id_check": {
+    "n_counts_columns": 19,
+    "n_metadata_samples": 19,
+    "only_in_counts": [],
+    "only_in_metadata": [],
+    "all_match": true
+  },
+  "gencode_vM35_match": {
+    "n_gencode_genes": 57132,
+    "n_gencode_unique_symbols": 56897,
+    "n_counts_ids_matching_gencode_symbol": 55836,
+    "n_counts_ids_unmatched": 0,
+    "unmatched_examples": [],
+    "n_counts_symbols_shared_by_multiple_gene_ids": 228,
+    "n_gencode_symbols_absent_from_counts": 1061,
+    "absent_symbols_by_type": {
+      "unprocessed_pseudogene": 229,
+      "miRNA": 179,
+      "lncRNA": 167,
+      "snoRNA": 140,
+      "protein_coding": 90,
+      "snRNA": 76,
+      "processed_pseudogene": 75,
+      "rRNA": 48,
+      "TR_V_gene": 15,
+      "transcribed_unprocessed_pseudogene": 13
+    },
+    "absent_symbols_by_chromosome": {
+      "chrY": 407,
+      "chr7": 172,
+      "chrX": 78,
+      "chr8": 56,
+      "chr2": 51,
+      "chr14": 51,
+      "chr13": 31,
+      "chr3": 28,
+      "chr12": 27,
+      "chr4": 21
+    }
+  },
+  "sex_check": {
+    "markers_present": [
+      "Xist",
+      "Ddx3y",
+      "Eif2s3y",
+      "Kdm5d",
+      "Uty"
+    ],
+    "xist_count_range": [
+      0.0,
+      2.0
+    ],
+    "y_marker_total_range": [
+      1290.0,
+      2228.0
+    ],
+    "chrY_symbols_in_counts": 1224,
+    "chrY_total_count_range": [
+      1469.0,
+      3283.0
+    ]
+  },
+  "duplicate_profiles": {
+    "n_rows_in_duplicate_groups": 4259,
+    "n_with_mean_count_ge_10": 0,
+    "examples_mean_ge_10": []
+  }
+}
