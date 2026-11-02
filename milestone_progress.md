@@ -63,3 +63,31 @@ The ≥ 40% requirement is **met by the work done**, provided the team signs off
 - [ ] Look at SRA run metadata (flowcell/run dates) for the library-order confound
 - [ ] Build the slides and rehearse to 8 minutes
 - [ ] Each team member reviews and merges the Phase 1 pull request
+
+---
+
+# Phase 2 progress (updated 2026-11-02)
+
+Final report due **2026-11-25**. Details: `reports/phase2/README.md`.
+
+| Item | Status | Where |
+|---|---|---|
+| R/Bioconductor + Salmon environment (WSL, micromamba) | Done | `envs/` |
+| Quantification-source investigation (GEO, paper, Zenodo) | Done: setting not recoverable from sources | `reports/quantification_validation/` |
+| Re-quantification pilot (4 samples + replicate) | **Pending manual downloads**; pipeline ready | `pipelines/quantification/` |
+| DESeq2 factorial model (CD/Veh references, 4 contrasts, CIs, FDR) + diagnostics | Done, **provisional** | `reports/phase2/model_and_diagnostics.md` |
+| Pathway analysis (Hallmark/PPAR; fry, camera, fgsea, mouse-level scores) | Done, provisional | `reports/phase2/pathway_report.md` |
+| Direction A: PE vs diet concordance (split reference, relabelling null) | Done, exploratory | `reports/phase2/pe_mash_similarity_report.md` |
+| Direction B: interaction (gene + pathway) | Done, provisional | `reports/phase2/interaction_report.md` |
+| Direction C: robustness matrix (LOO, covariates, edgeR/limma) | Done, provisional | `reports/phase2/robustness_report.md` |
+| Literature comparison | Done from the main text; **supplement tables pending** | `reports/phase2/literature_comparison.md` |
+| Interpretation + team decisions | Draft | `reports/phase2/interpretation.md` |
+| Independent MASH signature (external dataset) | Candidates listed; not implemented | similarity report |
+| Confirmatory re-run on validated counts with team-adopted hypotheses | Not started (depends on the pilot and team decisions) | – |
+
+**Milestone presentation:** methods, code, results and interpretation now well exceed 40%. Suggested additions to the 10-slide plan:
+
+- slide 7: replace "PCA" with the factorial model and contrasts;
+- slide 8: the robustness matrix;
+- slide 9: interaction vs muscle carry-over (fig18);
+- slide 10: limitations (library and circadian confounds) and decisions.

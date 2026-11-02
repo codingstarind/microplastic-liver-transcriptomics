@@ -1,0 +1,8 @@
+{
+  "msigdb_version": "2026.1.Mm",
+  "msigdbr": "26.1.1",
+  "fgsea": "1.32.2",
+  "n_hallmark_scored": 50,
+  "n_reactome_scored": 0,
+  "ppar_sets_found": ["REACTOME_REGULATION_OF_LIPID_METABOLISM_BY_PPARALPHA", "SANDERSON_PPARA_TARGETS", "WP_PPAR_SIGNALING_PATHWAY"]
+}
