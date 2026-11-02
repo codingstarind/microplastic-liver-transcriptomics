@@ -391,6 +391,10 @@ Full matrix: `reports/phase2/robustness_report.md`.
 | Correlated errors and permutation | Shared-reference bias; split-reference design; relabelling null matched to the hypothesis |
 | High-dimensional interpretation | Gene-set tests at the mouse level vs the gene level; enrichment ≠ pathway activity |
 
+## AI usage declaration
+
+We used AI tools extensively in this project, mainly Claude Code (Anthropic, Claude Opus 5.5). Claude Code wrote and ran nearly all of the project's Python and R code. That covered data acquisition and auditing, preprocessing, DESeq2 factorial modelling, pathway, concordance and robustness analyses, automated tests, and all figures. It also drafted the project reports and this report's first draft. [TEAM TO CONFIRM: other tools, e.g. ChatGPT for reviewing the methodology proposal and AI assistance for slides.] AI-generated results, interpretations and candidate hypotheses were treated as drafts, not accepted findings. The research problem, project scope and key methodological decisions were set by the team, and the team takes responsibility for the hypotheses, interpretations and conclusions submitted. Full details and items still under review: `reports/ai_usage_declaration.md` in the project repository.
+
 ## References
 
 1. Jung W., Abushukair H., … Oh T.G. Spatial transcriptome mapping identifies Ppara-Anxa2 cross-talk in microplastic-induced hepatotoxicity. *Sci. Adv.* 12(25): eaec8681 (2026). doi:10.1126/sciadv.aec8681
