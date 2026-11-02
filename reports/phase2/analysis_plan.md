@@ -134,3 +134,9 @@ CIs are unadjusted 95% intervals; BH-adjusted interaction p-values are reported 
 | D5 | Bug fix | The pathway script originally ignored the covariate of covariate variants (design `~ diet * PE` was hard-coded). Fixed to use the DESeq2 fit's design; all covariate variants re-run. | Correctness | Earlier covariate-variant pathway numbers were wrong and are superseded |
 
 The **primary model was not changed** (no covariate). Whether to make the muscle-covariate model primary is left to the team (see `interpretation.md`, decision 2).
+
+## Team decisions
+
+| Date | Decision | Consequence |
+|---|---|---|
+| 2026-11-02 | **Primary model stays as pre-specified** (`~ diet + microplastic + diet:microplastic`, no covariate). The muscle-covariate model remains a pre-specified sensitivity analysis. | Headline results are reported from the primary model. Wherever the muscle-covariate fit changes a conclusion (PE_in_MD gene counts, the gene-level interaction list), both are shown and the dependence on contamination is stated. |

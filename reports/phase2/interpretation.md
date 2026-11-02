@@ -65,7 +65,7 @@ How does oral polyethylene (PE) microplastic exposure relate to hepatic transcri
 | # | Decision | Options and consequences |
 |---|---|---|
 | 1 | **Count input for confirmatory analysis** | Pending the pilot. If the deposited matrix needs an offset: full re-quantification (about 1 day of downloads at observed speeds, ~35 GB) or accept the provisional status. |
-| 2 | **Primary model: include the muscle covariate?** | Pre-specified primary = no covariate. Evidence shows contamination drives PE_in_MD and interaction hits. Making the muscle covariate primary is defensible but is a post-hoc change; it must be declared as such. |
+| 2 | ~~Primary model: include the muscle covariate?~~ **Decided 2026-11-02: keep the pre-specified model (no covariate) as primary.** | The muscle-covariate fit stays a sensitivity analysis. Contamination-dependent results (PE_in_MD gene counts, gene-level interaction) are always reported with both fits. |
 | 3 | **How to present the library-depth/quality confound** | It cannot be removed. It should be stated as a principal limitation of any PE claim. |
 | 4 | **Direction A framing** | Keep as exploratory, or invest in an independent MASH signature (candidate GEO series listed in the similarity report) to remove the same-data circularity. |
 | 5 | **Circadian confound** | Ask the authors for sacrifice times and food intake; otherwise treat clock-controlled programs as confounded. |
