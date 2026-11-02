@@ -1,0 +1,20 @@
+geo_accession,sample_title,counts_column,group,diet,microplastic,replicate,geo_treatment,geo_batch,library_name,tissue,genotype,organism,molecule,library_strategy,instrument,biosample,sra_experiment,submission_date,group_from_column_name
+GSM8899917,Liver_CD_1,CD_1_S39,CD+Veh,CD,Veh,1,Chow Diet,B1,S39,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862344,SRX28316092,Apr 09 2025,CD+Veh
+GSM8899918,Liver_CD_2,CD_2_S40,CD+Veh,CD,Veh,2,Chow Diet,B1,S40,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862343,SRX28316093,Apr 09 2025,CD+Veh
+GSM8899919,Liver_CD_3,CD_3_S41,CD+Veh,CD,Veh,3,Chow Diet,B1,S41,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862342,SRX28316094,Apr 09 2025,CD+Veh
+GSM8899920,Liver_CD_4,CD_4_S42,CD+Veh,CD,Veh,4,Chow Diet,B1,S42,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862341,SRX28316095,Apr 09 2025,CD+Veh
+GSM8899926,Liver_CD_MP_1,CD_MP_1_S48,CD+PE,CD,PE,1,Chow Diet + Microplastics,B1,S48,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862335,SRX28316101,Apr 09 2025,CD+PE
+GSM8899927,Liver_CD_MP_2,CD_MP_2_S49,CD+PE,CD,PE,2,Chow Diet + Microplastics,B1,S49,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862334,SRX28316102,Apr 09 2025,CD+PE
+GSM8899928,Liver_CD_MP_3,CD_MP_3_S50,CD+PE,CD,PE,3,Chow Diet + Microplastics,B1,S50,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862333,SRX28316103,Apr 09 2025,CD+PE
+GSM8899929,Liver_CD_MP_4,CD_MP_4_S51,CD+PE,CD,PE,4,Chow Diet + Microplastics,B1,S51,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862332,SRX28316104,Apr 09 2025,CD+PE
+GSM8899930,Liver_CD_MP_5,CD_MP_5_S52,CD+PE,CD,PE,5,Chow Diet + Microplastics,B1,S52,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862331,SRX28316105,Apr 09 2025,CD+PE
+GSM8899921,Liver_MD_1,MD_1_S43,MD+Veh,MD,Veh,1,MASH Diet,B1,S43,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862340,SRX28316096,Apr 09 2025,MD+Veh
+GSM8899922,Liver_MD_2,MD_2_S44,MD+Veh,MD,Veh,2,MASH Diet,B1,S44,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862339,SRX28316097,Apr 09 2025,MD+Veh
+GSM8899923,Liver_MD_3,MD_3_S45,MD+Veh,MD,Veh,3,MASH Diet,B1,S45,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862338,SRX28316098,Apr 09 2025,MD+Veh
+GSM8899924,Liver_MD_4,MD_4_S46,MD+Veh,MD,Veh,4,MASH Diet,B1,S46,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862337,SRX28316099,Apr 09 2025,MD+Veh
+GSM8899925,Liver_MD_5,MD_5_S47,MD+Veh,MD,Veh,5,MASH Diet,B1,S47,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862336,SRX28316100,Apr 09 2025,MD+Veh
+GSM8899931,Liver_MD_MP_1,MD_MP_1_S53,MD+PE,MD,PE,1,MASH Diet + Microplastics,B1,S53,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862330,SRX28316106,Apr 09 2025,MD+PE
+GSM8899932,Liver_MD_MP_2,MD_MP_2_S54,MD+PE,MD,PE,2,MASH Diet + Microplastics,B1,S54,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862329,SRX28316107,Apr 09 2025,MD+PE
+GSM8899933,Liver_MD_MP_3,MD_MP_3_S55,MD+PE,MD,PE,3,MASH Diet + Microplastics,B1,S55,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862328,SRX28316108,Apr 09 2025,MD+PE
+GSM8899934,Liver_MD_MP_4,MD_MP_4_S56,MD+PE,MD,PE,4,MASH Diet + Microplastics,B1,S56,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862327,SRX28316109,Apr 09 2025,MD+PE
+GSM8899935,Liver_MD_MP_5,MD_MP_5_S57,MD+PE,MD,PE,5,MASH Diet + Microplastics,B1,S57,Liver,WT,Mus musculus,total RNA,RNA-Seq,NextSeq 2000,SAMN47862326,SRX28316110,Apr 09 2025,MD+PE

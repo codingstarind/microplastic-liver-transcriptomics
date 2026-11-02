@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpliver"
+version = "0.1.0"
+description = "BT3041 project: microplastic exposure and liver gene expression (GEO GSE294180)"
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+# zip() over plot axes and items of different length is intentional in the figure code.
+ignore = ["B905"]

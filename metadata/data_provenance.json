@@ -1,0 +1,38 @@
+{
+  "files": {
+    "gencode_gtf": {
+      "key": "gencode_gtf",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M35/gencode.vM35.annotation.gtf.gz",
+      "local_path": "data/raw/gencode.vM35.annotation.gtf.gz",
+      "description": "GENCODE mouse release M35 comprehensive gene annotation (GRCm39)",
+      "downloaded_utc": "2026-11-02T02:04:53Z",
+      "size_bytes": 29303645,
+      "md5": "25b4e829e88ef6aace97a3cef7d459a5",
+      "sha256": "37d08d77a6c4178d7d3d6849e36bcd7176e60ad4b35f562b37db25a253721697"
+    },
+    "counts": {
+      "key": "counts",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294180/suppl/GSE294180_MP_raw_counts_gene_level.csv.gz",
+      "local_path": "data/raw/GSE294180_MP_raw_counts_gene_level.csv.gz",
+      "description": "Gene-level counts (Salmon -> tximport) deposited by the authors",
+      "downloaded_utc": "2026-11-02T02:15:16Z",
+      "size_bytes": 707678,
+      "md5": "704cd2dbf879e6ea8a2225aebe576fa4",
+      "sha256": "85d444c5f2c2496f8b189af1cce2b142c5d3e61d36189e7deb1f085be7bc1831",
+      "acquisition": "manual browser download from url, placed in data/raw"
+    },
+    "family_soft": {
+      "key": "family_soft",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294180/soft/GSE294180_family.soft.gz",
+      "local_path": "data/raw/GSE294180_family.soft.gz",
+      "description": "GEO SOFT family file: series, platform and all sample records",
+      "downloaded_utc": "2026-11-02T02:15:16Z",
+      "size_bytes": 3634,
+      "md5": "e03d7b43f8b1df44986b68e823f19b27",
+      "sha256": "df507505f2fca24c6b56d72cdfe26e9e02927a165ffaed260c176dc2325986f5",
+      "acquisition": "manual browser download from url, placed in data/raw"
+    }
+  },
+  "accession": "GSE294180",
+  "geo_page": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294180"
+}

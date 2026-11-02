@@ -1,0 +1,32 @@
+attribute,value,source,notes
+GEO series,GSE294180,GEO series record,"Public 27 Apr 2026; last updated 24 Jul 2026"
+BioProject,PRJNA1248512,GEO series record,
+Publication,"Jung W. et al. Spatial transcriptome mapping identifies Ppara-Anxa2 cross-talk in microplastic-induced hepatotoxicity. Sci. Adv. 12(25):eaec8681 (2026)",PubMed 42308314 / PMC13274612,"doi:10.1126/sciadv.aec8681; CC BY licence"
+Organism,Mus musculus,GEO sample records,
+Strain,C57BL/6 (wild type),Paper Methods: Animals,"Jackson Laboratory; GEO records only say genotype WT"
+Sex,male,Paper Methods: Animals,"Not recorded in GEO sample records"
+Age at start,8 weeks,Paper Methods: Animals,
+Housing,"22 +/- 1 C, 25 +/- 5% humidity, 12 h light/dark; grouped by treatment (n = 4 or 5 per cage group); ad libitum food and water",Paper Methods: Animals,"Group housing means cage and treatment are confounded"
+Design,"2 x 2 factorial: diet (CD, MD) x gavage (vehicle, PE)",GEO overall design + paper,
+Control diet (CD),"Research Diets D09100304: 10 kcal% fat, matching sucrose",Paper Methods: Animals,"GEO calls it 'Chow Diet' but it is a purified low-fat control diet, not grain-based chow"
+MASH diet (MD),"Research Diets D09100310: 40 kcal% fat, 20 kcal% fructose, 2% cholesterol",Paper Methods: Animals,"GEO: 'High-fat/fructose/cholesterol diet' / 'MASH Diet'"
+Diet duration,8 weeks,Paper Methods: Animals,
+Microplastic polymer,polyethylene (PE),GEO summary + paper,
+Microplastic particles,"PE microspheres, 10-150 um diameter (Cospheric; in-vitro section gives catalogue CPMS-0.96)",Paper Methods,"Particle size distribution within 10-150 um not reported; no fluorescent label for in vivo work stated"
+Microplastic dose,2 mg PE per mouse per day,Paper Methods: Animals,"Not normalised to body weight in the paper; ~70-80 mg/kg/day for a 25-30 g mouse (our estimate, not reported)"
+Route and vehicle,"Oral gavage, PE suspended in 0.1% Tween 20 in molecular-grade water",Paper Methods: Animals,
+Vehicle control,"Daily gavage of 0.1% Tween 20 in water without PE",Paper Methods: Animals,
+Exposure duration,8 weeks (daily),Paper Methods: Animals,"Diet and gavage appear to run concurrently; start dates not stated explicitly"
+Euthanasia,"Isoflurane overdose",Paper Methods: Animals,"Fasting state and time of day at collection not reported"
+Tissue,Liver (snap-frozen; ~50 mg for RNA),GEO extract protocol,
+RNA extraction,"TRIzol; quality checked on Agilent 2100 Bioanalyzer",GEO + paper,"RIN values not reported"
+Library prep,"NEBNext poly(A) mRNA isolation + IDT xGen Broad Range RNA library prep (stranded)",GEO + paper,"GEO: 500 ng input; paper: 'up to 1 ug'"
+Sequencing,"Illumina NextSeq 2000, 2 x 150 bp paired-end, target ~15 M reads/sample",GEO + paper,"OUHSC Genomics Core"
+Read QC,"fastp v0.23.4 (adapter trimming, poly-G and poly-X removal)",GEO data processing,
+Quantification,"Salmon v1.10.3, selective alignment (--validateMapping), -l A, --seqBias, --useVBOpt; GENCODE GRCm39 transcriptome (release M35)",GEO data processing,"Whether decoys/GC bias were used is not stated"
+Gene-level summarisation,"tximport (transcript-to-gene mapping)",GEO data processing,"countsFromAbundance setting not stated"
+Deposited processed file,GSE294180_MP_raw_counts_gene_level.csv.gz,GEO series record,"Described as 'Raw counts'"
+Authors' DE method,"DESeq2; |log2FC| >= 0.38 and FDR < 0.05",Paper Methods,
+Batch,"All 19 samples labelled batch B1",GEO sample records,
+Library indices,"S39-S57 assigned consecutively in group order (CD, MD, CD+PE, MD+PE)",GEO sample records,"Processing order is confounded with group"
+Samples in GEO,"19: CD+Veh 4, CD+PE 5, MD+Veh 5, MD+PE 5",GEO sample records,"Paper Fig. 1B says n = 5 in each group; GEO extraction text says 'four randomly selected' livers"

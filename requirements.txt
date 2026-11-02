@@ -1,0 +1,16 @@
+# Pinned versions used to generate the committed results.
+# Tested with Python 3.14.6 on Windows 11 and Python 3.14 on Ubuntu (GitHub Actions).
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.1
+seaborn==0.13.2
+scikit-learn==1.9.1
+requests==2.32.3
+
+# Development, testing and notebooks
+pytest==9.1.1
+ruff==0.17.3
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
