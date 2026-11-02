@@ -1,4 +1,4 @@
-counts_column,log2_read_pairs,assigned_fraction,log2_muscle_cpm,library_index,group
+counts_column,log2_read_pairs,gene_counts_per_read_pair_proxy,log2_muscle_cpm,library_index,group
 CD_1_S39,24.1835,0.8078,1.3186,39,CD+Veh
 CD_2_S40,24.058,0.7982,5.8834,40,CD+Veh
 CD_3_S41,24.1891,0.8081,1.5877,41,CD+Veh

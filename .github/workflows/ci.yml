@@ -24,3 +24,21 @@ jobs:
         run: pytest -q
       - name: Check committed metadata is consistent
         run: python scripts/validate_metadata.py
+      - name: Check committed methodology-feasibility outputs
+        run: python scripts/validate_methodology_outputs.py
+
+  pydeseq2-smoke-test:
+    # Fits the factorial design on synthetic data only (no downloaded data needed).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements-methodology.txt
+          python -m pip install -e .
+      - name: Synthetic coefficient-recovery and reference-level checks
+        run: python scripts/09_pydeseq2_smoke_test.py --synthetic-only --strict

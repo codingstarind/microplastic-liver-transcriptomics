@@ -1,21 +1,28 @@
 {
-  "flowcells_seen": [
-    "2227J7HNX"
-  ],
-  "n_runs_with_header": 9,
+  "flowcell_evidence": {
+    "n_runs_total": 19,
+    "n_runs_with_header_read": 19,
+    "flowcells_seen": [
+      "2227J7HNX"
+    ],
+    "run_numbers_seen": [
+      "78"
+    ],
+    "groups_with_header_read": {
+      "CD+Veh": 4,
+      "CD+PE": 5,
+      "MD+Veh": 5,
+      "MD+PE": 5
+    },
+    "runs_without_header": []
+  },
   "design_rank": 4,
-  "design_columns": [
-    "intercept",
-    "diet_MD",
-    "PE",
-    "diet_MD:PE"
-  ],
   "technical_vs_design": {
     "log2_read_pairs": {
       "r2_explained_by_design": 0.778411891520123,
       "vif": 4.512877549522531
     },
-    "assigned_fraction": {
+    "gene_counts_per_read_pair_proxy": {
       "r2_explained_by_design": 0.7976879805995318,
       "vif": 4.942860058257547
     },
@@ -28,9 +35,9 @@
       "vif": 16.285714285714295
     }
   },
-  "read_pairs_overlap_PE_vs_Veh": {
-    "max_PE": 16538318.00000001,
-    "min_Veh": 16992567.999999993,
+  "read_pairs_PE_vs_Veh": {
+    "max_PE": 16538318,
+    "min_Veh": 16992568,
     "perfect_separation": true
   },
   "muscle_cpm_gt_100_by_group": {
@@ -39,6 +46,5 @@
     "MD+Veh": 3,
     "MD+PE": 0
   },
-  "overall_median_dispersion": 0.01552520287597466,
-  "overall_median_dispersion_without_MD_1": 0.01541637475337875
+  "overall_median_dispersion": 0.015436443618886082
 }

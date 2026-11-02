@@ -1,0 +1,4 @@
+# Optional extra for the Phase 2 methodology smoke test (scripts/09_pydeseq2_smoke_test.py).
+# Not yet adopted for analysis: the team has not chosen between R DESeq2 and pydeseq2.
+-r requirements.txt
+pydeseq2==0.5.4

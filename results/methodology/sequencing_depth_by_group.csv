@@ -1,4 +1,4 @@
-,read_pairs,read_pairs,read_pairs,gene_assigned_counts,gene_assigned_counts,gene_assigned_counts,assigned_fraction,assigned_fraction,assigned_fraction
+,read_pairs,read_pairs,read_pairs,summed_gene_counts,summed_gene_counts,summed_gene_counts,gene_counts_per_read_pair_proxy,gene_counts_per_read_pair_proxy,gene_counts_per_read_pair_proxy
 ,mean,min,max,mean,min,max,mean,min,max
 group,,,,,,,,,
 CD+Veh,18475823.25,17465466,19126519,14894290.5,13940970,15456729,0.806,0.798,0.81
