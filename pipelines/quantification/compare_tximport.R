@@ -18,8 +18,11 @@ repo <- args[2]
 out_dir <- file.path(repo, "results", "quantification_validation")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
-pilot <- c(CD_1_rep1 = "CD_1_S39", CD_MP_5 = "CD_MP_5_S52",
-           MD_1 = "MD_1_S43", MD_MP_4 = "MD_MP_4_S56")
+# Samples actually downloaded (one per group, plus CD_MP_5 from the original plan).
+# The protocol's original choice was CD_MP_5, MD_1 and MD_MP_4; the substitution is
+# recorded as a deviation in the report.
+pilot <- c(CD_1_rep1 = "CD_1_S39", CD_MP_3 = "CD_MP_3_S50", CD_MP_5 = "CD_MP_5_S52",
+           MD_4 = "MD_4_S46", MD_MP_3 = "MD_MP_3_S55")
 quant_file <- function(label) file.path(work, "requant", label, "salmon", "quant.sf")
 
 tx2gene <- read.delim(file.path(work, "reference", "tx2gene_symbol.tsv"))

@@ -4,12 +4,14 @@
 #   fastp v0.23.4 : adapter trimming, poly-G and poly-X removal   (GEO data processing)
 #   Salmon v1.10.3: selective alignment, -l A, --seqBias, --useVBOpt, GENCODE M35 (GEO)
 #
-# Reads come from the NCBI SRA open-data mirror on AWS (about 5x faster than ENA here).
-# The .sra file is downloaded to the work directory, streamed through fastq-dump
-# (interleaved pairs) -> fastp -> two FIFOs -> Salmon, then deleted. No FASTQ is
-# written to disk. Run inside WSL:
+# Input: local FASTQ pairs (FASTQ_R1/FASTQ_R2), a local .sra file (SRA_LOCAL), or the
+# .sra file fetched from the NCBI SRA open-data mirror on AWS. fastp writes trimmed
+# reads to temporary gzip files in <work>/trim_tmp/<label>, Salmon quantifies them,
+# and the temporary files are deleted. (An earlier version streamed fastp -> two
+# FIFOs -> Salmon, which deadlocked near the end of the input.) Run inside WSL:
 #
-#   bash pipelines/quantification/quantify_run.sh SRR33050963 /mnt/d/mpliver_work [label]
+#   FASTQ_R1=... FASTQ_R2=... bash pipelines/quantification/quantify_run.sh \
+#       SRR33050963 /mnt/d/mpliver_work CD_1_rep1
 #
 # Assumptions not stated by the authors (recorded in the validation report):
 # no decoy sequences, k = 31, --gencode header parsing, fastp defaults otherwise.
@@ -32,8 +34,34 @@ if [[ -f "$OUT/salmon/quant.sf" ]]; then
     exit 0
 fi
 
-# SRA_LOCAL: a .sra file already downloaded (e.g. in a browser). It is used as is
-# and left in place; otherwise the file is fetched here and removed afterwards.
+# Input, in order of preference:
+#   FASTQ_R1/FASTQ_R2: local paired FASTQ(.gz) files (MD5-verified ENA downloads)
+#   SRA_LOCAL: a .sra file already downloaded; used as is and left in place
+#   otherwise: the .sra file is fetched from the AWS mirror and removed afterwards
+FIFO_DIR="$(mktemp -d)"
+if [[ -n "${FASTQ_R1:-}" && -n "${FASTQ_R2:-}" ]]; then
+    # Trimmed reads go to (lightly compressed) temporary files, not FIFOs: with two
+    # FIFOs, fastp and Salmon can deadlock near the end of the input, each blocked
+    # on a different mate file.
+    TRIM="$WORK/trim_tmp/$LABEL"
+    mkdir -p "$TRIM"
+    trap 'rm -rf "$FIFO_DIR" "$TRIM"' EXIT
+    "$MM" run -n mpliver-quant fastp -i "$FASTQ_R1" -I "$FASTQ_R2" \
+        -o "$TRIM/r1.fq.gz" -O "$TRIM/r2.fq.gz" -z 1 \
+        --detect_adapter_for_pe --trim_poly_g --trim_poly_x \
+        --thread 6 --json "$OUT/fastp.json" --html "$OUT/fastp.html" 2> "$OUT/fastp.log"
+    "$MM" run -n mpliver-quant salmon quant \
+        -i "$INDEX" -l A \
+        -1 "$TRIM/r1.fq.gz" -2 "$TRIM/r2.fq.gz" \
+        --validateMappings --seqBias --useVBOpt \
+        -p "$THREADS" -o "$OUT/salmon" \
+        > "$OUT/salmon.log" 2>&1
+    echo "$LABEL ($RUN) done: $(grep -o '"num_processed": [0-9]*' "$OUT/salmon/aux_info/meta_info.json"),"\
+" $(grep -o '"percent_mapped": [0-9.]*' "$OUT/salmon/aux_info/meta_info.json")"
+    exit 0
+fi
+rmdir "$FIFO_DIR"
+
 if [[ -n "${SRA_LOCAL:-}" ]]; then
     SRA_FILE="$SRA_LOCAL"
     CLEANUP=""
@@ -43,27 +71,26 @@ else
     CLEANUP="$SRA_FILE"
 fi
 
-FIFO_DIR="$(mktemp -d)"
-trap 'rm -rf "$FIFO_DIR" $CLEANUP' EXIT
-mkfifo "$FIFO_DIR/r1.fq" "$FIFO_DIR/r2.fq"
+TRIM="$WORK/trim_tmp/$LABEL"
+mkdir -p "$TRIM"
+trap 'rm -rf "$TRIM" $CLEANUP' EXIT
 
 # fastq-dump --split-spot writes mate 1 and mate 2 as consecutive records (interleaved).
+# Trimmed reads go to temporary files (two FIFOs can deadlock fastp and Salmon).
 "$MM" run -n mpliver-quant bash -c "
     fastq-dump --split-spot --skip-technical --stdout '$SRA_FILE' 2> '$OUT/fastq_dump.log' |
     fastp --stdin --interleaved_in \
-        -o '$FIFO_DIR/r1.fq' -O '$FIFO_DIR/r2.fq' \
+        -o '$TRIM/r1.fq.gz' -O '$TRIM/r2.fq.gz' -z 1 \
         --detect_adapter_for_pe --trim_poly_g --trim_poly_x \
-        --thread 4 --json '$OUT/fastp.json' --html '$OUT/fastp.html' 2> '$OUT/fastp.log'
-" &
-STREAM_PID=$!
+        --thread 6 --json '$OUT/fastp.json' --html '$OUT/fastp.html' 2> '$OUT/fastp.log'
+"
 
 "$MM" run -n mpliver-quant salmon quant \
     -i "$INDEX" -l A \
-    -1 "$FIFO_DIR/r1.fq" -2 "$FIFO_DIR/r2.fq" \
+    -1 "$TRIM/r1.fq.gz" -2 "$TRIM/r2.fq.gz" \
     --validateMappings --seqBias --useVBOpt \
     -p "$THREADS" -o "$OUT/salmon" \
     > "$OUT/salmon.log" 2>&1
 
-wait "$STREAM_PID"
 echo "$LABEL ($RUN) done: $(grep -o '"num_processed": [0-9]*' "$OUT/salmon/aux_info/meta_info.json"),"\
 " $(grep -o '"percent_mapped": [0-9.]*' "$OUT/salmon/aux_info/meta_info.json")"

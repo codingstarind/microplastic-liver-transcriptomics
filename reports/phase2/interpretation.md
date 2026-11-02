@@ -64,7 +64,7 @@ How does oral polyethylene (PE) microplastic exposure relate to hepatic transcri
 
 | # | Decision | Options and consequences |
 |---|---|---|
-| 1 | **Count input for confirmatory analysis** | Pending the pilot. If the deposited matrix needs an offset: full re-quantification (about 1 day of downloads at observed speeds, ~35 GB) or accept the provisional status. |
+| 1 | **Count input for confirmatory analysis** | **Pilot done (2026-11-02):** the original setting is not identifiable by the pre-registered rules. `scaledTPM` is excluded; the deposited matrix most resembles `"no"` counts that need an offset. **Full re-quantification of all 19 samples is required** (14 runs left, 33.2 GB; manifest in `pipelines/quantification/full_requant_manifest.tsv`). The PE–vehicle effective-length shift is uncorrelated with the provisional PE effects, so a large change is not expected, but it must be checked. |
 | 2 | ~~Primary model: include the muscle covariate?~~ **Decided 2026-11-02: keep the pre-specified model (no covariate) as primary.** | The muscle-covariate fit stays a sensitivity analysis. Contamination-dependent results (PE_in_MD gene counts, gene-level interaction) are always reported with both fits. |
 | 3 | **How to present the library-depth/quality confound** | It cannot be removed. It should be stated as a principal limitation of any PE claim. |
 | 4 | **Direction A framing** | Keep as exploratory, or invest in an independent MASH signature (candidate GEO series listed in the similarity report) to remove the same-data circularity. |
