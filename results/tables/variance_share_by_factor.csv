@@ -1,0 +1,4 @@
+factor,median_eta2,median_eta2_shuffled,n_genes_eta2_gt_0.5,n_genes_eta2_gt_0.5_shuffled,n_genes_considered
+Diet (CD vs MD),0.1053818083026813,0.02502587693687704,984,3,13164
+Microplastic (Veh vs PE),0.052842857276485036,0.03953463187282786,252,11,13164
+Group (4 levels),0.30254052574918044,0.1472899207323207,2871,134,13164

@@ -1,0 +1,21 @@
+{
+  "rule": ">= 10 counts in >= 4 samples",
+  "n_genes_input": 55836,
+  "n_genes_kept": 13777,
+  "n_genes_removed": 42059,
+  "fraction_of_total_counts_kept": 0.9986122310085155,
+  "kept_by_gene_type": {
+    "protein_coding": 12466,
+    "lncRNA": 839,
+    "processed_pseudogene": 240,
+    "TEC": 130,
+    "unprocessed_pseudogene": 39,
+    "lncRNA;transcribed_unprocessed_pseudogene": 17,
+    "transcribed_processed_pseudogene": 10,
+    "transcribed_unprocessed_pseudogene": 9
+  },
+  "size_factor_range": [
+    0.7819906593593199,
+    1.2633724354560638
+  ]
+}
