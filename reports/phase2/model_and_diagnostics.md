@@ -1,8 +1,6 @@
 # Factorial DESeq2 model and diagnostics
 
-> **Status: PROVISIONAL.** All numbers come from the deposited GEO matrix used without a
-> tximport length offset. Whether that is valid is being tested by the re-quantification pilot
-> (`reports/quantification_validation/`). Nothing here is an established finding.
+> **Data status:** deposited GEO matrix used without a tximport length offset, **pilot-verified under assumptions A1–A3** (`reports/quantification_validation/quantification_validation_report.md` §5.1; team decision 2026-11-02). Mitochondrially encoded genes and processed pseudogenes are less reliable. All analyses remain **exploratory** until the team adopts hypotheses.
 
 **Code:** `analysis/deseq2/run_deseq2_factorial.R`
 **Outputs:** `results/deseq2/provisional_deposited/` (tables), `figures/deseq2/provisional_deposited/` (diagnostics)

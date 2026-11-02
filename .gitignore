@@ -69,3 +69,4 @@ results/pathways/loo/**/fgsea_results.csv.gz
 figures/deseq2/loo/
 figures/deseq2/*__*/
 !figures/deseq2/*__cov_muscle/
+results/deseq2/*__pilot_length_offset/results_*.csv.gz

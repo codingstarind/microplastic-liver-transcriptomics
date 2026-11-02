@@ -143,13 +143,48 @@ Effective transcript length per gene (from our Salmon runs, genes with ≥ 20 co
 - **However,** the PE-vs-vehicle length shift is **uncorrelated** with the provisional PE_in_CD log2FC (Spearman 0.015), and PE-significant genes do not have larger shifts (median 0.058 vs 0.068 for all genes).
 - So the missing offset adds gene-specific noise and potential bias, but there is no sign that it creates the provisional PE signal. Caveat: 5 samples; effective lengths include isoform-estimation noise.
 
+### 4.6 Attempted approximate offset from pilot lengths: invalid (documented negative result)
+
+- **What we tried:** we attached group-averaged pilot effective lengths (CD+Veh from 1 mouse, CD+PE from 2, MD+Veh from 1, MD+PE from 1) as a tximport-style `avgTxLength` offset to all 19 deposited samples (`analysis/deseq2/run_deseq2_factorial.R --length_offset=`).
+- **What happened:** significant genes jumped (PE_in_CD 858 → 2,180; interaction 87 → 1,396). The change in every gene's log2FC equalled minus the injected group length difference (correlation 1.000). Newly significant genes were those whose single-mouse length estimate happened to differ by about 0.3 log2.
+- **Conclusion:** with 1–2 pilot mice per group, a group-level offset turns one mouse's isoform-estimation noise into an artificial group effect. **This approach is not a valid approximation**, and its results (`results/deseq2/provisional_deposited__pilot_length_offset/`) must not be interpreted. A valid offset needs per-sample lengths for all 19 mice.
+
+### 4.7 Are effective-length differences systematic by group, or per-mouse noise?
+
+From the two CD+PE pilot mice and the single vehicle mouse of each diet (10,531 genes with ≥ 20 counts):
+
+| Check | Observed | Expected if lengths vary only randomly per mouse |
+|---|---|---|
+| Correlation of (CD_MP_3 − CD_1) with (CD_MP_5 − CD_1) | 0.501 | 0.50 (from the shared CD_1); higher if PE shifts lengths consistently |
+| Correlation of the PE − Veh length shift in CD with the same shift in MD | 0.035 | 0 |
+| Robust SD within the CD+PE pair (per-mouse SD) | 0.069 (0.049) | – |
+| Robust SD of (PE mean − Veh) in CD | 0.091 | 0.060 |
+
+**Reading:**
+
+- There is no sign of a PE-associated, consistent shift in transcript effective lengths. The two PE mice do not share a common deviation, and the PE-vs-vehicle shifts do not replicate across diets.
+- The between-group spread is somewhat larger than pure per-mouse noise predicts. The likeliest source is the single vehicle mouse (CD_1), which cannot be resolved with n = 1.
+- Implication: the missing offset mainly adds gene-specific noise to the 19-sample analysis, not a systematic PE bias. This is consistent with the length shifts being uncorrelated with the provisional PE effects (§4.5).
+
 ## 5. Consequences (per the pre-specified rules)
 
 - **Outcome "not identifiable" → full re-quantification (19 samples) is required** for confirmatory DESeq2 using `DESeqDataSetFromTximport` with the length offset.
 - The re-quantified data will be **kept separate** from the deposited matrix (`D:\mpliver_work\requant\`, results labelled `requant_*`).
 - The deposited-matrix results stay labelled PROVISIONAL and become a comparison/sensitivity layer.
 - **Download manifest** for the 14 remaining runs (ENA URLs, sizes, MD5): `pipelines/quantification/full_requant_manifest.tsv` (33.2 GB).
-- Disk: D: has ~38 GB free. Runs must be processed in batches with FASTQs deleted after verified quantification, or the 11 GB of pilot FASTQs freed first.
+### 5.1 Team decision (2026-11-02): proceed with the deposited matrix under stated assumptions
+
+The team decided that the pilot serves as the verification step and that the analysis proceeds on the **deposited matrix**. Full re-quantification of the remaining 14 runs is **not done**, for lack of time. This departs from the pre-specified consequence above and is recorded here and in `reports/phase2/analysis_plan.md`.
+
+The working assumptions, each with the pilot evidence behind it:
+
+| # | Assumption | Evidence | Remaining risk |
+|---|---|---|---|
+| A1 | The deposited values are Salmon/tximport estimated counts (`"no"`-type, rounded), not TPM-scaled | `scaledTPM` excluded (length slope ≈ 0.96); `"no"` fits best (§4.2); identical gene set (§4.3) | Exact setting formally not identifiable |
+| A2 | The missing length offset adds gene-level noise but no systematic PE or group bias | Length shifts uncorrelated with PE effects (ρ = 0.015); no shared PE length shift (§4.7) | Based on 5 mice; within-group length variation of individual genes still inflates their variance |
+| A3 | Differences between the authors' and our Salmon runs (totals +4.5–7.2%; mitochondrial and pseudogene assignment) do not affect protein-coding conclusions | The median protein-coding gene differs by about +2%, similar across groups | **Mitochondrially encoded genes and processed pseudogenes are flagged as less reliable**, including the PE_in_CD enrichment of mt- genes |
+
+Results from the deposited matrix are therefore labelled **"deposited counts, pilot-verified under assumptions A1–A3"**, not "provisional". Any claim that hinges on mitochondrial or pseudogene expression, or on single genes with large within-group length variability, should carry this caveat. Full re-quantification remains the way to remove these assumptions if time allows. The manifest and pipeline are ready.
 
 ### Earlier pre-specified outcome table
 

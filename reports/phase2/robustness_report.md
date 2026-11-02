@@ -1,7 +1,6 @@
 # Direction C: robustness and sensitivity analysis
 
-> **Status: PROVISIONAL** (all variants use the deposited counts). A second layer of
-> robustness, re-quantified counts vs deposited counts, will be added after the pilot.
+> **Data status:** deposited GEO matrix used without a tximport length offset, **pilot-verified under assumptions A1–A3** (`reports/quantification_validation/quantification_validation_report.md` §5.1; team decision 2026-11-02). Mitochondrially encoded genes and processed pseudogenes are less reliable. All analyses remain **exploratory** until the team adopts hypotheses.
 
 **Code:**
 

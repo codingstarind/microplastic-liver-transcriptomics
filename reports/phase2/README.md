@@ -2,7 +2,7 @@
 
 **Status labels used throughout:**
 
-- **PROVISIONAL**: based on the deposited GEO matrix without a tximport length offset.
+- **Deposited counts, pilot-verified under A1–A3**: the deposited GEO matrix without a tximport length offset, adopted as the working dataset after the re-quantification pilot (team decision 2026-11-02; see the quantification report §5.1). Output folders keep their original `provisional_deposited` names.
 - **EXPLORATORY**: not a pre-specified confirmatory test.
 
 ## Reports

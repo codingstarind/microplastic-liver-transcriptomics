@@ -27,6 +27,10 @@ label <- args[3]
 opts <- args[-(1:3)]
 drop <- sub("^--drop=", "", grep("^--drop=", opts, value = TRUE))
 covariate <- sub("^--covariate=", "", grep("^--covariate=", opts, value = TRUE))
+# --length_offset=<csv>: group-level average transcript lengths (columns named by group,
+# e.g. from the re-quantification pilot), attached as DESeq2's avgTxLength assay so the
+# deposited counts get an approximate tximport length offset.
+length_offset <- sub("^--length_offset=", "", grep("^--length_offset=", opts, value = TRUE))
 
 provisional <- input == "deposited"
 out_dir <- file.path(repo, "results", "deseq2", label)
@@ -53,6 +57,15 @@ if (provisional) {
                                       "GSE294180_MP_raw_counts_gene_level.csv.gz")),
                      row.names = 1, check.names = FALSE)[, rownames(meta)]
   dds <- DESeqDataSetFromMatrix(as.matrix(counts), meta, design)
+  if (length(length_offset)) {
+    glen <- read.csv(length_offset, row.names = 1, check.names = FALSE)
+    stopifnot(all(rownames(dds) %in% rownames(glen)))
+    grp_of <- paste(meta$diet, meta$microplastic, sep = "+")
+    lenmat <- as.matrix(glen[rownames(dds), grp_of])
+    lenmat[!is.finite(lenmat) | lenmat <= 0] <- 1
+    dimnames(lenmat) <- dimnames(dds)
+    assay(dds, "avgTxLength") <- lenmat   # used by estimateSizeFactors (tximport-style)
+  }
 } else {
   suppressPackageStartupMessages(library(tximport))
   qdir <- sub("^requant:", "", input)
@@ -153,8 +166,8 @@ cutoff <- qf(0.99, length(coef_names), ncol(dds) - length(coef_names))
 influence <- data.frame(sample = colnames(dds),
                         n_genes_cooks_above_cutoff = colSums(cooks > cutoff, na.rm = TRUE),
                         median_cooks = apply(cooks, 2, median, na.rm = TRUE),
-                        size_factor = sizeFactors(dds))
-if (!provisional) influence$size_factor <- colMeans(normalizationFactors(dds))
+                        size_factor = if (is.null(sizeFactors(dds)))
+                          colMeans(normalizationFactors(dds)) else sizeFactors(dds))
 write.csv(influence, file.path(out_dir, "sample_influence.csv"), row.names = FALSE)
 
 vsd <- vst(dds, blind = FALSE)
@@ -167,7 +180,7 @@ write.csv(data.frame(gene = rownames(vsd), assay(vsd), check.names = FALSE),
 
 info <- list(
   input = input, provisional = provisional, design = deparse(design),
-  dropped_samples = drop, covariate = covariate,
+  dropped_samples = drop, covariate = covariate, length_offset = length_offset,
   n_samples = ncol(dds), n_genes_after_prefilter = nrow(dds),
   coefficient_names = coef_names,
   reference_levels = list(diet = levels(dds$diet)[1], microplastic = levels(dds$microplastic)[1]),

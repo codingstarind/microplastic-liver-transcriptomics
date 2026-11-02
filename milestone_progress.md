@@ -75,7 +75,7 @@ Final report due **2026-11-25**. Details: `reports/phase2/README.md`.
 | R/Bioconductor + Salmon environment (WSL, micromamba) | Done | `envs/` |
 | Quantification-source investigation (GEO, paper, Zenodo) | Done: setting not recoverable from sources | `reports/quantification_validation/` |
 | Re-quantification pilot (5 samples + replicate) | **Done.** Setting not identifiable; `scaledTPM` excluded; full re-quantification needed | `reports/quantification_validation/` |
-| Full re-quantification (14 remaining runs) | **Waiting for downloads** (33.2 GB, manifest ready) | `pipelines/quantification/full_requant_manifest.tsv` |
+| Full re-quantification (14 remaining runs) | **Not done (team decision, time)**; deposited matrix adopted under assumptions A1–A3; pipeline and manifest ready if time allows | `reports/quantification_validation/` §5.1 |
 | DESeq2 factorial model (CD/Veh references, 4 contrasts, CIs, FDR) + diagnostics | Done, **provisional** | `reports/phase2/model_and_diagnostics.md` |
 | Pathway analysis (Hallmark/PPAR; fry, camera, fgsea, mouse-level scores) | Done, provisional | `reports/phase2/pathway_report.md` |
 | Direction A: PE vs diet concordance (split reference, relabelling null) | Done, exploratory | `reports/phase2/pe_mash_similarity_report.md` |

@@ -1,8 +1,6 @@
 # Direction A: does the PE response resemble the MASH-diet response?
 
-> **Status: PROVISIONAL and EXPLORATORY.** Deposited counts with unverified quantification.
-> The diet signature comes from the same experiment, so nothing here is independent
-> confirmation.
+> **Data status:** deposited GEO matrix used without a tximport length offset, **pilot-verified under assumptions A1–A3** (`reports/quantification_validation/quantification_validation_report.md` §5.1; team decision 2026-11-02). Mitochondrially encoded genes and processed pseudogenes are less reliable. All analyses remain **exploratory** until the team adopts hypotheses.
 
 **Code:** `analysis/concordance/pe_vs_diet_concordance.py`
 **Outputs:** `results/concordance/<label>/`

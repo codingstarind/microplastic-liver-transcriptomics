@@ -1,10 +1,6 @@
-# Phase 2 scientific interpretation (provisional, for team review)
+# Phase 2 scientific interpretation (for team review)
 
-> Everything below rests on the **deposited count matrix used without a tximport length
-> offset**, which is still being validated (`reports/quantification_validation/`). These are
-> computational results for the team to examine. They have not been independently validated
-> by students, and they are not final claims. Mechanisms are not inferred: bulk mRNA changes
-> do not measure protein, flux or pathway activity.
+> **Data status:** deposited GEO matrix used without a tximport length offset, **pilot-verified under assumptions A1–A3** (`reports/quantification_validation/quantification_validation_report.md` §5.1; team decision 2026-11-02). Mitochondrially encoded genes and processed pseudogenes are less reliable. All analyses remain **exploratory** until the team adopts hypotheses.
 
 ## Central question
 
@@ -64,7 +60,7 @@ How does oral polyethylene (PE) microplastic exposure relate to hepatic transcri
 
 | # | Decision | Options and consequences |
 |---|---|---|
-| 1 | **Count input for confirmatory analysis** | **Pilot done (2026-11-02):** the original setting is not identifiable by the pre-registered rules. `scaledTPM` is excluded; the deposited matrix most resembles `"no"` counts that need an offset. **Full re-quantification of all 19 samples is required** (14 runs left, 33.2 GB; manifest in `pipelines/quantification/full_requant_manifest.tsv`). The PE–vehicle effective-length shift is uncorrelated with the provisional PE effects, so a large change is not expected, but it must be checked. |
+| 1 | ~~Count input~~ **Decided 2026-11-02: deposited matrix, pilot-verified under assumptions A1–A3** (quantification report §5.1) | Full re-quantification not done (time). Mitochondrial and pseudogene results are flagged as less reliable. A pilot-derived group offset was tested and is invalid with 1–2 mice per group. |
 | 2 | ~~Primary model: include the muscle covariate?~~ **Decided 2026-11-02: keep the pre-specified model (no covariate) as primary.** | The muscle-covariate fit stays a sensitivity analysis. Contamination-dependent results (PE_in_MD gene counts, gene-level interaction) are always reported with both fits. |
 | 3 | **How to present the library-depth/quality confound** | It cannot be removed. It should be stated as a principal limitation of any PE claim. |
 | 4 | **Direction A framing** | Keep as exploratory, or invest in an independent MASH signature (candidate GEO series listed in the similarity report) to remove the same-data circularity. |
