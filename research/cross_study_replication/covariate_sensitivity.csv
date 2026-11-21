@@ -1,0 +1,145 @@
+panel,gene,contrast,variant,log2FC,lfcSE,ci95_low,ci95_high,pvalue,padj,covariate_R2_explained_by_group,covariate_R2_with_PE_indicator,primary_log2FC,same_direction_as_primary,se_inflation_vs_primary
+Djouina 2023 (primary),Fasn,PE_in_CD,primary (no covariate),-1.57994,0.302926,-2.17367,-0.98622,1.83217e-07,2.03481e-05,,,-1.57994,True,1
+Djouina 2023 (primary),Acly,PE_in_CD,primary (no covariate),-1.82156,0.236312,-2.28472,-1.3584,1.27531e-14,2.35117e-11,,,-1.82156,True,1
+Djouina 2023 (primary),Acaca,PE_in_CD,primary (no covariate),-1.60782,0.179863,-1.96035,-1.2553,3.92155e-19,1.80744e-15,,,-1.60782,True,1
+Djouina 2023 (primary),Ppara,PE_in_CD,primary (no covariate),0.155644,0.150807,-0.139933,0.451221,0.302039,0.621334,,,0.155644,True,1
+Polystyrene studies (exploratory),Acot3,PE_in_CD,primary (no covariate),0.616542,0.746655,-0.846876,2.07996,0.408953,0.707184,,,0.616542,True,1
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,primary (no covariate),0.546136,0.193653,0.166582,0.925689,0.00479977,0.050914,,,0.546136,True,1
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,primary (no covariate),0.465799,0.260913,-0.04558,0.977179,0.0742176,0.298828,,,0.465799,True,1
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,primary (no covariate),-1.0212,0.54229,-2.08406,0.0416746,0.0596848,,,,-1.0212,True,1
+Djouina 2023 (primary),Fasn,PE_in_MD,primary (no covariate),-1.45509,0.285718,-2.01509,-0.895097,3.52895e-07,8.27017e-05,,,-1.45509,True,1
+Djouina 2023 (primary),Acly,PE_in_MD,primary (no covariate),-1.10489,0.22333,-1.5426,-0.667167,7.52412e-07,0.000156095,,,-1.10489,True,1
+Djouina 2023 (primary),Acaca,PE_in_MD,primary (no covariate),-0.69926,0.170301,-1.03304,-0.365476,4.02539e-05,0.0035132,,,-0.69926,True,1
+Djouina 2023 (primary),Ppara,PE_in_MD,primary (no covariate),0.0504733,0.141744,-0.22734,0.328286,0.721775,0.916285,,,0.0504733,True,1
+Polystyrene studies (exploratory),Acot3,PE_in_MD,primary (no covariate),0.144818,0.708266,-1.24336,1.53299,0.837987,0.953691,,,0.144818,True,1
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,primary (no covariate),0.427815,0.181778,0.0715364,0.784094,0.0185976,0.189529,,,0.427815,True,1
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,primary (no covariate),0.554868,0.245836,0.0730387,1.0367,0.0240039,0.217133,,,0.554868,True,1
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,primary (no covariate),-0.223813,0.517438,-1.23797,0.790346,0.665349,0.895262,,,-0.223813,True,1
+Djouina 2023 (primary),Fasn,Interaction,primary (no covariate),0.12485,0.416413,-0.691303,0.941004,0.764312,0.970834,,,0.12485,True,1
+Djouina 2023 (primary),Acly,Interaction,primary (no covariate),0.716673,0.325146,0.0793993,1.35395,0.0275131,0.470257,,,0.716673,True,1
+Djouina 2023 (primary),Acaca,Interaction,primary (no covariate),0.908564,0.247696,0.423089,1.39404,0.000244396,0.0382071,,,0.908564,True,1
+Djouina 2023 (primary),Ppara,Interaction,primary (no covariate),-0.10517,0.206964,-0.510813,0.300472,0.611343,0.939269,,,-0.10517,True,1
+Polystyrene studies (exploratory),Acot3,Interaction,primary (no covariate),-0.471723,1.02914,-2.4888,1.54536,0.64669,0.946061,,,-0.471723,True,1
+Polystyrene studies (exploratory),Abcc3,Interaction,primary (no covariate),-0.118321,0.265603,-0.638893,0.402252,0.655974,0.949168,,,-0.118321,True,1
+Polystyrene studies (exploratory),Nr1i3,Interaction,primary (no covariate),0.0890686,0.358484,-0.613547,0.791684,0.803779,0.975244,,,0.0890686,True,1
+Polystyrene studies (exploratory),Nr4a1,Interaction,primary (no covariate),0.797382,0.749547,-0.671702,2.26647,0.28741,0.823259,,,0.797382,True,1
+Djouina 2023 (primary),Fasn,PE_in_CD,+ sequencing depth,-1.46119,0.586378,-2.61047,-0.311907,0.0127067,0.285483,0.778399,0.757563,-1.57994,True,1.93571
+Djouina 2023 (primary),Acly,PE_in_CD,+ sequencing depth,-2.18946,0.414821,-3.00249,-1.37642,1.30544e-07,0.000157218,0.778399,0.757563,-1.82156,True,1.75539
+Djouina 2023 (primary),Acaca,PE_in_CD,+ sequencing depth,-1.81633,0.320758,-2.445,-1.18766,1.49077e-08,3.23169e-05,0.778399,0.757563,-1.60782,True,1.78334
+Djouina 2023 (primary),Ppara,PE_in_CD,+ sequencing depth,-0.141468,0.259503,-0.650084,0.367148,0.585651,0.945286,0.778399,0.757563,0.155644,False,1.72076
+Polystyrene studies (exploratory),Acot3,PE_in_CD,+ sequencing depth,0.520338,1.35677,-2.13888,3.17956,0.70134,0.964609,0.778399,0.757563,0.616542,True,1.81713
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,+ sequencing depth,0.489773,0.34853,-0.193334,1.17288,0.159947,0.718941,0.778399,0.757563,0.546136,True,1.79976
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,+ sequencing depth,0.274109,0.523952,-0.752818,1.30104,0.600865,0.945509,0.778399,0.757563,0.465799,True,2.00815
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,+ sequencing depth,-0.400737,0.972108,-2.30603,1.50456,0.680167,0.961149,0.778399,0.757563,-1.0212,True,1.7926
+Djouina 2023 (primary),Fasn,PE_in_MD,+ sequencing depth,-1.36683,0.478214,-2.30411,-0.429545,0.00426061,0.180559,0.778399,0.757563,-1.45509,True,1.67372
+Djouina 2023 (primary),Acly,PE_in_MD,+ sequencing depth,-1.38301,0.338547,-2.04655,-0.719468,4.40522e-05,0.00805087,0.778399,0.757563,-1.10489,True,1.5159
+Djouina 2023 (primary),Acaca,PE_in_MD,+ sequencing depth,-0.8488,0.26192,-1.36215,-0.335446,0.00119244,0.0780598,0.778399,0.757563,-0.69926,True,1.53798
+Djouina 2023 (primary),Ppara,PE_in_MD,+ sequencing depth,-0.171018,0.211293,-0.585146,0.243109,0.418292,0.915687,0.778399,0.757563,0.0504733,False,1.49067
+Polystyrene studies (exploratory),Acot3,PE_in_MD,+ sequencing depth,0.0533395,1.10889,-2.12005,2.22673,0.961635,,0.778399,0.757563,0.144818,True,1.56564
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,+ sequencing depth,0.381753,0.283772,-0.174431,0.937937,0.178535,0.785323,0.778399,0.757563,0.427815,True,1.56109
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,+ sequencing depth,0.396982,0.427179,-0.440272,1.23424,0.352727,0.89402,0.778399,0.757563,0.554868,True,1.73766
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,+ sequencing depth,0.217258,0.797239,-1.3453,1.77982,0.785228,,0.778399,0.757563,-0.223813,False,1.54074
+Djouina 2023 (primary),Fasn,Interaction,+ sequencing depth,0.0943598,0.472488,-0.831699,1.02042,0.841708,0.978543,0.778399,0.757563,0.12485,True,1.13466
+Djouina 2023 (primary),Acly,Interaction,+ sequencing depth,0.806449,0.334292,0.151248,1.46165,0.0158477,0.352439,0.778399,0.757563,0.716673,True,1.02813
+Djouina 2023 (primary),Acaca,Interaction,+ sequencing depth,0.967529,0.258389,0.461097,1.47396,0.000180772,0.035392,0.778399,0.757563,0.908564,True,1.04317
+Djouina 2023 (primary),Ppara,Interaction,+ sequencing depth,-0.0295506,0.208772,-0.438737,0.379635,0.88744,0.982905,0.778399,0.757563,-0.10517,True,1.00874
+Polystyrene studies (exploratory),Acot3,Interaction,+ sequencing depth,-0.466999,1.09477,-2.61271,1.67871,0.669691,0.949743,0.778399,0.757563,-0.471723,True,1.06377
+Polystyrene studies (exploratory),Abcc3,Interaction,+ sequencing depth,-0.10802,0.280627,-0.658038,0.441998,0.700294,0.957634,0.778399,0.757563,-0.118321,True,1.05656
+Polystyrene studies (exploratory),Nr1i3,Interaction,+ sequencing depth,0.122874,0.422141,-0.704508,0.950255,0.770996,0.971872,0.778399,0.757563,0.0890686,True,1.17757
+Polystyrene studies (exploratory),Nr4a1,Interaction,+ sequencing depth,0.617995,0.784471,-0.91954,2.15553,0.430822,0.892498,0.778399,0.757563,0.797382,True,1.04659
+Djouina 2023 (primary),Fasn,PE_in_CD,+ skeletal-muscle score,-1.61512,0.311136,-2.22493,-1.0053,2.09134e-07,2.76889e-05,0.389702,0.133605,-1.57994,True,1.0271
+Djouina 2023 (primary),Acly,PE_in_CD,+ skeletal-muscle score,-1.79167,0.237968,-2.25808,-1.32526,5.11187e-14,6.02968e-11,0.389702,0.133605,-1.82156,True,1.00701
+Djouina 2023 (primary),Acaca,PE_in_CD,+ skeletal-muscle score,-1.56327,0.174617,-1.90551,-1.22103,3.4735e-19,2.25343e-15,0.389702,0.133605,-1.60782,True,0.970834
+Djouina 2023 (primary),Ppara,PE_in_CD,+ skeletal-muscle score,0.185005,0.146774,-0.102667,0.472676,0.207499,0.554084,0.389702,0.133605,0.155644,True,0.973254
+Polystyrene studies (exploratory),Acot3,PE_in_CD,+ skeletal-muscle score,0.675142,0.766014,-0.826218,2.1765,0.378118,0.719999,0.389702,0.133605,0.616542,True,1.02593
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,+ skeletal-muscle score,0.534616,0.198304,0.145948,0.923283,0.0070189,0.0777738,0.389702,0.133605,0.546136,True,1.02401
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,+ skeletal-muscle score,0.486247,0.294867,-0.0916823,1.06418,0.0991401,0.392503,0.389702,0.133605,0.465799,True,1.13014
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,+ skeletal-muscle score,-1.10433,0.543289,-2.16915,-0.0395006,0.0420858,0.242803,0.389702,0.133605,-1.0212,True,1.00184
+Djouina 2023 (primary),Fasn,PE_in_MD,+ skeletal-muscle score,-1.32504,0.363968,-2.0384,-0.611671,0.00027208,0.0325952,0.389702,0.133605,-1.45509,True,1.27387
+Djouina 2023 (primary),Acly,PE_in_MD,+ skeletal-muscle score,-1.24436,0.278796,-1.79079,-0.697928,8.06962e-06,0.00215684,0.389702,0.133605,-1.10489,True,1.24836
+Djouina 2023 (primary),Acaca,PE_in_MD,+ skeletal-muscle score,-0.886381,0.204944,-1.28806,-0.484697,1.52544e-05,0.00375285,0.389702,0.133605,-0.69926,True,1.20342
+Djouina 2023 (primary),Ppara,PE_in_MD,+ skeletal-muscle score,-0.109246,0.171187,-0.444766,0.226273,0.523362,0.892151,0.389702,0.133605,0.0504733,False,1.20772
+Polystyrene studies (exploratory),Acot3,PE_in_MD,+ skeletal-muscle score,-0.287343,0.899571,-2.05047,1.47578,0.749406,0.950784,0.389702,0.133605,0.144818,False,1.2701
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,+ skeletal-muscle score,0.500421,0.231119,0.0474361,0.953406,0.0303717,0.38985,0.389702,0.133605,0.427815,True,1.27143
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,+ skeletal-muscle score,0.439181,0.344719,-0.236455,1.11482,0.202654,0.722557,0.389702,0.133605,0.554868,True,1.40223
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,+ skeletal-muscle score,0.405196,0.645702,-0.860357,1.67075,0.530314,0.894059,0.389702,0.133605,-0.223813,False,1.24788
+Djouina 2023 (primary),Fasn,Interaction,+ skeletal-muscle score,0.290081,0.49735,-0.684707,1.26487,0.559723,0.927274,0.389702,0.133605,0.12485,True,1.19437
+Djouina 2023 (primary),Acly,Interaction,+ skeletal-muscle score,0.547314,0.380715,-0.198874,1.2935,0.150549,0.752151,0.389702,0.133605,0.716673,True,1.1709
+Djouina 2023 (primary),Acaca,Interaction,+ skeletal-muscle score,0.676889,0.279656,0.128774,1.225,0.0155018,0.475819,0.389702,0.133605,0.908564,True,1.12903
+Djouina 2023 (primary),Ppara,Interaction,+ skeletal-muscle score,-0.294251,0.234275,-0.753421,0.164919,0.209113,0.80962,0.389702,0.133605,-0.10517,True,1.13196
+Polystyrene studies (exploratory),Acot3,Interaction,+ skeletal-muscle score,-0.962485,1.22724,-3.36783,1.44286,0.432882,0.895674,0.389702,0.133605,-0.471723,True,1.19249
+Polystyrene studies (exploratory),Abcc3,Interaction,+ skeletal-muscle score,-0.0341948,0.316355,-0.654239,0.58585,0.913924,0.987635,0.389702,0.133605,-0.118321,True,1.19108
+Polystyrene studies (exploratory),Nr1i3,Interaction,+ skeletal-muscle score,-0.0470658,0.471191,-0.970583,0.876452,0.920434,0.988385,0.389702,0.133605,0.0890686,False,1.3144
+Polystyrene studies (exploratory),Nr4a1,Interaction,+ skeletal-muscle score,1.50952,0.878073,-0.211469,3.23051,0.0855904,0.686464,0.389702,0.133605,0.797382,True,1.17147
+Djouina 2023 (primary),Fasn,PE_in_CD,+ clock-phase score,-1.926,0.372223,-2.65554,-1.19645,2.28758e-07,8.30589e-05,0.582372,0.0792227,-1.57994,True,1.22876
+Djouina 2023 (primary),Acly,PE_in_CD,+ clock-phase score,-1.80091,0.346611,-2.48026,-1.12156,2.03879e-07,8.30589e-05,0.582372,0.0792227,-1.82156,True,1.46675
+Djouina 2023 (primary),Acaca,PE_in_CD,+ clock-phase score,-1.52366,0.227554,-1.96965,-1.07766,2.14512e-11,4.54336e-08,0.582372,0.0792227,-1.60782,True,1.26515
+Djouina 2023 (primary),Ppara,PE_in_CD,+ clock-phase score,0.411434,0.166493,0.0851131,0.737755,0.013467,0.147013,0.582372,0.0792227,0.155644,True,1.10401
+Polystyrene studies (exploratory),Acot3,PE_in_CD,+ clock-phase score,1.09654,0.962555,-0.790034,2.98311,0.254621,0.620545,0.582372,0.0792227,0.616542,True,1.28916
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,+ clock-phase score,0.538154,0.246356,0.0553042,1.021,0.028929,0.22485,0.582372,0.0792227,0.546136,True,1.27215
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,+ clock-phase score,0.848919,0.348777,0.16533,1.53251,0.0149334,0.157025,0.582372,0.0792227,0.465799,True,1.33676
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,+ clock-phase score,-1.76626,0.647389,-3.03511,-0.497397,0.00636663,0.0946283,0.582372,0.0792227,-1.0212,True,1.1938
+Djouina 2023 (primary),Fasn,PE_in_MD,+ clock-phase score,-1.48214,0.278144,-2.02729,-0.936987,9.89339e-08,2.86767e-05,0.582372,0.0792227,-1.45509,True,0.973491
+Djouina 2023 (primary),Acly,PE_in_MD,+ clock-phase score,-1.10424,0.259286,-1.61244,-0.596054,2.05536e-05,0.0020343,0.582372,0.0792227,-1.10489,True,1.161
+Djouina 2023 (primary),Acaca,PE_in_MD,+ clock-phase score,-0.702842,0.170476,-1.03697,-0.368716,3.74255e-05,0.0030785,0.582372,0.0792227,-0.69926,True,1.00103
+Djouina 2023 (primary),Ppara,PE_in_MD,+ clock-phase score,0.0197841,0.123869,-0.222994,0.262563,0.873103,0.962897,0.582372,0.0792227,0.0504733,True,0.873892
+Polystyrene studies (exploratory),Acot3,PE_in_MD,+ clock-phase score,0.0543042,0.722595,-1.36196,1.47056,0.940094,0.983237,0.582372,0.0792227,0.144818,True,1.02023
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,+ clock-phase score,0.429081,0.183325,0.0697714,0.788391,0.0192552,0.179215,0.582372,0.0792227,0.427815,True,1.00851
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,+ clock-phase score,0.502691,0.260416,-0.00771475,1.0131,0.0535648,0.308029,0.582372,0.0792227,0.554868,True,1.05931
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,+ clock-phase score,-0.120135,0.484035,-1.06883,0.828555,0.803983,0.942752,0.582372,0.0792227,-0.223813,True,0.935445
+Djouina 2023 (primary),Fasn,Interaction,+ clock-phase score,0.443857,0.473044,-0.483292,1.37101,0.34809,0.871808,0.582372,0.0792227,0.12485,True,1.136
+Djouina 2023 (primary),Acly,Interaction,+ clock-phase score,0.696665,0.440673,-0.167038,1.56037,0.113898,0.73234,0.582372,0.0792227,0.716673,True,1.35531
+Djouina 2023 (primary),Acaca,Interaction,+ clock-phase score,0.820814,0.289486,0.253433,1.3882,0.00457652,0.320806,0.582372,0.0792227,0.908564,True,1.16871
+Djouina 2023 (primary),Ppara,Interaction,+ clock-phase score,-0.39165,0.211317,-0.805823,0.0225236,0.0638283,0.65703,0.582372,0.0792227,-0.10517,True,1.02103
+Polystyrene studies (exploratory),Acot3,Interaction,+ clock-phase score,-1.04224,1.22539,-3.44395,1.35948,0.395028,0.889536,0.582372,0.0792227,-0.471723,True,1.19069
+Polystyrene studies (exploratory),Abcc3,Interaction,+ clock-phase score,-0.109073,0.312637,-0.721829,0.503684,0.727179,0.961575,0.582372,0.0792227,-0.118321,True,1.17708
+Polystyrene studies (exploratory),Nr1i3,Interaction,+ clock-phase score,-0.346228,0.443131,-1.21475,0.522292,0.434613,0.903597,0.582372,0.0792227,0.0890686,False,1.23613
+Polystyrene studies (exploratory),Nr4a1,Interaction,+ clock-phase score,1.64612,0.823417,0.0322527,3.25999,0.0455939,0.595649,0.582372,0.0792227,0.797382,True,1.09855
+Djouina 2023 (primary),Fasn,PE_in_CD,+ yield (quality) proxy,-1.82711,0.612088,-3.02678,-0.62744,0.00283537,0.218874,0.797272,0.71547,-1.57994,True,2.02058
+Djouina 2023 (primary),Acly,PE_in_CD,+ yield (quality) proxy,-2.31676,0.464422,-3.22701,-1.40651,6.0855e-07,0.00117441,0.797272,0.71547,-1.82156,True,1.96529
+Djouina 2023 (primary),Acaca,PE_in_CD,+ yield (quality) proxy,-1.46861,0.366348,-2.18664,-0.750584,6.103e-05,0.0229015,0.797272,0.71547,-1.60782,True,2.03681
+Djouina 2023 (primary),Ppara,PE_in_CD,+ yield (quality) proxy,0.128617,0.308484,-0.476,0.733235,0.676727,0.956566,0.797272,0.71547,0.155644,True,2.04555
+Polystyrene studies (exploratory),Acot3,PE_in_CD,+ yield (quality) proxy,0.228617,1.54017,-2.79006,3.2473,0.881998,0.983304,0.797272,0.71547,0.616542,True,2.06276
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,+ yield (quality) proxy,0.798987,0.389553,0.0354775,1.5625,0.0402634,0.564231,0.797272,0.71547,0.546136,True,2.0116
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,+ yield (quality) proxy,0.0400681,0.590915,-1.1181,1.19824,0.945939,0.992995,0.797272,0.71547,0.465799,True,2.2648
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,+ yield (quality) proxy,-0.373927,1.10864,-2.54682,1.79897,0.735902,0.963427,0.797272,0.71547,-1.0212,True,2.04436
+Djouina 2023 (primary),Fasn,PE_in_MD,+ yield (quality) proxy,-1.5834,0.393884,-2.3554,-0.811402,5.82067e-05,0.0116165,0.797272,0.71547,-1.45509,True,1.37857
+Djouina 2023 (primary),Acly,PE_in_MD,+ yield (quality) proxy,-1.33653,0.299093,-1.92275,-0.750321,7.87265e-06,0.00273833,0.797272,0.71547,-1.10489,True,1.33924
+Djouina 2023 (primary),Acaca,PE_in_MD,+ yield (quality) proxy,-0.633035,0.236137,-1.09586,-0.170216,0.00734467,0.233457,0.797272,0.71547,-0.69926,True,1.38658
+Djouina 2023 (primary),Ppara,PE_in_MD,+ yield (quality) proxy,0.0370387,0.19836,-0.351739,0.425816,0.851876,0.978372,0.797272,0.71547,0.0504733,True,1.39942
+Polystyrene studies (exploratory),Acot3,PE_in_MD,+ yield (quality) proxy,-0.0636623,0.992666,-2.00925,1.88193,0.948865,0.993808,0.797272,0.71547,0.144818,False,1.40154
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,+ yield (quality) proxy,0.561777,0.250325,0.0711495,1.0524,0.02482,0.393436,0.797272,0.71547,0.427815,True,1.37709
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,+ yield (quality) proxy,0.336096,0.380102,-0.40889,1.08108,0.376574,0.858344,0.797272,0.71547,0.554868,True,1.54616
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,+ yield (quality) proxy,0.121786,0.718072,-1.28561,1.52918,0.865324,0.980801,0.797272,0.71547,-0.223813,False,1.38775
+Djouina 2023 (primary),Fasn,Interaction,+ yield (quality) proxy,0.243712,0.494924,-0.726321,1.21374,0.62242,0.944208,0.797272,0.71547,0.12485,True,1.18854
+Djouina 2023 (primary),Acly,Interaction,+ yield (quality) proxy,0.980228,0.375634,0.243999,1.71646,0.00906668,0.301915,0.797272,0.71547,0.716673,True,1.15528
+Djouina 2023 (primary),Acaca,Interaction,+ yield (quality) proxy,0.835576,0.296274,0.254891,1.41626,0.00479808,0.227563,0.797272,0.71547,0.908564,True,1.19612
+Djouina 2023 (primary),Ppara,Interaction,+ yield (quality) proxy,-0.0915787,0.249378,-0.580351,0.397193,0.713449,0.962441,0.797272,0.71547,-0.10517,True,1.20493
+Polystyrene studies (exploratory),Acot3,Interaction,+ yield (quality) proxy,-0.29228,1.24523,-2.73288,2.14832,0.814426,0.978329,0.797272,0.71547,-0.471723,True,1.20997
+Polystyrene studies (exploratory),Abcc3,Interaction,+ yield (quality) proxy,-0.23721,0.314914,-0.85443,0.38001,0.451297,0.900186,0.797272,0.71547,-0.118321,True,1.18566
+Polystyrene studies (exploratory),Nr1i3,Interaction,+ yield (quality) proxy,0.296028,0.47776,-0.640364,1.23242,0.53551,0.925392,0.797272,0.71547,0.0890686,True,1.33272
+Polystyrene studies (exploratory),Nr4a1,Interaction,+ yield (quality) proxy,0.495713,0.893673,-1.25585,2.24728,0.579106,0.934986,0.797272,0.71547,0.797382,True,1.19228
+Djouina 2023 (primary),Fasn,PE_in_CD,drop MD_1 (muscle-contaminated),-1.57972,0.313259,-2.19369,-0.965744,4.58623e-07,4.67474e-05,,,-1.57994,True,1.03411
+Djouina 2023 (primary),Acly,PE_in_CD,drop MD_1 (muscle-contaminated),-1.82141,0.287022,-2.38396,-1.25885,2.21168e-10,8.67064e-08,,,-1.82156,True,1.21459
+Djouina 2023 (primary),Acaca,PE_in_CD,drop MD_1 (muscle-contaminated),-1.60775,0.178868,-1.95832,-1.25717,2.50784e-19,8.52081e-16,,,-1.60782,True,0.99447
+Djouina 2023 (primary),Ppara,PE_in_CD,drop MD_1 (muscle-contaminated),0.155707,0.151752,-0.14172,0.453135,0.30486,0.63677,,,0.155644,True,1.00626
+Polystyrene studies (exploratory),Acot3,PE_in_CD,drop MD_1 (muscle-contaminated),0.616259,0.753503,-0.860579,2.0931,0.413438,0.722842,,,0.616542,True,1.00917
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,drop MD_1 (muscle-contaminated),0.546236,0.196858,0.160401,0.93207,0.00552405,0.0604276,,,0.546136,True,1.01655
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,drop MD_1 (muscle-contaminated),0.465789,0.256728,-0.0373874,0.968966,0.0696264,0.299909,,,0.465799,True,0.98396
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,drop MD_1 (muscle-contaminated),-1.02052,0.477673,-1.95674,-0.0842992,0.0326433,0.190242,,,-1.0212,True,0.880844
+Djouina 2023 (primary),Fasn,PE_in_MD,drop MD_1 (muscle-contaminated),-1.42429,0.313369,-2.03848,-0.8101,5.49096e-06,0.000957576,,,-1.45509,True,1.09677
+Djouina 2023 (primary),Acly,PE_in_MD,drop MD_1 (muscle-contaminated),-1.13722,0.287454,-1.70062,-0.57382,7.61584e-05,0.00733131,,,-1.10489,True,1.28713
+Djouina 2023 (primary),Acaca,PE_in_MD,drop MD_1 (muscle-contaminated),-0.757953,0.179569,-1.1099,-0.406005,2.43258e-05,0.00311396,,,-0.69926,True,1.05442
+Djouina 2023 (primary),Ppara,PE_in_MD,drop MD_1 (muscle-contaminated),0.0117603,0.151263,-0.284709,0.30823,0.938029,0.988553,,,0.0504733,True,1.06716
+Polystyrene studies (exploratory),Acot3,PE_in_MD,drop MD_1 (muscle-contaminated),-0.0280981,0.757558,-1.51289,1.45669,0.970413,0.995755,,,0.144818,False,1.0696
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,drop MD_1 (muscle-contaminated),0.400027,0.196029,0.0158167,0.784236,0.0412857,0.341202,,,0.427815,True,1.0784
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,drop MD_1 (muscle-contaminated),0.4612,0.256551,-0.0416299,0.96403,0.0722251,0.429192,,,0.554868,True,1.04359
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,drop MD_1 (muscle-contaminated),0.445786,0.491155,-0.516861,1.40843,0.364075,0.769438,,,-0.223813,False,0.949207
+Djouina 2023 (primary),Fasn,Interaction,drop MD_1 (muscle-contaminated),0.155428,0.443092,-0.713017,1.02387,0.725753,0.95096,,,0.12485,True,1.06407
+Djouina 2023 (primary),Acly,Interaction,drop MD_1 (muscle-contaminated),0.684187,0.406216,-0.111982,1.48036,0.0921252,0.555206,,,0.716673,True,1.24934
+Djouina 2023 (primary),Acaca,Interaction,drop MD_1 (muscle-contaminated),0.849794,0.253454,0.353034,1.34655,0.000799824,0.0682707,,,0.908564,True,1.02325
+Djouina 2023 (primary),Ppara,Interaction,drop MD_1 (muscle-contaminated),-0.143947,0.214264,-0.563897,0.276002,0.501697,0.879789,,,-0.10517,True,1.03527
+Polystyrene studies (exploratory),Acot3,Interaction,drop MD_1 (muscle-contaminated),-0.644357,1.06848,-2.73855,1.44983,0.546471,,,,-0.471723,True,1.03823
+Polystyrene studies (exploratory),Abcc3,Interaction,drop MD_1 (muscle-contaminated),-0.146209,0.277814,-0.690714,0.398295,0.59869,0.916364,,,-0.118321,True,1.04597
+Polystyrene studies (exploratory),Nr1i3,Interaction,drop MD_1 (muscle-contaminated),-0.00458914,0.362943,-0.715944,0.706765,0.989912,0.997508,,,0.0890686,False,1.01244
+Polystyrene studies (exploratory),Nr4a1,Interaction,drop MD_1 (muscle-contaminated),1.46631,0.685131,0.123475,2.80914,0.0323398,,,,0.797382,True,0.914061

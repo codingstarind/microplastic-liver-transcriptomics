@@ -1,0 +1,10 @@
+{
+  "n_boot": 2000,
+  "seed": 20261121,
+  "panel": ["Fasn", "Acly", "Acaca", "Ppara", "Acot3", "Abcc3", "Nr1i3", "Nr4a1"],
+  "primary_fit": "results/deseq2/provisional_deposited/dds.rds",
+  "versions": {
+    "R": "R version 4.4.3 (2025-02-28)",
+    "DESeq2": "1.46.0"
+  }
+}

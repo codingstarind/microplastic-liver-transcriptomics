@@ -1,0 +1,25 @@
+panel,gene,contrast,full_log2FC,full_padj,n_refits,n_same_direction,n_ci_excludes_zero,n_padj_lt_0.05,loo_log2FC_min,loo_log2FC_max,most_influential_mouse,max_abs_delta_log2FC,max_abs_delta_over_full_SE,single_mouse_drives_conclusion
+Djouina 2023 (primary),Fasn,PE_in_CD,-1.57994,2.03481e-05,19,19,19,19,-1.76814,-1.42495,CD_MP_2,0.18819,0.621241,no
+Djouina 2023 (primary),Acly,PE_in_CD,-1.82156,2.35117e-11,19,19,19,19,-1.98052,-1.49583,CD_4,0.325728,1.37838,no
+Djouina 2023 (primary),Acaca,PE_in_CD,-1.60782,1.80744e-15,19,19,19,19,-1.72769,-1.37052,CD_4,0.237305,1.31936,no
+Djouina 2023 (primary),Ppara,PE_in_CD,0.155644,0.621334,19,19,0,0,0.0855636,0.253985,CD_4,0.0983418,0.652102,no
+Polystyrene studies (exploratory),Acot3,PE_in_CD,0.616542,0.707184,19,18,1,0,-0.0738159,1.9767,CD_4,1.36016,1.82167,direction flips in some refit
+Polystyrene studies (exploratory),Abcc3,PE_in_CD,0.546136,0.050914,19,19,19,3,0.416546,0.781525,CD_4,0.235389,1.21552,significance gained in some refit
+Polystyrene studies (exploratory),Nr1i3,PE_in_CD,0.465799,0.298828,19,19,2,0,0.273193,0.671223,CD_4,0.205423,0.787326,no
+Polystyrene studies (exploratory),Nr4a1,PE_in_CD,-1.0212,,19,18,5,0,-1.29017,0.0344982,CD_3,1.05569,1.94673,direction flips in some refit
+Djouina 2023 (primary),Fasn,PE_in_MD,-1.45509,8.27017e-05,19,19,19,19,-1.65163,-1.32803,MD_MP_1,0.196538,0.687872,no
+Djouina 2023 (primary),Acly,PE_in_MD,-1.10489,0.000156095,19,19,19,19,-1.17997,-0.907501,MD_5,0.197384,0.883823,no
+Djouina 2023 (primary),Acaca,PE_in_MD,-0.69926,0.0035132,19,19,19,19,-0.757953,-0.63167,MD_5,0.0675904,0.396887,no
+Djouina 2023 (primary),Ppara,PE_in_MD,0.0504733,0.916285,19,18,0,0,-0.00129284,0.158327,MD_4,0.107854,0.760908,direction flips in some refit
+Polystyrene studies (exploratory),Acot3,PE_in_MD,0.144818,0.953691,19,15,0,0,-0.0442935,0.58919,MD_2,0.444371,0.627408,direction flips in some refit
+Polystyrene studies (exploratory),Abcc3,PE_in_MD,0.427815,0.189529,19,19,17,0,0.342634,0.530455,MD_2,0.10264,0.564645,no
+Polystyrene studies (exploratory),Nr1i3,PE_in_MD,0.554868,0.217133,19,19,13,0,0.457761,0.689455,MD_MP_4,0.134587,0.547467,no
+Polystyrene studies (exploratory),Nr4a1,PE_in_MD,-0.223813,0.895262,19,18,0,0,-0.420765,0.445786,MD_1,0.669599,1.29407,direction flips in some refit
+Djouina 2023 (primary),Fasn,Interaction,0.12485,0.970834,19,16,0,0,-0.0729336,0.311939,MD_MP_1,0.197784,0.474971,direction flips in some refit
+Djouina 2023 (primary),Acly,Interaction,0.716673,0.470257,19,19,7,0,0.392262,0.914361,CD_4,0.324411,0.997741,no
+Djouina 2023 (primary),Acaca,Interaction,0.908564,0.0382071,19,19,19,6,0.672661,1.02885,CD_4,0.235903,0.95239,significance lost in some refit
+Djouina 2023 (primary),Ppara,Interaction,-0.10517,0.939269,19,18,0,0,-0.203457,0.00256091,MD_4,0.107731,0.520531,direction flips in some refit
+Polystyrene studies (exploratory),Acot3,Interaction,-0.471723,0.946061,19,18,1,0,-1.83131,0.218166,CD_4,1.35959,1.32109,direction flips in some refit
+Polystyrene studies (exploratory),Abcc3,Interaction,-0.118321,0.949168,19,17,0,0,-0.352519,0.0114123,CD_4,0.234199,0.881763,direction flips in some refit
+Polystyrene studies (exploratory),Nr1i3,Interaction,0.0890686,0.975244,19,15,0,0,-0.115127,0.28136,CD_4,0.204195,0.569608,direction flips in some refit
+Polystyrene studies (exploratory),Nr4a1,Interaction,0.797382,0.823259,19,18,1,0,-0.258895,1.46631,CD_3,1.05628,1.40922,direction flips in some refit
