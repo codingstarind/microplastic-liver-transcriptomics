@@ -83,3 +83,14 @@ research/roadmap_phase1/
 research/roadmap_phase5c/
 research/cross_study_replication/
 research/paper_evidence_audit/
+
+# --- Supplement material that goes into the team's PDF supplement (kept locally) ---
+supplementary/figures/
+supplementary/tables/*
+!supplementary/tables/report_number_crosswalk.csv
+supplementary/chat_histories/transcript_*.md
+supplementary/prompts/session_*.md
+supplementary/prompts/prompt_index.json
+reports/final_report_draft.md
+reports/preliminary_observations.md
+presentation/

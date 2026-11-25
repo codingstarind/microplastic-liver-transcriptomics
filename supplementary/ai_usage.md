@@ -10,7 +10,7 @@ This file records which AI tools were used, which model versions the records sho
 
 | Record | What it shows | Where |
 |---|---|---|
-| Claude Code session transcripts (JSONL, kept on the analysis machine) | Every prompt, every reply, and the model ID attached to each reply | Summarised in [`chat_histories/README.md`](chat_histories/README.md); prompts in [`prompts/`](prompts/); readable transcripts in [`chat_histories/`](chat_histories/) |
+| Claude Code session transcripts (JSONL, kept on the analysis machine) | Every prompt, every reply, and the model ID attached to each reply | Summarised in [`chat_histories/README.md`](chat_histories/README.md); full prompts and transcripts are in the team's PDF supplement |
 | Claude Code web link supplied by the team | The shared Claude session | https://claude.ai/code/cshk_01ED6AbAq8wfpf2wvCJVoiqv69jadvzqiRCTFmVueLHH45 |
 | Git history | Commits from 2026-11-02 to 2026-11-25, made through Claude Code under the team's Git identity, carrying `Co-Authored-By: Claude Opus 5.5` lines | `git log` |
 | Installed-environment records | Exact package versions, read from the environments on 2026-11-25 | [`reproducibility/environment_records/`](reproducibility/environment_records/) |
@@ -67,7 +67,7 @@ Full package lists:
 
 ## 4. What the team did
 
-As stated in the final report, the students chose the research questions, reviewed the analyses and made the final decisions about interpretation. The prompts in [`prompts/`](prompts/) show the team setting each phase's scope and constraints. For example, the team repeatedly told Claude not to add interpretations or hypotheses ("our team will do that"), not to retrain frozen models, and to exclude Phase 5C from the paper. Decisions recorded in the repository are listed in [`reports/ai_usage_declaration.md`](../reports/ai_usage_declaration.md) §4.
+As stated in the final report, the students chose the research questions, reviewed the analyses and made the final decisions about interpretation. The exported prompts (PDF supplement) show the team setting each phase's scope and constraints. For example, the team repeatedly told Claude not to add interpretations or hypotheses ("our team will do that"), not to retrain frozen models, and to exclude Phase 5C from the paper. Decisions recorded in the repository are listed in [`reports/ai_usage_declaration.md`](../reports/ai_usage_declaration.md) §4.
 
 ## 5. Items the records cannot confirm
 
