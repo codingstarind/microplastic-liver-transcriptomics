@@ -1,0 +1,174 @@
+contrast_id,arm,dataset,gsm,sample_id,group,zt,dose,muscle_score,muscle_high,corr_outlier_flag,eligible_main,in_clean_sensitivity
+MASH_primary,case,GSE316023,GSM9443427,SD_wk23_A_R1,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.46,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443428,SD_wk23_A_R2,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.37,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443429,SD_wk23_A_R3,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.9,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443430,SD_wk23_A_R4,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.7,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443431,SD_wk23_A_R5,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.63,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443432,SD_wk23_A_R6,GAN_wk23_TA,NOT STATED (lights on 06:00),,1.08,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443433,SD_wk23_A_R7,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.56,False,False,True,True
+MASH_primary,case,GSE316023,GSM9443434,SD_wk23_A_R8,GAN_wk23_TA,NOT STATED (lights on 06:00),,0.86,False,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443435,SD_wk23_B_R1,GAN_wk23_TN,NOT STATED (lights on 06:00),,0.48,False,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443436,SD_wk23_B_R2,GAN_wk23_TN,NOT STATED (lights on 06:00),,0.59,False,True,True,True
+MASH_sens_TN,case,GSE316023,GSM9443437,SD_wk23_B_R3,GAN_wk23_TN,NOT STATED (lights on 06:00),,0.76,False,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443438,SD_wk23_B_R4,GAN_wk23_TN,NOT STATED (lights on 06:00),,42.21,True,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443439,SD_wk23_B_R5,GAN_wk23_TN,NOT STATED (lights on 06:00),,0.45,False,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443440,SD_wk23_B_R6,GAN_wk23_TN,NOT STATED (lights on 06:00),,0.73,False,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443441,SD_wk23_B_R7,GAN_wk23_TN,NOT STATED (lights on 06:00),,1.13,False,False,True,True
+MASH_sens_TN,case,GSE316023,GSM9443442,SD_wk23_B_R8,GAN_wk23_TN,NOT STATED (lights on 06:00),,40.14,True,False,True,True
+MASH_primary,control,GSE316023,GSM9443443,NC_wk23_A_R1,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.25,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443444,NC_wk23_A_R2,Chow_wk23_TA,NOT STATED (lights on 06:00),,1.08,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443445,NC_wk23_A_R3,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.79,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443446,NC_wk23_A_R4,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.15,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443447,NC_wk23_A_R5,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.73,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443448,NC_wk23_A_R6,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.37,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443449,NC_wk23_A_R7,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.69,False,False,True,True
+MASH_primary,control,GSE316023,GSM9443450,NC_wk23_A_R8,Chow_wk23_TA,NOT STATED (lights on 06:00),,0.51,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443451,NC_wk23_B_R1,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.25,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443452,NC_wk23_B_R2,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.43,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443453,NC_wk23_B_R3,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.63,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443454,NC_wk23_B_R4,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.5,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443455,NC_wk23_B_R5,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.44,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443456,NC_wk23_B_R6,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.28,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443457,NC_wk23_B_R7,Chow_wk23_TN,NOT STATED (lights on 06:00),,1.13,False,False,True,True
+MASH_sens_TN,control,GSE316023,GSM9443458,NC_wk23_B_R8,Chow_wk23_TN,NOT STATED (lights on 06:00),,0.23,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866830,16174,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,1.4,False,False,True,True
+MASH_secondary,case,GSE246328,GSM7866835,16181,Vehicle_24_w,NOT STATED (lights on 03:00),,1.31,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866837,16184,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,0.63,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866843,16194,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,0.95,False,False,True,True
+MASH_secondary,case,GSE246328,GSM7866848,16201,Vehicle_24_w,NOT STATED (lights on 03:00),,1.83,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866850,16204,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,0.83,False,False,True,True
+MASH_secondary,case,GSE246328,GSM7866855,16211,Vehicle_24_w,NOT STATED (lights on 03:00),,3.01,False,True,True,True
+MASH_secondary,control,GSE246328,GSM7866857,16214,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,0.36,False,False,True,True
+MASH_secondary,case,GSE246328,GSM7866862,16221,Vehicle_24_w,NOT STATED (lights on 03:00),,1.77,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866864,16224,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,0.9,False,False,True,True
+MASH_secondary,case,GSE246328,GSM7866869,16231,Vehicle_24_w,NOT STATED (lights on 03:00),,0.86,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866871,16234,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,2.01,False,True,True,True
+MASH_secondary,case,GSE246328,GSM7866876,16241,Vehicle_24_w,NOT STATED (lights on 03:00),,1.5,False,False,True,True
+MASH_secondary,control,GSE246328,GSM7866878,16244,Chow_Vehicle_24_w,NOT STATED (lights on 03:00),,0.72,False,False,True,True
+MASH_secondary,case,GSE246328,GSM7866883,16251,Vehicle_24_w,NOT STATED (lights on 03:00),,1.73,False,False,True,True
+FASTING_primary,case,GSE107787,GSM2879171,Liver_FAST_ZT00_Rep1,FAST_ZT00,ZT0,,0.69,False,False,True,True
+FASTING_primary,case,GSE107787,GSM2879172,Liver_FAST_ZT00_Rep4,FAST_ZT00,ZT0,,0.45,False,False,True,True
+FASTING_primary,case,GSE107787,GSM2879173,Liver_FAST_ZT00_Rep5,FAST_ZT00,ZT0,,0.78,False,False,True,True
+FASTING_primary,case,GSE107787,GSM2879174,Liver_FAST_ZT04_Rep1,FAST_ZT04,ZT4,,300.15,True,False,True,False
+FASTING_primary,case,GSE107787,GSM2879175,Liver_FAST_ZT04_Rep3,FAST_ZT04,ZT4,,83.86,True,False,True,False
+FASTING_primary,case,GSE107787,GSM2879176,Liver_FAST_ZT04_Rep4,FAST_ZT04,ZT4,,4.67,False,False,True,True
+FASTING_primary,case,GSE107787,GSM2879177,Liver_FAST_ZT08_Rep1,FAST_ZT08,ZT8,,1.59,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879178,Liver_FAST_ZT08_Rep2,FAST_ZT08,ZT8,,0.76,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879179,Liver_FAST_ZT08_Rep3,FAST_ZT08,ZT8,,0.69,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879180,Liver_FAST_ZT12_Rep2,FAST_ZT12,ZT12,,0.77,False,True,True,False
+FASTING_primary,case,GSE107787,GSM2879181,Liver_FAST_ZT12_Rep4,FAST_ZT12,ZT12,,0.42,False,True,True,False
+FASTING_primary,case,GSE107787,GSM2879182,Liver_FAST_ZT12_Rep5,FAST_ZT12,ZT12,,0.78,False,True,True,False
+FASTING_primary,case,GSE107787,GSM2879183,Liver_FAST_ZT16_Rep3,FAST_ZT16,ZT16,,0.64,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879184,Liver_FAST_ZT16_Rep4,FAST_ZT16,ZT16,,0.74,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879185,Liver_FAST_ZT16_Rep5,FAST_ZT16,ZT16,,0.58,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879186,Liver_FAST_ZT20_Rep1,FAST_ZT20,ZT20,,0.86,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879187,Liver_FAST_ZT20_Rep4,FAST_ZT20,ZT20,,0.6,False,False,True,False
+FASTING_primary,case,GSE107787,GSM2879188,Liver_FAST_ZT20_Rep5,FAST_ZT20,ZT20,,0.59,False,False,True,False
+FASTING_primary,control,GSE107787,GSM2879189,Liver_FED_ZT00_Rep1,FED_ZT00,ZT0,,1.51,False,False,True,True
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879189,Liver_FED_ZT00_Rep1,FED_ZT00,ZT0,,1.51,False,False,True,True
+FASTING_primary,control,GSE107787,GSM2879190,Liver_FED_ZT00_Rep3,FED_ZT00,ZT0,,1.15,False,False,True,True
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879190,Liver_FED_ZT00_Rep3,FED_ZT00,ZT0,,1.15,False,False,True,True
+FASTING_primary,control,GSE107787,GSM2879191,Liver_FED_ZT00_Rep5,FED_ZT00,ZT0,,0.95,False,False,True,True
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879191,Liver_FED_ZT00_Rep5,FED_ZT00,ZT0,,0.95,False,False,True,True
+FASTING_primary,control,GSE107787,GSM2879192,Liver_FED_ZT04_Rep2,FED_ZT04,ZT4,,1.11,False,False,True,True
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879192,Liver_FED_ZT04_Rep2,FED_ZT04,ZT4,,1.11,False,False,True,True
+FASTING_primary,control,GSE107787,GSM2879193,Liver_FED_ZT04_Rep4,FED_ZT04,ZT4,,1.04,False,False,True,True
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879193,Liver_FED_ZT04_Rep4,FED_ZT04,ZT4,,1.04,False,False,True,True
+FASTING_primary,control,GSE107787,GSM2879194,Liver_FED_ZT04_Rep5,FED_ZT04,ZT4,,1.26,False,False,True,True
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879194,Liver_FED_ZT04_Rep5,FED_ZT04,ZT4,,1.26,False,False,True,True
+FASTING_primary,control,GSE107787,GSM2879195,Liver_FED_ZT08_Rep1,FED_ZT08,ZT8,,46.5,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879195,Liver_FED_ZT08_Rep1,FED_ZT08,ZT8,,46.5,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879196,Liver_FED_ZT08_Rep3,FED_ZT08,ZT8,,69.77,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879196,Liver_FED_ZT08_Rep3,FED_ZT08,ZT8,,69.77,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879197,Liver_FED_ZT08_Rep5,FED_ZT08,ZT8,,51.24,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879197,Liver_FED_ZT08_Rep5,FED_ZT08,ZT8,,51.24,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879198,Liver_FED_ZT12_Rep3,FED_ZT12,ZT12,,39.8,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879198,Liver_FED_ZT12_Rep3,FED_ZT12,ZT12,,39.8,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879199,Liver_FED_ZT12_Rep4,FED_ZT12,ZT12,,52.34,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879199,Liver_FED_ZT12_Rep4,FED_ZT12,ZT12,,52.34,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879200,Liver_FED_ZT12_Rep5,FED_ZT12,ZT12,,55.45,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879200,Liver_FED_ZT12_Rep5,FED_ZT12,ZT12,,55.45,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879201,Liver_FED_ZT16_Rep1,FED_ZT16,ZT16,,122.23,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879201,Liver_FED_ZT16_Rep1,FED_ZT16,ZT16,,122.23,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879202,Liver_FED_ZT16_Rep2,FED_ZT16,ZT16,,140.46,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879202,Liver_FED_ZT16_Rep2,FED_ZT16,ZT16,,140.46,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879203,Liver_FED_ZT16_Rep3,FED_ZT16,ZT16,,52.51,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879203,Liver_FED_ZT16_Rep3,FED_ZT16,ZT16,,52.51,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879204,Liver_FED_ZT20_Rep1,FED_ZT20,ZT20,,62.37,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879204,Liver_FED_ZT20_Rep1,FED_ZT20,ZT20,,62.37,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879205,Liver_FED_ZT20_Rep4,FED_ZT20,ZT20,,59.04,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879205,Liver_FED_ZT20_Rep4,FED_ZT20,ZT20,,59.04,True,False,True,False
+FASTING_primary,control,GSE107787,GSM2879206,Liver_FED_ZT20_Rep5,FED_ZT20,ZT20,,55.84,True,False,True,False
+CIRCADIAN_sens_male,timecourse,GSE107787,GSM2879206,Liver_FED_ZT20_Rep5,FED_ZT20,ZT20,,55.84,True,False,True,False
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271898,WT_ZT00_BR1,WT_ZT00,ZT0,,0.31,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271899,WT_ZT00_BR2,WT_ZT00,ZT0,,0.5,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271900,WT_ZT00_BR3,WT_ZT00,ZT0,,0.47,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271901,WT_ZT04_BR1,WT_ZT04,ZT4,,0.47,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271902,WT_ZT04_BR2,WT_ZT04,ZT4,,0.32,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271903,WT_ZT04_BR3,WT_ZT04,ZT4,,0.39,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271904,WT_ZT08_BR1,WT_ZT08,ZT8,,0.78,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271905,WT_ZT08_BR2,WT_ZT08,ZT8,,0.4,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271906,WT_ZT08_BR3,WT_ZT08,ZT8,,0.72,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271907,WT_ZT12_BR1,WT_ZT12,ZT12,,0.67,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271908,WT_ZT12_BR2,WT_ZT12,ZT12,,0.71,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271909,WT_ZT12_BR3,WT_ZT12,ZT12,,0.53,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271910,WT_ZT16_BR1,WT_ZT16,ZT16,,0.43,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271911,WT_ZT16_BR2,WT_ZT16,ZT16,,0.46,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271912,WT_ZT16_BR3,WT_ZT16,ZT16,,0.48,False,False,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271913,WT_ZT20_BR1,WT_ZT20,ZT20,,0.34,False,True,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271914,WT_ZT20_BR2,WT_ZT20,ZT20,,0.47,False,True,True,True
+CIRCADIAN_primary,timecourse,GSE117134,GSM3271915,WT_ZT20_BR3,WT_ZT20,ZT20,,0.2,False,False,True,True
+PPARA_specificity_KO,control,GSE282998,GSM8654381,1528_97,PPARaKO_GW0,NOT STATED,0 mg/kg/day,233.03,True,False,True,False
+PPARA_specificity_KO,case,GSE282998,GSM8654382,1528_98,PPARaKO_GW5,NOT STATED,5 mg/kg/day,11.63,False,False,True,True
+PPARA_specificity_KO,control,GSE282998,GSM8654383,1528_99,PPARaKO_GW0,NOT STATED,0 mg/kg/day,229.72,True,False,True,False
+PPARA_specificity_KO,control,GSE282998,GSM8654384,1528_100,PPARaKO_GW0,NOT STATED,0 mg/kg/day,11.01,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654385,1528_101,PPARaKO_GW5,NOT STATED,5 mg/kg/day,7.38,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654386,1528_102,PPARaKO_GW5,NOT STATED,5 mg/kg/day,9.68,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654387,1528_103,PPARaKO_GW20,NOT STATED,20 mg/kg/day,7.48,False,False,True,True
+PPARA_specificity_KO,control,GSE282998,GSM8654388,1528_104,PPARaKO_GW0,NOT STATED,0 mg/kg/day,11.31,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654389,1528_105,PPARaKO_GW10,NOT STATED,10 mg/kg/day,238.58,True,False,True,False
+PPARA_specificity_KO,case,GSE282998,GSM8654390,1528_106,PPARaKO_GW10,NOT STATED,10 mg/kg/day,242.03,True,False,True,False
+PPARA_specificity_KO,case,GSE282998,GSM8654391,1528_107,PPARaKO_GW10,NOT STATED,10 mg/kg/day,11.81,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654392,1528_108,PPARaKO_GW10,NOT STATED,10 mg/kg/day,11.09,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654393,1528_109,PPARaKO_GW20,NOT STATED,20 mg/kg/day,10.42,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654394,1528_110,PPARaKO_GW5,NOT STATED,5 mg/kg/day,11.82,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654395,1528_111,PPARaKO_GW20,NOT STATED,20 mg/kg/day,15.13,False,False,True,True
+PPARA_specificity_KO,case,GSE282998,GSM8654396,1528_112,PPARaKO_GW20,NOT STATED,20 mg/kg/day,5.74,False,False,True,True
+PPARA_sens_outbred,control,GSE282998,GSM8654397,1528_113,JARCS_GW0,NOT STATED,0 mg/kg/day,214.73,True,False,True,False
+PPARA_sens_outbred,control,GSE282998,GSM8654398,1528_114,JARCS_GW0,NOT STATED,0 mg/kg/day,208.63,True,False,True,False
+PPARA_sens_outbred,control,GSE282998,GSM8654399,1528_115,JARCS_GW0,NOT STATED,0 mg/kg/day,11.49,False,False,True,True
+PPARA_sens_outbred,control,GSE282998,GSM8654400,1528_116,JARCS_GW0,NOT STATED,0 mg/kg/day,9.77,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654401,1528_117,JARCS_GW5,NOT STATED,5 mg/kg/day,10.49,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654402,1528_118,JARCS_GW5,NOT STATED,5 mg/kg/day,8.91,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654403,1528_119,JARCS_GW10,NOT STATED,10 mg/kg/day,199.51,True,False,True,False
+PPARA_sens_outbred,case,GSE282998,GSM8654404,1528_120,JARCS_GW5,NOT STATED,5 mg/kg/day,6.99,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654405,1528_121,JARCS_GW10,NOT STATED,10 mg/kg/day,216.31,True,False,True,False
+PPARA_sens_outbred,case,GSE282998,GSM8654406,1528_122,JARCS_GW10,NOT STATED,10 mg/kg/day,13.17,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654407,1528_123,JARCS_GW10,NOT STATED,10 mg/kg/day,14.19,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654408,1528_124,JARCS_GW20,NOT STATED,20 mg/kg/day,8.2,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654409,1528_125,JARCS_GW20,NOT STATED,20 mg/kg/day,6.13,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654410,1528_126,JARCS_GW5,NOT STATED,5 mg/kg/day,15.38,False,True,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654411,1528_127,JARCS_GW20,NOT STATED,20 mg/kg/day,17.69,False,False,True,True
+PPARA_sens_outbred,case,GSE282998,GSM8654412,1528_128,JARCS_GW20,NOT STATED,20 mg/kg/day,11.77,False,False,True,True
+PPARA_primary,control,GSE282998,GSM8654413,1528_129,B6129SF2J_GW0,NOT STATED,0 mg/kg/day,264.77,True,False,True,False
+PPARA_primary,case,GSE282998,GSM8654414,1528_130,B6129SF2J_GW10,NOT STATED,10 mg/kg/day,227.35,True,False,True,False
+PPARA_primary,control,GSE282998,GSM8654415,1528_131,B6129SF2J_GW0,NOT STATED,0 mg/kg/day,219.27,True,False,True,False
+PPARA_primary,control,GSE282998,GSM8654416,1528_132,B6129SF2J_GW0,NOT STATED,0 mg/kg/day,14.09,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654417,1528_133,B6129SF2J_GW5,NOT STATED,5 mg/kg/day,4.9,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654418,1528_134,B6129SF2J_GW5,NOT STATED,5 mg/kg/day,8.33,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654419,1528_135,B6129SF2J_GW5,NOT STATED,5 mg/kg/day,13.31,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654420,1528_136,B6129SF2J_GW20,NOT STATED,20 mg/kg/day,6.82,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654421,1528_137,B6129SF2J_GW20,NOT STATED,20 mg/kg/day,8.36,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654422,1528_138,B6129SF2J_GW10,NOT STATED,10 mg/kg/day,212.63,True,False,True,False
+PPARA_primary,control,GSE282998,GSM8654423,1528_139,B6129SF2J_GW0,NOT STATED,0 mg/kg/day,10.97,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654424,1528_140,B6129SF2J_GW10,NOT STATED,10 mg/kg/day,6.81,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654425,1528_141,B6129SF2J_GW20,NOT STATED,20 mg/kg/day,11.18,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654426,1528_142,B6129SF2J_GW20,NOT STATED,20 mg/kg/day,7.03,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654427,1528_143,B6129SF2J_GW5,NOT STATED,5 mg/kg/day,14.03,False,False,True,True
+PPARA_primary,case,GSE282998,GSM8654428,1528_144,B6129SF2J_GW10,NOT STATED,10 mg/kg/day,7.96,False,False,True,True
+FASTING_secondary,control,GSE225695,GSM7054359,Fed-1,Fed,NOT STATED,,0.82,False,True,True,True
+FASTING_secondary,control,GSE225695,GSM7054360,Fed-2,Fed,NOT STATED,,0.16,False,True,True,True
+FASTING_secondary,control,GSE225695,GSM7054361,Fed-3,Fed,NOT STATED,,0.23,False,True,True,True
+FASTING_secondary,case,GSE225695,GSM7054362,Fast-1,Fast,NOT STATED,,0.84,False,False,True,True
+FASTING_secondary,case,GSE225695,GSM7054363,Fast-2,Fast,NOT STATED,,0.08,False,False,True,True
+FASTING_secondary,case,GSE225695,GSM7054364,Fast-3,Fast,NOT STATED,,0.23,False,False,True,True

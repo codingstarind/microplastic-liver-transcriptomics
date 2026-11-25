@@ -1,0 +1,22 @@
+{
+  "B_boot": 1000,
+  "n_common_genes": 11758,
+  "n_hong_genes": 11735,
+  "b0_reproduces_phase5_frozen_max_abs": {
+    "max_abs_pred_diff_vs_phase5_frozen": 9.974659986866641e-17,
+    "spearman_vs_phase5_frozen": 1.0,
+    "n_common_genes": 11758,
+    "n_phase5_training_genes": 11758
+  },
+  "seed": 20261122,
+  "workers": 10,
+  "model_hashes": {
+    "B0_F8_OLS.joblib": "db3edf5ea9dfcbb9ee5eac44588cb7430f8bbba302fbb9b51d2ee0aabbd62da8",
+    "B1_F8C_Ridge.joblib": "37a0a76acb2759a38f377d8cbb47b4ebf2173bb604d21c34ba726a7b195055ca",
+    "B2_F8_HGB.joblib": "b040209e7f9b419d77aa582a96b360b3f2bdb0824306ba2d48817b3cf3d2fbf5",
+    "I2a_robustCD_Ridge.joblib": "9a5a3fd391dc33e0ec29f66c050b0e9718d55293c740de5d91b5859bfa4463b3",
+    "I2b_MLEavg_Ridge.joblib": "4c7fd3e2de7c5670b8834878c2dac242c8c47638622cd7cd8e41c715847413b0",
+    "I2c_robustavg_Ridge.joblib": "4b21b62bc1a84785a9fe4b459f8bbd219f65b955b62a8d93901d404277d57dc8",
+    "I3_Huber_normalscore.joblib": "ce22b3b8298f8cce5f485fba9f8cc7835401f21c7ac4224b215bce349a655d14"
+  }
+}

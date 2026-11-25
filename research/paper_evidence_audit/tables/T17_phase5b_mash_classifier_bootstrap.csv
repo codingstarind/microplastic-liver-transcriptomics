@@ -1,0 +1,13 @@
+split,rep,model,n,auc,auc_lo,frac_boot_auc_eq_1,bal_acc,bal_acc_lo,bal_acc_hi,metric_prob,value,value_lo,value_hi,source
+S1_train316TA_test246,R0,R0_rule,15,1.0,1.0,1.0,1.0,1.0,1.0,misclassification rate (hard 0/1 rule),0.0,0.0,0.0,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S1_train316TA_test246,R1,logistic_default,15,1.0,1.0,1.0,1.0,1.0,1.0,Brier,0.0100024487061699,0.0047655133577445,0.0157110819224898,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S1_train316TA_test246,R2,logistic_default,15,1.0,1.0,1.0,1.0,1.0,1.0,Brier,0.0086692931142995,0.004281500460273,0.0131789650560723,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S1_train316TA_test246,R2,l2_logistic,15,1.0,1.0,1.0,1.0,1.0,1.0,Brier,0.0015487661363407,0.0005207039725248,0.0026116025642529,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S1_train316TA_test246,R0,l2_logistic,15,1.0,1.0,1.0,1.0,1.0,1.0,Brier,0.0060569851382993,0.0024363843137778,0.0120610750021253,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S1_train316TA_test246,PCA,l2_logistic,15,1.0,1.0,1.0,0.6875,0.5625,0.875,Brier,0.1871250967656509,0.1164574595766782,0.2730400979103353,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S2_train246_test316TA,R0,R0_rule,16,1.0,1.0,1.0,0.8125,0.625,0.9375,misclassification rate (hard 0/1 rule),0.1875,0.0625,0.375,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S2_train246_test316TA,R1,logistic_default,16,1.0,1.0,1.0,0.9375,0.8125,1.0,Brier,0.0424979545213347,0.0182178597647386,0.0738090966815506,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S2_train246_test316TA,R2,logistic_default,16,1.0,1.0,1.0,0.9375,0.8125,1.0,Brier,0.0488181552267659,0.0220831370060146,0.0839809874400148,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S2_train246_test316TA,R2,l2_logistic,16,1.0,1.0,1.0,1.0,1.0,1.0,Brier,0.0279333521981498,0.007691387546091,0.0563113938275597,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S2_train246_test316TA,R0,l2_logistic,16,1.0,1.0,1.0,0.8125,0.625,1.0,Brier,0.0997250833302546,0.0382224255837772,0.1626074341664318,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv
+S2_train246_test316TA,PCA,l2_logistic,16,1.0,1.0,1.0,0.75,0.5625,0.9375,Brier,0.1578872203862652,0.0676501128365037,0.2440209540009452,research/roadmap_phase5b/tables/mash_classifier_bootstrap.csv

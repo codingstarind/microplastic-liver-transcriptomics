@@ -1,0 +1,101 @@
+87 fits on 12 workers; genes=11883
+[Parallel(n_jobs=12)]: Using backend LokyBackend with 12 concurrent workers.
+[Parallel(n_jobs=12)]: Done  48 tasks      | elapsed:  3.4min
+[Parallel(n_jobs=12)]: Done  82 out of  87 | elapsed:  4.1min remaining:   15.0s
+[Parallel(n_jobs=12)]: Done  87 out of  87 | elapsed:  4.3min finished
+[Parallel(n_jobs=12)]: Using backend LokyBackend with 12 concurrent workers.
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\externals\loky\process_executor.py", line 490, in _process_worker
+    r = call_item()
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\externals\loky\process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 607, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+            ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soham\Desktop\microplastic\research\roadmap_phase4e\scripts\e01_mash_state_models.py", line 275, in perm_one
+    _, _, p, s = fit_eval("mash", "R2", "logistic_default", trm.values, tem.values, split, y_override=yperm)
+                 ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soham\Desktop\microplastic\research\roadmap_phase4e\scripts\e01_mash_state_models.py", line 223, in fit_eval
+    pipe.fit(tr.reshape(-1, 1), ytr)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\pipeline.py", line 645, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py", line 1437, in fit
+    X, y = validate_data(
+           ~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<5 lines>...
+        accept_large_sparse=solver not in ["liblinear", "sag", "saga"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 3058, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 1330, in check_X_y
+    X = check_array(
+        X,
+    ...<12 lines>...
+        input_name="X",
+    )
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 1090, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 137, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 186, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+LogisticRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Soham\Desktop\microplastic\research\roadmap_phase4e\scripts\e01_mash_state_models.py", line 323, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Soham\Desktop\microplastic\research\roadmap_phase4e\scripts\e01_mash_state_models.py", line 307, in main
+    pr = Parallel(n_jobs=N_JOBS, verbose=2, batch_size=8)(delayed(perm_one)(i, sp) for i, sp in pj)
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 2098, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 1704, in _get_outputs
+    yield from self._retrieve()
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 1806, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 1885, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 780, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Soham\AppData\Roaming\Python\Python314\site-packages\joblib\parallel.py", line 795, in _return_or_raise
+    raise self._result
+ValueError: Input X contains NaN.
+LogisticRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values

@@ -1,0 +1,7 @@
+method,test,BH family,column in T1
+fry_directional / fry_mixed,limma::fry rotation test on VST matrix; design ~ diet*microplastic (+ covariate in variants); contrast vector per estimand; mouse = unit; self-contained,BH within gene-set family (Hallmark: 50; PPAR: 3) x contrast,fdr_native
+camera,limma::camera (competitive; inter-gene correlation estimated) on same VST matrix and design,BH within gene-set family x contrast,fdr_native
+fgsea_preranked_wald,"fgseaMultilevel on DESeq2 Wald statistic of the contrast (gene = unit; ignores inter-gene correlation); minSize 15, maxSize 500, eps 0, seed 20261102",BH within gene-set family x contrast (fgsea padj),fdr_native
+meanz_score_lm,per-mouse mean z of VST over set genes (>=10 genes); lm(score ~ diet*microplastic); t-test of contrast,BH within gene-set family x contrast,fdr_native
+all methods,alternative family,BH across all 53 sets (Hallmark + PPAR) within method x contrast,fdr_all53_within_contrast
+all methods,alternative family,"BH across 53 sets x 3 contrasts (PE_in_CD, PE_in_MD, Interaction) within method; Diet_in_Veh excluded",fdr_all53_x3contrasts

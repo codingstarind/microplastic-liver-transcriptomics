@@ -1,0 +1,24 @@
+title: Polystyrene microplastics induce liver fibrosis and lipid deposition in mice through three hub genes revealed by the RNA-seq
+geo_accession: GSE245069
+status: Public on Jan 23 2025
+submission_date: Oct 11 2023
+last_update_date: Jan 23 2025
+pubmed_id: 39833454
+summary: Microplastics (MPs) have become a serious global environmental threat that causes damage to mammalian organs. In this work, we investigated the potential molecular mechanism underlying the development of liver fibrosis induced by long-term exposure to three different sized PS-MPs (80 nm, 0.5 µm and 5 µm) in mice. Liver fibrosis levels were evaluated in mice after chronic exposure to PS-MPs. Liver inflammation was mainly increased in chronic exposure to 80 nm and 0.5 µm PS-MPs. Liver lipid deposition was significantly enhanced after PS-MP exposure. However, oxidative stress was not changed under PS-MP exposure. GO enrichment and KEGG pathway analyses revealed that the DEGs and shared DEGs were mainly enriched in the metabolism of lipids. The mRNA expression levels of genes related to fatty acid oxidation, synthesis and transport were dramatically induced by PS-MP exposure. Four hub genes, Acot3, Abcc3, Nr1i3 and Fmo2, were identified by CytoHubba analysis of shared DEGs. The mRNA expression levels of three hub genes, Acot3, Abcc3 and Nr1i3, were significantly augmented under chronic PS-MP exposure. Our results suggest that Acot3, Abcc3 and Nr1i3 are potential molecules involved in the development of liver fibrosis under chronic exposure to PS-MPs.
+overall_design: Six-week-old ICR male mice were exposed to different diameters of polystyrene microplastics (80 nm, 0.5 µm and 5 µm) at a final concentration of 1 mg/L in drinking water. Total RNA was extracted from the livers of mice after 12 weeks’ exposure. Transcriptome sequencing of RNA was then conducted.
+type: Expression profiling by high throughput sequencing
+contributor: Kai,,Zhu | Likun,,Gao | Lizhi,,Huang | Xuan,,Niu | Lili,,Li
+sample_id: GSM7835567 | GSM7835568 | GSM7835569 | GSM7835570 | GSM7835571 | GSM7835572 | GSM7835573 | GSM7835574 | GSM7835575 | GSM7835576 | GSM7835577 | GSM7835578 | GSM7835579 | GSM7835580 | GSM7835581 | GSM7835582
+contact_name: Xuan,,Niu
+contact_email: rmniuxuan@whu.edu.cn
+contact_institute: Wuhan university
+contact_address: 238, Jiefang road
+contact_city: Wuhan
+contact_state: --- Select One ---
+contact_zip/postal_code: 430060
+contact_country: China
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245069/suppl/GSE245069_gene_expression.txt.gz | ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245069/suppl/GSE245069_rna_expression_.txt.gz
+platform_id: GPL28330
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1026899

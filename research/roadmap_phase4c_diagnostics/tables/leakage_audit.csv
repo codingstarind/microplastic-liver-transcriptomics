@@ -1,0 +1,13 @@
+item,how_constructed,uses_PE_target,inside_training_fold_only,evidence,verdict
+co-expression modules (outer-fold groups),"Ward clustering of GSE117134 log2(RPKM+1), 54 liver samples (roadmap_phase4/scripts/p4_data.py::gene_groups)",No,n/a (fixed before any fit),"code; Phase 4 test_outer_splits_disjoint_grouped_and_complete","OK"
+outer folds,"20 modules (+1 zero-variance group) randomly assigned to 5 folds x 3 repeats (seeds 101-103)",No,n/a,"tests: no gene in train and test; groups never straddle; each gene tested once per repeat","OK"
+block-B pathway flags,"Phase 3 results/gene_sets.csv: MSigDB 2026.1.Mm Hallmark + 3 PPAR sets + 2 custom sets defined before any Phase 3 fit; 12 sets chosen by biological role",No (but the 12-set list was chosen after Phase 2/3 enrichment results existed),n/a,"Phase 4B feature_engineering_plan.md; shuffled-membership control removes gain","OK for leakage; CAUTION: B effectively re-learns known PE pathway shifts"
+StandardScaler,"Pipeline step fitted on training genes",No,Yes,"Phase 4 test_scaler_fitted_on_training_only","OK"
+block-A tau2 and block-C z-scaling,"RepBuilder.fit on training rows",No,Yes,"Phase 4B test_repbuilder_uses_training_rows_only","OK"
+training weights,"w=1/(s^2+tau2); tau2 DerSimonian-Laird on training targets",Uses training targets only,Yes,"Phase 4 test_tau2_uses_training_rows_only","OK"
+imputation,"none; rows with any missing feature dropped before CV (feature-side completeness)",No,n/a,"11,758 rows identical across Phases 4/4B/4C","OK"
+feature selection,"none (fixed feature lists)",No,n/a,"code","OK"
+hyperparameters,"GridSearchCV with GroupKFold(4) on outer-training genes",Training targets only,Yes,"best_params vary by fold; Phase 4 metrics files","OK"
+feature-set choice (Phase 4B),"blocks proposed AFTER Phase 4 results were known; same outer splits reused",Indirectly (design informed by prior outcomes),No,"Phase 4B comparison_protocol.md","EXPLORATORY: Phase 4B/4C intervals optimistic"
+cross-fold gene dependence (modules),"ICC of target by module 0.014 (CD) / 0.050 (MD); OOF residual ICC 0.004 / 0.021; random-gene CV R2 0.069 vs grouped 0.066",No,n/a,"tables/dependence_audit.csv","Module dependence small; grouping changes little"
+cross-gene dependence (shared mice),"every gene's PE log2FC is estimated from the same 9-10 contrast mice; errors are correlated across ALL genes and folds",n/a,Cannot be removed by any gene split,"tables/single_mouse_influence_on_target.csv (one mouse shifts the whole target vector: RMS 0.19 log2)","UNREMOVABLE: gene-level CV cannot estimate generalisation to new mice/studies"

@@ -1,0 +1,25 @@
+title: Fasting Imparts a Switch to Alternative Circadian Transcriptional Pathways in Liver and Muscle
+geo_accession: GSE107787
+status: Public on Dec 18 2018
+submission_date: Dec 06 2017
+last_update_date: May 15 2019
+pubmed_id: 30566858
+summary: The circadian gene expression in peripheral tissue displays rhythmicity which is driven by the circadian clock and feeding-fasting cycle in mammals. In this study, circadian transcriptome was performed to investigate how fasting influences circadian gene regulation.
+overall_design: 8-week-old, male C57BL/6 mice were subjected to 24-hr fasting (FAST) or to ad libitum normal chow feeding (FED) under 12hr light/ 12hr dark schedule. Liver and gastrocnemius muscle were harvested every 4 hours over the circadian cycle at ZT0, 4, 8, 12, 16, 20 (n=3 per time point per group). Total RNA was extracted from liver and gastrocnemius muscle, and used for RNA-seq.
+type: Expression profiling by high throughput sequencing
+contributor: Kenichiro,,Kinouchi | Christophe,,Magnan | Nicholas,,Ceglia | Yu,,Liu | Marlene,,Cervantes | Pierre,,Baldi | Selma,,Masri | Paolo,,Sassone-Corsi
+sample_id: GSM2879171 | GSM2879172 | GSM2879173 | GSM2879174 | GSM2879175 | GSM2879176 | GSM2879177 | GSM2879178 | GSM2879179 | GSM2879180 | GSM2879181 | GSM2879182 | GSM2879183 | GSM2879184 | GSM2879185 | GSM2879186 | GSM2879187 | GSM2879188 | GSM2879189 | GSM2879190 | GSM2879191 | GSM2879192 | GSM2879193 | GSM2879194 | GSM2879195 | GSM2879196 | GSM2879197 | GSM2879198 | GSM2879199 | GSM2879200 | GSM2879201 | GSM2879202 | GSM2879203 | GSM2879204 | GSM2879205 | GSM2879206 | GSM2879207 | GSM2879208 | GSM2879209 | GSM2879210 | GSM2879211 | GSM2879212 | GSM2879213 | GSM2879214 | GSM2879215 | GSM2879216 | GSM2879217 | GSM2879218 | GSM2879219 | GSM2879220 | GSM2879221 | GSM2879222 | GSM2879223 | GSM2879224 | GSM2879225 | GSM2879226 | GSM2879227 | GSM2879228 | GSM2879229 | GSM2879230 | GSM2879231 | GSM2879232 | GSM2879233 | GSM2879234 | GSM2879235 | GSM2879236 | GSM2879237 | GSM2879238 | GSM2879239 | GSM2879240 | GSM2879241 | GSM2879242
+contact_name: Christophe,Nicolas,Magnan
+contact_email: cmagnan@ics.uci.edu
+contact_laboratory: Institute for Genomics and Bioinformatics
+contact_institute: University of California, Irvine
+contact_address: Institute for Genomics and Bioinformatics 236, Info & Computer Science Building 2
+contact_city: Irvine
+contact_state: CA
+contact_zip/postal_code: 92697-3445
+contact_country: USA
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107787/suppl/GSE107787_EISA_exonic_expression_results.xlsx | ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107787/suppl/GSE107787_EISA_intronic_expression_results.xlsx | ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107787/suppl/GSE107787_RNAseq_expression_results.xlsx
+platform_id: GPL17021
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA421476 | SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP126336

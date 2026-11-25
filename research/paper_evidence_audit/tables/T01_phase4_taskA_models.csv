@@ -1,0 +1,13 @@
+model,r2_oos_mean|Diet_in_Veh,r2_oos_mean|PE_in_CD,r2_oos_mean|PE_in_MD,rmse_mean|Diet_in_Veh,rmse_mean|PE_in_CD,rmse_mean|PE_in_MD,spearman_mean|Diet_in_Veh,spearman_mean|PE_in_CD,spearman_mean|PE_in_MD,source
+null,0.0,0.0,0.0,0.4903,0.3262,0.3089,,,,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+ols_MASH,0.2055,0.0309,-0.0019,0.436,0.3213,0.3092,0.3497,0.2079,0.1663,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+ols_FAST,0.0121,0.0224,0.0447,0.4874,0.3225,0.3018,-0.0009,0.1352,0.2458,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+ols_PPARA,0.0005,-0.0001,-0.001,0.4902,0.3262,0.3091,0.0439,0.0507,0.0834,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+ols_CIRC,0.0399,0.0219,0.0046,0.4806,0.3227,0.3083,0.1756,0.1039,0.0801,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+ols_all,0.2329,0.066,0.0699,0.429,0.3155,0.2978,0.3923,0.2636,0.3086,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+ridge,0.2327,0.0661,0.0701,0.4291,0.3154,0.2977,0.3922,0.2637,0.3086,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+elasticnet,0.2315,0.0631,0.068,0.4294,0.316,0.2981,0.391,0.2624,0.3081,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+tree,0.1792,0.038,0.0526,0.4432,0.3199,0.3009,0.3393,0.2209,0.2879,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+rf,0.2469,0.0727,0.0806,0.4247,0.3142,0.2964,0.4276,0.281,0.3381,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+hgb,0.2852,0.0783,0.0794,0.4139,0.3132,0.2966,0.4302,0.2762,0.3328,research/roadmap_phase4/results/taskA/summary_by_run_model.csv
+catboost,0.3061,0.0859,0.0785,0.4075,0.312,0.2967,0.4395,0.2771,0.3412,research/roadmap_phase4/results/taskA/summary_by_run_model.csv

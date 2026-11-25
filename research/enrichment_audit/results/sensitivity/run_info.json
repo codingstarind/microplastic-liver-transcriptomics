@@ -1,0 +1,53 @@
+{
+  "msigdb_version": "2026.1.Mm",
+  "msigdbr": "26.1.1",
+  "limma": "3.62.1",
+  "fgsea": "1.32.2",
+  "DESeq2": "1.46.0",
+  "R": "R version 4.4.3 (2025-02-28)",
+  "duplicated_raw_symbols": 0,
+  "muscle": {
+    "n_muscle_genes_list": 309,
+    "n_removed_from_universe": 187,
+    "removed_from_sets": [5, 1, 0, 1, 7, 1, 3, 1, 1, 2, 1, 1, 0, 12, 3, 5, 4, 1, 9, 1, 4, 10, 5, 0, 2, 1, 0, 5, 2, 2, 6, 0, 1, 50, 1, 4, 5, 0, 1, 0, 1, 1, 1, 0, 2, 1, 7, 3, 0, 2]
+  },
+  "depth_thinning": {
+    "CD": {
+      "thinning_p": 0.7182,
+      "vehicle": ["CD_1_S39", "CD_2_S40", "CD_3_S41", "CD_4_S42"]
+    },
+    "MD": {
+      "thinning_p": 0.7853,
+      "vehicle": ["MD_1_S43", "MD_2_S44", "MD_3_S45", "MD_4_S46", "MD_5_S47"]
+    },
+    "seed": 11,
+    "n_genes_after_prefilter": 13489,
+    "n_deg_padj05": {
+      "PE_in_CD": 800,
+      "PE_in_MD": 452,
+      "Diet_in_Veh": 2135,
+      "Interaction": 82
+    },
+    "library_sizes_after": {
+      "CD_MP_1_S48": 12654401,
+      "CD_MP_2_S49": 10837229,
+      "CD_MP_3_S50": 11788019,
+      "CD_MP_4_S51": 10701996,
+      "CD_MP_5_S52": 10398820,
+      "CD_1_S39": 11056054,
+      "CD_2_S40": 10010097,
+      "CD_3_S41": 11096775,
+      "CD_4_S42": 10620034,
+      "MD_MP_1_S53": 12673718,
+      "MD_MP_2_S54": 11163063,
+      "MD_MP_3_S55": 11615001,
+      "MD_MP_4_S56": 12757617,
+      "MD_MP_5_S57": 11482151,
+      "MD_1_S43": 11617876,
+      "MD_2_S44": 12106667,
+      "MD_3_S45": 11614013,
+      "MD_4_S46": 10529075,
+      "MD_5_S47": 11161007
+    }
+  }
+}

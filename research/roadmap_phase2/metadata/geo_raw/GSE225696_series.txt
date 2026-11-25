@@ -1,0 +1,24 @@
+title: Hepatic gene expression profiles during fed–fasted–refed state in mice [miRNA-seq]
+geo_accession: GSE225696
+status: Public on Feb 24 2023
+submission_date: Feb 21 2023
+last_update_date: Jul 14 2023
+pubmed_id: 36936413
+summary: Regulation of nutrient status during fasting and refeeding plays an important role in  maintaining metabolic homeostasis in the liver. Thus, we investigated the impact of the  physiological fed–fasted–refed cycle on hepatic gene expression in nutrient-sensitive  mice. We performed transcriptomic analysis of liver samples in fed, fasted and refed  groups of mice. Through mRNA-sequencing (RNA-Seq) and miRNA-Seq, we  compared fasted and fed states (fasted versus fed cohort) as well as refed and fasted  states (refed versus fasted cohort) to detect dynamic alterations of hepatic mRNA–  miRNA expression during the fed–fasted–refed cycle
+overall_design: The animal procedures were approved by the Animal Experiment Ethics Committees  of Shanghai Jiao Tong University School of Medicine. Wild-type male C57BL/6J mice  aged 8 weeks were purchased from Shanghai Laboratory Animal Company (SLAC,  Shanghai, China). All mice were housed at 21±1°C with a humidity of 55±10% and 12-  h light/12-h dark cycle in a specific-pathogen-free facility. After 2 weeks of  acclimatization, mice were divided into three groups. The fasted group was fed a regular  diet with subsequent fasting for 24 h. The refed group underwent 24 h fasting and was  refed a fixed-calorie meal for 2 h. Mice were anesthetized with sodium pentobarbital  (Nembutal, 80 mg/kg, i.p.) and killed during the fasted and refed states. Liver tissues  were harvested and snap-frozen in liquid nitrogen for further analysis.  RNA-Seq
+type: Non-coding RNA profiling by high throughput sequencing
+contributor: Yan,,Lu | Min,,Zhang | Nana,,Ji | Liping,,Xiang | Bing,,Zhou
+sample_id: GSM7054368 | GSM7054369 | GSM7054370 | GSM7054371 | GSM7054372 | GSM7054373 | GSM7054374 | GSM7054375 | GSM7054376
+contact_name: NANA,,JI
+contact_email: 17354281868@139.com
+contact_phone: 18001796093
+contact_institute: Fudan university
+contact_address: Dongan road 130
+contact_city: shanghai
+contact_zip/postal_code: 200000
+contact_country: China
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225696/suppl/GSE225696_miRNA_Expression.xlsx
+platform_id: GPL13112
+platform_taxid: 10090
+sample_taxid: 10090
+relation: SubSeries of: GSE225697 | BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA937183

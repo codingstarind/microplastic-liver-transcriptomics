@@ -1,0 +1,3 @@
+task,train,test,model,rep,n,n_pos,auc,bal_acc,sens,spec,brier,logloss,auc_ci_low,auc_ci_high
+fasting_demo,"GSE107787 clean (n=10, 4 FAST)",GSE225695 (n=6),R0_rule,R0,6,3,1.0,1.0,1.0,1.0,0.0,1.000000500029089e-06,1.0,1.0
+fasting_demo,"GSE107787 clean (n=10, 4 FAST)",GSE225695 (n=6),logistic_default,R0,6,3,1.0,1.0,1.0,1.0,0.07018853825460063,0.30181437351906026,1.0,1.0

@@ -1,0 +1,1 @@
+{"muscle_genes": ["Acta1", "Ckm", "Myh1", "Myh4", "Mylpf", "Tnnt3", "Myl1", "Actn3"], "pca_genes": 500, "outlier_rule": "mean within-group r < median - 3*1.4826*MAD"}

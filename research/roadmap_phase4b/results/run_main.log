@@ -1,0 +1,12 @@
+1500 tasks
+[Parallel(n_jobs=19)]: Using backend LokyBackend with 19 concurrent workers.
+[Parallel(n_jobs=19)]: Done  34 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=19)]: Done 124 tasks      | elapsed:  9.2min
+[Parallel(n_jobs=19)]: Done 250 tasks      | elapsed: 19.2min
+[Parallel(n_jobs=19)]: Done 412 tasks      | elapsed: 29.1min
+[Parallel(n_jobs=19)]: Done 610 tasks      | elapsed: 47.0min
+[Parallel(n_jobs=19)]: Done 844 tasks      | elapsed: 47.7min
+[Parallel(n_jobs=19)]: Done 1114 tasks      | elapsed: 48.4min
+[Parallel(n_jobs=19)]: Done 1420 tasks      | elapsed: 52.1min
+[Parallel(n_jobs=19)]: Done 1500 out of 1500 | elapsed: 54.0min finished
+done in 3239s

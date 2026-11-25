@@ -1,0 +1,1 @@
+R2(transfer_rho ~ PC1+PC2+PC3 score differences, 20 labellings) = 0.889; true labelling rank = 5 of 20

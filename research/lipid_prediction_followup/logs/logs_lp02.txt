@@ -1,0 +1,158 @@
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:50: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  nset = mem[list(SETS)].sum(1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:71: RuntimeWarning: divide by zero encountered in scalar divide
+  return float(1 / (p**2).sum())
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:160: RuntimeWarning: invalid value encountered in divide
+  nr2 = (1 - (L @ mse_) / (L @ mse0_)) - (1 - (Lc @ mse_) / (Lc @ mse0_))
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:161: RuntimeWarning: invalid value encountered in divide
+  ndm = (L @ d_) / n1 - (Lc @ d_) / (len(d_) - n1)
+C:\Users\Soham\Desktop\microplastic\research\lipid_prediction_followup\scripts\lp02_group_analysis.py:107: RuntimeWarning: invalid value encountered in divide
+  t = b[:q] / se
+C:\Users\Soham\Desktop\microplastic\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+    diet      model     group  n_genes  n_modules  eff_n_modules  rmse_model  rmse_null  R2_group  R2_ci_low  R2_ci_high   dMSE  dMSE_ci_low  dMSE_ci_high  frac_genes_improved  diff_R2  diff_R2_ci_low  diff_R2_ci_high  diff_R2_perm_p  diff_dMSE  diff_dMSE_ci_low  diff_dMSE_ci_high  diff_dMSE_perm_p  moduleFE_diff_dMSE  moduleFE_ci_low  moduleFE_ci_high  moduleFE_p_CR1
+PE_in_CD     F8-OLS      LIPO       12          5         3.2727      1.4611     1.6292    0.1956     0.0607      0.7590 0.5193       0.1315        0.9855               0.9167   0.1437          0.0147           0.7040          0.4478     0.5138            0.1266             0.9792            0.0005              0.5129           0.0676            0.9582          0.0262
+PE_in_CD     F8-OLS      CHOL       21          6         1.8927      0.5104     0.8602    0.6480     0.5956      0.8514 0.4794       0.1681        0.6443               1.0000   0.5960          0.5444           0.8090          0.0030     0.4740            0.1633             0.6391            0.0005              0.4700           0.3569            0.5830          0.0000
+PE_in_CD     F8-OLS     PPARA       14          9         6.1250      0.3455     0.3794    0.1707    -0.0247      0.4935 0.0246      -0.0032        0.0891               0.6429   0.1188         -0.0815           0.4442          0.5432     0.0191           -0.0086             0.0835            0.2829              0.0193          -0.0271            0.0658          0.3947
+PE_in_CD     F8-OLS LIPID_any       47         13         5.5642      0.8349     1.0253    0.3369     0.0967      0.5939 0.3541       0.0811        0.5288               0.8723   0.2850          0.0516           0.5376          0.0390     0.3487            0.0760             0.5226            0.0005              0.3452           0.1223            0.5682          0.0043
+PE_in_CD     F8-OLS     OTHER    11711         20        17.2015      0.3160     0.3245    0.0519     0.0331      0.0740 0.0055       0.0039        0.0069               0.5492      NaN             NaN              NaN             NaN        NaN               NaN                NaN               NaN                 NaN              NaN               NaN             NaN
+PE_in_CD F8+C-Ridge      LIPO       12          5         3.2727      1.3657     1.6292    0.2973     0.1804      0.7538 0.7892       0.1827        1.1917               0.8333   0.2350          0.1209           0.6858          0.2704     0.7826            0.1752             1.1842            0.0005              0.7799           0.4207            1.1392          0.0002
+PE_in_CD F8+C-Ridge      CHOL       21          6         1.8927      0.4415     0.8602    0.7366     0.7236      0.8610 0.5451       0.1783        0.7862               1.0000   0.6743          0.6439           0.8039          0.0015     0.5385            0.1710             0.7788            0.0005              0.5327           0.3930            0.6724          0.0000
+PE_in_CD F8+C-Ridge     PPARA       14          9         6.1250      0.3175     0.3794    0.2997    -0.0725      0.6834 0.0431      -0.0078        0.1347               0.7857   0.2373         -0.1469           0.6374          0.2939     0.0366           -0.0150             0.1299            0.1469              0.0353          -0.0354            0.1060          0.3092
+PE_in_CD F8+C-Ridge LIPID_any       47         13         5.5642      0.7702     1.0253    0.4356     0.2139      0.6853 0.4579       0.1051        0.6547               0.8936   0.3732          0.1536           0.6235          0.0320     0.4513            0.0996             0.6476            0.0005              0.4461           0.2022            0.6900          0.0011
+PE_in_CD F8+C-Ridge     OTHER    11711         20        17.2015      0.3142     0.3245    0.0624     0.0380      0.0872 0.0066       0.0045        0.0083               0.5435      NaN             NaN              NaN             NaN        NaN               NaN                NaN               NaN                 NaN              NaN               NaN             NaN
+PE_in_CD   FULL-OLS      LIPO       12          5         3.2727      0.9555     1.6292    0.6560    -2.9052      0.8343 1.7413      -0.5534        2.3092               0.8333   0.5827         -2.9799           0.7633          0.0580     1.7335           -0.5613             2.3011            0.0005              1.7293           0.8966            2.5620          0.0003
+PE_in_CD   FULL-OLS      CHOL       21          6         1.8927      0.2862     0.8602    0.8893     0.8454      0.9527 0.6580       0.1823        0.9428               0.9048   0.8160          0.7744           0.8864          0.0010     0.6503            0.1734             0.9352            0.0005              0.6452           0.4660            0.8243          0.0000
+PE_in_CD   FULL-OLS     PPARA       14          9         6.1250      0.2511     0.3794    0.5619     0.0769      0.8734 0.0809       0.0062        0.1920               0.7143   0.4886         -0.0168           0.8064          0.0465     0.0732           -0.0025             0.1844            0.0410              0.0733          -0.0144            0.1611          0.0965
+PE_in_CD   FULL-OLS LIPID_any       47         13         5.5642      0.5371     1.0253    0.7256     0.3555      0.8535 0.7627       0.0706        1.2280               0.8298   0.6522          0.2785           0.7813          0.0015     0.7550            0.0630             1.2207            0.0005              0.7505           0.2537            1.2472          0.0051
+PE_in_CD   FULL-OLS     OTHER    11711         20        17.2015      0.3124     0.3245    0.0733     0.0509      0.0994 0.0077       0.0060        0.0094               0.5468      NaN             NaN              NaN             NaN        NaN               NaN                NaN               NaN                 NaN              NaN               NaN             NaN
+PE_in_MD     F8-OLS      LIPO       12          5         3.2727      0.9881     1.1987    0.3206     0.0170      0.7033 0.4606       0.0051        0.6231               0.9167   0.2637         -0.0237           0.6492          0.3173     0.4551            0.0001             0.6203            0.0010              0.4489           0.2484            0.6494          0.0002
+PE_in_MD     F8-OLS      CHOL       21          6         1.8927      0.6170     0.9758    0.6002     0.4491      0.7042 0.5715       0.1289        0.6451               1.0000   0.5434          0.3927           0.6614          0.0250     0.5660            0.1235             0.6399            0.0005              0.5568           0.4000            0.7136          0.0000
+PE_in_MD     F8-OLS     PPARA       14          9         6.1250      0.4059     0.5064    0.3575     0.3372      0.9308 0.0917       0.0027        0.1995               0.7143   0.3007          0.2489           0.8671          0.2094     0.0863           -0.0013             0.1913            0.0225              0.0822          -0.0470            0.2115          0.1988
+PE_in_MD     F8-OLS LIPID_any       47         13         5.5642      0.6844     0.9320    0.4608     0.3035      0.5953 0.4003       0.1339        0.5286               0.8936   0.4039          0.2384           0.5470          0.0230     0.3948            0.1283             0.5235            0.0005              0.3865           0.1816            0.5914          0.0009
+PE_in_MD     F8-OLS     OTHER    11711         20        17.2015      0.3007     0.3096    0.0568     0.0125      0.1020 0.0054       0.0012        0.0092               0.5736      NaN             NaN              NaN             NaN        NaN               NaN                NaN               NaN                 NaN              NaN               NaN             NaN
+PE_in_MD F8+C-Ridge      LIPO       12          5         3.2727      1.0989     1.1987    0.1595     0.0610      0.6968 0.2292       0.0377        0.4406               0.7500   0.0783         -0.0297           0.6113          0.7111     0.2214            0.0300             0.4315            0.0095              0.2188           0.0466            0.3910          0.0155
+PE_in_MD F8+C-Ridge      CHOL       21          6         1.8927      0.6733     0.9758    0.5240     0.4099      0.6187 0.4989       0.1279        0.5620               1.0000   0.4428          0.3266           0.5535          0.0590     0.4912            0.1205             0.5535            0.0005              0.4820           0.3517            0.6124          0.0000
+PE_in_MD F8+C-Ridge     PPARA       14          9         6.1250      0.4873     0.5064    0.0741    -0.0018      0.7033 0.0190      -0.0000        0.0384               0.7143  -0.0071         -0.0777           0.6246          0.9735     0.0112           -0.0072             0.0296            0.4228              0.0069          -0.0141            0.0280          0.4977
+PE_in_MD F8+C-Ridge LIPID_any       47         13         5.5642      0.7626     0.9320    0.3305     0.1143      0.5121 0.2871       0.0491        0.4299               0.8511   0.2493          0.0330           0.4242          0.1339     0.2793            0.0415             0.4225            0.0005              0.2716           0.0533            0.4900          0.0174
+PE_in_MD F8+C-Ridge     OTHER    11711         20        17.2015      0.2968     0.3096    0.0812     0.0453      0.1241 0.0078       0.0047        0.0108               0.5889      NaN             NaN              NaN             NaN        NaN               NaN                NaN               NaN                 NaN              NaN               NaN             NaN
+PE_in_MD   FULL-OLS      LIPO       12          5         3.2727      0.8374     1.1987    0.5120    -5.0410      0.7454 0.7356      -0.3898        1.1153               0.8333   0.4336         -5.1274           0.6583          0.0880     0.7281           -0.3962             1.1044            0.0005              0.7244           0.2042            1.2446          0.0089
+PE_in_MD   FULL-OLS      CHOL       21          6         1.8927      0.3788     0.9758    0.8493     0.7046      0.9110 0.8087       0.1680        0.9112               0.9048   0.7710          0.6214           0.8439          0.0005     0.8012            0.1628             0.9034            0.0005              0.7915           0.5798            1.0033          0.0000
+PE_in_MD   FULL-OLS     PPARA       14          9         6.1250      0.4850     0.5064    0.0827    -0.8305      0.6068 0.0212      -0.0045        0.0463               0.5714   0.0043         -0.9169           0.5219          0.9850     0.0137           -0.0114             0.0389            0.3193              0.0101          -0.0198            0.0400          0.4892
+PE_in_MD   FULL-OLS LIPID_any       47         13         5.5642      0.5597     0.9320    0.6394     0.2333      0.8131 0.5555       0.0831        0.7740               0.7872   0.5611          0.1497           0.7215          0.0065     0.5480            0.0778             0.7658            0.0005              0.5394           0.2004            0.8784          0.0035
+PE_in_MD   FULL-OLS     OTHER    11711         20        17.2015      0.2972     0.3096    0.0783     0.0455      0.1206 0.0075       0.0046        0.0103               0.5942      NaN             NaN              NaN             NaN        NaN               NaN                NaN               NaN                 NaN              NaN               NaN             NaN
+set_b  CHOL  LIPO  PPARA
+set_a                   
+CHOL     21     0      0
+LIPO      0    12      0
+PPARA     0     0     14

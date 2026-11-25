@@ -1,0 +1,116 @@
+{
+  "fasting": {
+    "rho_main_vs_clean": 0.9186971312041526,
+    "sign_agree_clean_on_main_DEG": 0.9947617859815415,
+    "n_main_deg": 4009,
+    "rho_main_vs_GSE225695": 0.48923317295053637,
+    "sign_agree_GSE225695_on_main_DEG": 0.8012048192771084,
+    "label": "STABLE",
+    "frac_deg_with_interaction": 0.4512,
+    "time_dependent_label": true
+  },
+  "ppara": {
+    "rho_20v0_vs_5v0": 0.48007703008409075,
+    "rho_20v0_vs_10v0": 0.6885441125958033,
+    "rho_20v0_vs_20v0_muscleAdj": 0.945637732111565,
+    "rho_20v0_vs_trend": 0.9784566577459962,
+    "sign_agree_5v0_on_20v0_sig": 0.8304661487236404,
+    "sign_agree_10v0_on_20v0_sig": 0.9642064372918979,
+    "sign_agree_20v0_muscleAdj_on_20v0_sig": 1.0,
+    "sign_agree_trend_on_20v0_sig": 1.0,
+    "rho_WT20_vs_KO20": 0.25014022713221934,
+    "n_20v0_padj05": 3604,
+    "class_counts": {
+      "not_responsive": 7335,
+      "agonist_associated_dependence_unresolved": 2613,
+      "PPARa_dependent": 1893
+    },
+    "frac_20v0_sig_dose_consistent": 0.8077136514983352
+  },
+  "circadian": {
+    "n_rhythmic_female": 2914,
+    "n_rhythmic_male_fed": 4389,
+    "n_both": 1637,
+    "median_abs_phase_diff_h": 1.42024035605502,
+    "frac_phase_within_3h": 0.8026878436163715
+  },
+  "collinearity": {
+    "n_common_genes": 11749,
+    "rank_corr": {
+      "MASH1": {
+        "MASH1": 1.0,
+        "FAST": 0.058,
+        "PPARA_20v0": -0.013,
+        "CIRC_T1": -0.116,
+        "CIRC_T2": -0.045
+      },
+      "FAST": {
+        "MASH1": 0.058,
+        "FAST": 1.0,
+        "PPARA_20v0": 0.037,
+        "CIRC_T1": -0.067,
+        "CIRC_T2": 0.064
+      },
+      "PPARA_20v0": {
+        "MASH1": -0.013,
+        "FAST": 0.037,
+        "PPARA_20v0": 1.0,
+        "CIRC_T1": -0.117,
+        "CIRC_T2": -0.123
+      },
+      "CIRC_T1": {
+        "MASH1": -0.116,
+        "FAST": -0.067,
+        "PPARA_20v0": -0.117,
+        "CIRC_T1": 1.0,
+        "CIRC_T2": 0.857
+      },
+      "CIRC_T2": {
+        "MASH1": -0.045,
+        "FAST": 0.064,
+        "PPARA_20v0": -0.123,
+        "CIRC_T1": 0.857,
+        "CIRC_T2": 1.0
+      }
+    },
+    "vif": {
+      "MASH1": {
+        "R2_on_others": 0.025936677789022533,
+        "VIF": 1.0266273015291758
+      },
+      "FAST": {
+        "R2_on_others": 0.06275606824369584,
+        "VIF": 1.0669580950245225
+      },
+      "PPARA_20v0": {
+        "R2_on_others": 0.017917440333009682,
+        "VIF": 1.0182443320641854
+      },
+      "CIRC_T1": {
+        "R2_on_others": 0.7545363358214974,
+        "VIF": 4.0739227263909585
+      },
+      "CIRC_T2": {
+        "R2_on_others": 0.7524132558528653,
+        "VIF": 4.03898845006712
+      }
+    },
+    "flagged_pairs": [
+      [
+        "CIRC_T1",
+        "CIRC_T2",
+        0.857
+      ]
+    ]
+  },
+  "historical_split_reference": {
+    "min": 0.2945512873255093,
+    "median": 0.33017336035519296,
+    "max": 0.4021227258312258,
+    "null_median_of_medians": -0.0071845701560829135,
+    "perm_p_range": [
+      0.047619047619047616,
+      0.09523809523809523
+    ]
+  }
+}

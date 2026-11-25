@@ -1,0 +1,48 @@
+{
+  "n_muscle_genes": 135,
+  "muscle_gene_list_identical_to_saved": true,
+  "max_abs_diff_scores_vs_saved_primary_PC1_PC2": 4.566871316491472e-05,
+  "before_PC1_pct": 30.33,
+  "before_PC2_pct": 17.04,
+  "before_matches_saved_table": true,
+  "after_PC1_pct": 20.84,
+  "after_PC2_pct": 17.94,
+  "after_matches_saved_table": true,
+  "PPARA_targets_CD_fry_FDR": 0.0406,
+  "n_rows_main": 12,
+  "n_rows_full": 53,
+  "fry_FDR_lt_0.05": [
+    [
+      "SANDERSON_PPARA_TARGETS",
+      "PE_in_CD",
+      0.0406
+    ]
+  ],
+  "fry_FDR_0.05_to_0.10": [
+    [
+      "HALLMARK_MTORC1_SIGNALING",
+      "PE_in_CD",
+      0.0796
+    ],
+    [
+      "HALLMARK_CHOLESTEROL_HOMEOSTASIS",
+      "PE_in_MD",
+      0.0916
+    ],
+    [
+      "HALLMARK_DNA_REPAIR",
+      "PE_in_MD",
+      0.0916
+    ],
+    [
+      "HALLMARK_GLYCOLYSIS",
+      "PE_in_MD",
+      0.0916
+    ],
+    [
+      "HALLMARK_MTORC1_SIGNALING",
+      "PE_in_MD",
+      0.0916
+    ]
+  ]
+}

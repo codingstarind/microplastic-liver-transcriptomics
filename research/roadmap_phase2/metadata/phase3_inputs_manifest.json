@@ -1,0 +1,15 @@
+{
+  "clean_livers_for_rule": 21,
+  "muscle_genes": 309,
+  "muscle_genes_in_GSE294180_filtered": 187,
+  "universe_main": 11888,
+  "universe_sensitivity": 8360,
+  "eligible_rows": 173,
+  "implied_length": {
+    "path": "D:\\mpliver_work\\phase2_refs\\GSE316023\\prepared\\implied_length.csv.gz",
+    "md5": "26b8e2bd7dfacf588c7a3ed9e2911dbc",
+    "sha256": "b24ff78e65799165e4ad631823c82b6913a8c7a85848003b0b20966f20c1d9df",
+    "genes_with_length": 25140,
+    "genes_missing_length": 18223
+  }
+}

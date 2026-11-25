@@ -1,0 +1,26 @@
+check,pair,value,null_expectation
+HONG cross-polymer gene-effect correlation (DESeq2 log2FC vs shared CON),PE-CON vs PS-CON,0.6053662774625005,~0.5 from the shared control alone
+HONG cross-polymer gene-effect correlation (DESeq2 log2FC vs shared CON),PE-CON vs PP-CON,0.7034248892659692,~0.5 from the shared control alone
+HONG cross-polymer gene-effect correlation (DESeq2 log2FC vs shared CON),PE-CON vs PB-CON,0.7704100509755801,~0.5 from the shared control alone
+HONG cross-polymer gene-effect correlation (DESeq2 log2FC vs shared CON),PS-CON vs PP-CON,0.6101429789552568,~0.5 from the shared control alone
+HONG cross-polymer gene-effect correlation (DESeq2 log2FC vs shared CON),PS-CON vs PB-CON,0.5657716010615148,~0.5 from the shared control alone
+HONG cross-polymer gene-effect correlation (DESeq2 log2FC vs shared CON),PP-CON vs PB-CON,0.6745707201174734,~0.5 from the shared control alone
+HONG: position of shared CON group among 5 group means (1 = lowest),FAST_singscore,1.0,each position has probability 1/5 under exchangeability
+HONG control-free contrast: PE minus other polymers (FAST),FAST_singscore,0.010238834664300506,> 0 would indicate PE-specific excess over other polymers
+HONG: position of shared CON group among 5 group means (1 = lowest),MASH_singscore,5.0,each position has probability 1/5 under exchangeability
+HONG: position of shared CON group among 5 group means (1 = lowest),PPARA_singscore,4.0,each position has probability 1/5 under exchangeability
+HONG: position of shared CON group among 5 group means (1 = lowest),R0_logistic_logodds,5.0,each position has probability 1/5 under exchangeability
+HONG: position of shared CON group among 5 group means (1 = lowest),R2_logistic_logodds,1.0,each position has probability 1/5 under exchangeability
+GSE245069: exposed/control ratio of mean counted_total,all exposed vs CON,0.968895597328307,1.0 = balanced
+GSE245069: exposed/control ratio of mean sra_read_pairs,all exposed vs CON,0.9956977635318042,1.0 = balanced
+GSE245069: exposed/control ratio of mean detected_genes,all exposed vs CON,1.0164972852568566,1.0 = balanced
+GSE245069: exposed/control ratio of mean muscle_cpm_sum,all exposed vs CON,1.1785053344543672,1.0 = balanced
+GSE277772: exposed/control ratio of mean counted_total,all exposed vs CON,0.9988557294146148,1.0 = balanced
+GSE277772: exposed/control ratio of mean sra_read_pairs,all exposed vs CON,0.966341616527749,1.0 = balanced
+GSE277772: exposed/control ratio of mean detected_genes,all exposed vs CON,1.0312905911740216,1.0 = balanced
+GSE277772: exposed/control ratio of mean muscle_cpm_sum,all exposed vs CON,1.0838182221579005,1.0 = balanced
+HONG: exposed/control ratio of mean counted_total,all exposed vs CON,0.9827418234477373,1.0 = balanced
+HONG: exposed/control ratio of mean sra_read_pairs,all exposed vs CON,0.9512793570342293,1.0 = balanced
+HONG: exposed/control ratio of mean detected_genes,all exposed vs CON,1.0605137652844427,1.0 = balanced
+HONG: exposed/control ratio of mean muscle_cpm_sum,all exposed vs CON,1.0586272949022966,1.0 = balanced
+GSE294180 muscle_cpm_sum (median of 19 mice) for comparison,reference,1076.380738021236,external values in external_sample_qc.csv

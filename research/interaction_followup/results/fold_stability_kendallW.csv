@@ -1,0 +1,5 @@
+target,model,kendall_W,n_splits,n_pairs
+PE_in_CD,catboost,0.5873064525938089,15,28
+PE_in_CD,hgb,0.6071033266435565,15,28
+PE_in_MD,catboost,0.6438654746700724,15,28
+PE_in_MD,hgb,0.7093960956029921,15,28

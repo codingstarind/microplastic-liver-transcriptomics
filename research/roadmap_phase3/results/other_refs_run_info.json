@@ -1,0 +1,76 @@
+{
+  "versions": {
+    "R": "R version 4.4.3 (2025-02-28)",
+    "DESeq2": "1.46.0",
+    "limma": "3.62.1",
+    "edgeR": "4.4.0",
+    "ashr": "2.2.63"
+  },
+  "seed": 20261122,
+  "fasting": {
+    "n_fast": 18,
+    "n_fed": 18,
+    "n_genes": 11888,
+    "n_padj05": 8552,
+    "n_deg": 4009,
+    "n_interaction_fdr05": 4296,
+    "frac_deg_with_interaction_fdr05": 0.4512,
+    "design": "~ ZT + state (ref FED)",
+    "interaction_design": "~ ZT * state"
+  },
+  "fasting_clean": {
+    "samples": ["Liver_FAST_ZT00_Rep1", "Liver_FAST_ZT00_Rep4", "Liver_FAST_ZT00_Rep5", "Liver_FAST_ZT04_Rep4", "Liver_FED_ZT00_Rep1", "Liver_FED_ZT00_Rep3", "Liver_FED_ZT00_Rep5", "Liver_FED_ZT04_Rep2", "Liver_FED_ZT04_Rep4", "Liver_FED_ZT04_Rep5"],
+    "n_fast": 4,
+    "n_fed": 6,
+    "n_padj05": 7651
+  },
+  "fasting2": {
+    "n": 6,
+    "n_padj05": 1079
+  },
+  "circadian_primary": {
+    "n": 18,
+    "n_genes": 11888,
+    "n_rhythmic_fdr05": 2914,
+    "n_rhythmic_categorical_fdr05": 2379,
+    "both": 1771,
+    "sex": "WT_ZT00"
+  },
+  "circadian_male_sens": {
+    "n": 18,
+    "n_genes": 11888,
+    "n_rhythmic_fdr05": 4389,
+    "n_rhythmic_categorical_fdr05": 5518,
+    "both": 3752,
+    "sex": "FED_ZT00"
+  },
+  "ppara_size_factors": {
+    "1528_129_dose0": 0.648,
+    "1528_130_dose10": 1.4897,
+    "1528_131_dose0": 0.7094,
+    "1528_132_dose0": 0.7561,
+    "1528_133_dose5": 0.7395,
+    "1528_134_dose5": 0.7773,
+    "1528_135_dose5": 0.5758,
+    "1528_136_dose20": 1.4759,
+    "1528_137_dose20": 1.5618,
+    "1528_138_dose10": 1.3657,
+    "1528_139_dose0": 0.8488,
+    "1528_140_dose10": 1.7551,
+    "1528_141_dose20": 1.2388,
+    "1528_142_dose20": 1.1941,
+    "1528_143_dose5": 0.7338,
+    "1528_144_dose10": 1.586
+  },
+  "ppara_genotype_coefs": ["Intercept", "genotype_KO_vs_WT", "genotypeWT.dose5", "genotypeKO.dose5", "genotypeWT.dose10", "genotypeKO.dose10", "genotypeWT.dose20", "genotypeKO.dose20"],
+  "ppara": {
+    "n_wt": 16,
+    "n_ko": 16,
+    "n_genes": 11888,
+    "class_counts": {
+      "agonist_associated_dependence_unresolved": 2613,
+      "not_responsive": 7335,
+      "PPARa_dependent": 1893
+    }
+  }
+}

@@ -1,0 +1,17 @@
+stage,target,model,r2_vs_train_mean,r2_vs_own_mean,spearman,rmse,mae,r2_fold_sd,source
+"train (all genes, in-sample)",PE_in_CD,F8_ols,0.069880496575893,0.0693864762314157,0.273580066751372,0.3183398972864849,0.2054690158153823,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"outer grouped CV (15 folds, mean)",PE_in_CD,F8_ols,0.0660095601439893,,0.2636497032576538,0.3154574085840284,,0.0344714871535574,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external HONG PE_vs_CON,PE_in_CD,F8_ols,0.0183519626108793,0.0180570071642781,0.2185449552078846,0.5361487631839015,0.3487036958456266,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external GSE245069 PSpooled_vs_CON,PE_in_CD,F8_ols,-0.1000765000545762,-0.1002642948019003,-0.0694774519351387,0.3825904441144542,0.2437848690759841,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"train (all genes, in-sample)",PE_in_CD,F8C_ridge,0.0874996857226757,0.087015023571269,0.2806019886996952,0.3153103362184265,0.204353896834881,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"outer grouped CV (15 folds, mean)",PE_in_CD,F8C_ridge,0.080270319897227,,0.2695218022778884,0.3130184622447042,,0.0421434737545224,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external HONG PE_vs_CON,PE_in_CD,F8C_ridge,-0.0045246736945214,-0.0048265028761287,0.1423919105842382,0.5423600741713506,0.3549084333157979,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external GSE245069 PSpooled_vs_CON,PE_in_CD,F8C_ridge,-0.1004660955979159,-0.1006539568533386,-0.0802844054369563,0.3826581859202101,0.2449355498388011,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"train (all genes, in-sample)",PE_in_MD,F8_ols,0.0730491164929436,0.0727986763910809,0.3239688449530528,0.3020685468188582,0.1811285580845355,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"outer grouped CV (15 folds, mean)",PE_in_MD,F8_ols,0.0699241178621681,,0.3086070984494967,0.2977727991387888,,0.0714819105117971,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external HONG PE_vs_CON,PE_in_MD,F8_ols,0.0471739060099145,0.0470752097982969,0.3032312075819275,0.5281672681666507,0.3401451793366433,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external GSE245069 PSpooled_vs_CON,PE_in_MD,F8_ols,0.0365398348980814,0.0365340531074342,0.1813999285272978,0.3580171189671638,0.2281760975265664,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"train (all genes, in-sample)",PE_in_MD,F8C_ridge,0.0962364496709228,0.095992274235491,0.3890637732127938,0.2982665534422508,0.1761597902998364,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+"outer grouped CV (15 folds, mean)",PE_in_MD,F8C_ridge,0.0959877976583674,,0.3735260423453328,0.2939147519439782,,0.0591132255906852,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external HONG PE_vs_CON,PE_in_MD,F8C_ridge,0.076333239359305,0.0762375635474781,0.416853720999521,0.5200227216605983,0.3311951774179069,,research/roadmap_phase5b/tables/gap_train_cv_external.csv
+external GSE245069 PSpooled_vs_CON,PE_in_MD,F8C_ridge,0.0560122494808315,0.0560065845454821,0.2269161234551234,0.3543807241075317,0.2273091316721556,,research/roadmap_phase5b/tables/gap_train_cv_external.csv

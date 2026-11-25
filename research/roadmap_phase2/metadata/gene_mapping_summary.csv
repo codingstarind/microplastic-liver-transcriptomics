@@ -1,0 +1,7 @@
+dataset,total_rows,malformed,tab_suffix_ids,duplicated_original_ids,invalid_id,valid_ids,mapped_to_vM35,unmapped,unique_vM35_genes,rows_lost_to_collapse,shared_with_GSE294180_all,shared_with_GSE294180_filtered,detected_in_contrast_samples,detected_and_in_GSE294180_filtered,status_symbol_exact,status_tab_suffix_recovered,status_tab_suffix_unmapped,status_symbol_mgi_synonym,status_symbol_not_in_vM35,status_malformed,status_tab_suffix_conflict_with_clean_row,status_ensembl_match,status_ensembl_not_in_vM35,status_symbol_case
+GSE316023,48795,665,13094,254,0,48130,43521,4609,43363,158,43363,13242,14000,12893,31291.0,9233.0,3853.0,2997.0,748.0,665.0,8.0,,,
+GSE246328,55536,0,0,0,0,55536,51273,4263,51213,60,51213,13552,13204,12632,,,,,,,,51273.0,4263.0,
+GSE107787,20561,0,0,0,0,20561,20357,204,20330,27,20330,12566,9701,9617,18976.0,,,1381.0,204.0,,,,,
+GSE117134,18079,0,0,0,0,18079,17895,184,17880,15,17880,12600,10359,10137,17146.0,,,749.0,184.0,,,,,
+GSE282998,30146,0,0,0,0,30146,29933,213,21198,8735,21198,12245,10765,10295,27822.0,,,2109.0,213.0,,,,,2.0
+GSE225695,22565,0,0,0,0,22565,21565,1000,21561,4,21561,12395,11696,11497,,,,,,,,21565.0,1000.0,

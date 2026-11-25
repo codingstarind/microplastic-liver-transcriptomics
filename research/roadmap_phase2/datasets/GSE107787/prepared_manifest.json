@@ -1,0 +1,46 @@
+{
+  "dataset": "GSE107787",
+  "value_type": "RPKM",
+  "note": "Deposited RPKM only (ELAND/RefSeq in-house pipeline). Ready = liver samples, vM35 symbols, duplicates by highest mean. No counts.",
+  "original_shape": [
+    20561,
+    72
+  ],
+  "ready_shape": [
+    20330,
+    36
+  ],
+  "ready_index": "GENCODE vM35 gene symbol (GSE294180 annotation)",
+  "files": {
+    "expression_original.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE107787\\prepared\\expression_original.csv.gz",
+      "md5": "3b18ecc21fd60bde1d0d5c5eec56eee7",
+      "sha256": "157667ab119bfd8862b73617ec9c5ffb03883a0caeaa6ff55cefa95b8d337274"
+    },
+    "expression_ready.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE107787\\prepared\\expression_ready.csv.gz",
+      "md5": "71206229a4349be91f26bd561e03cf44",
+      "sha256": "c9d5507bffa10b8f3ea908ab9bb0402c60a40dfa6111c3792df2ce9957e908ee"
+    }
+  },
+  "mapping_summary": {
+    "dataset": "GSE107787",
+    "total_rows": 20561,
+    "malformed": 0,
+    "tab_suffix_ids": 0,
+    "duplicated_original_ids": 0,
+    "invalid_id": 0,
+    "valid_ids": 20561,
+    "mapped_to_vM35": 20357,
+    "unmapped": 204,
+    "unique_vM35_genes": 20330,
+    "rows_lost_to_collapse": 27,
+    "shared_with_GSE294180_all": 20330,
+    "shared_with_GSE294180_filtered": 12566,
+    "detected_in_contrast_samples": 9701,
+    "detected_and_in_GSE294180_filtered": 9617,
+    "status_symbol_exact": 18976,
+    "status_symbol_mgi_synonym": 1381,
+    "status_symbol_not_in_vM35": 204
+  }
+}

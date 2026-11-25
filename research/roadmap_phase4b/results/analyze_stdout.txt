@@ -1,0 +1,283 @@
+      target     rep       model  r2_oos_mean  rmse_mean  d_rmse  ci_low  ci_high  n_better  d_r2_oos meets_rule  vsOLSF8_d_rmse vsOLSF8_meets_rule
+0   PE_in_CD      A4    catboost       0.0812     0.3127  0.0006 -0.0055   0.0067       7.0   -0.0042      False         -0.0028              False
+1   PE_in_CD      A4  elasticnet       0.0673     0.3151 -0.0008 -0.0033   0.0017      11.0    0.0043      False         -0.0003              False
+2   PE_in_CD      A4         hgb       0.0804     0.3129 -0.0004 -0.0051   0.0044       8.0    0.0020      False         -0.0026              False
+3   PE_in_CD      A4         ols       0.0673     0.3151 -0.0003 -0.0035   0.0028       9.0    0.0013      False         -0.0003              False
+4   PE_in_CD      A4       ridge       0.0673     0.3151 -0.0003 -0.0034   0.0028       8.0    0.0012      False         -0.0003              False
+5   PE_in_CD      F4    catboost       0.0704     0.3146  0.0026 -0.0023   0.0074       5.0   -0.0149      False         -0.0008              False
+6   PE_in_CD      F4  elasticnet       0.0639     0.3158 -0.0002 -0.0017   0.0013       6.0    0.0008      False          0.0003              False
+7   PE_in_CD      F4         hgb       0.0652     0.3155  0.0022 -0.0017   0.0062       4.0   -0.0132      False          0.0000              False
+8   PE_in_CD      F4         ols       0.0643     0.3157  0.0002 -0.0019   0.0023       6.0   -0.0017      False          0.0002              False
+9   PE_in_CD      F4       ridge       0.0644     0.3157  0.0002 -0.0018   0.0023       6.0   -0.0017      False          0.0002              False
+10  PE_in_CD      F8    catboost       0.0854     0.3121     NaN     NaN      NaN       NaN       NaN        NaN         -0.0034              False
+11  PE_in_CD      F8  elasticnet       0.0631     0.3160     NaN     NaN      NaN       NaN       NaN        NaN          0.0005              False
+12  PE_in_CD      F8         hgb       0.0783     0.3132     NaN     NaN      NaN       NaN       NaN        NaN         -0.0022              False
+13  PE_in_CD      F8         ols       0.0660     0.3155     NaN     NaN      NaN       NaN       NaN        NaN             NaN                NaN
+14  PE_in_CD      F8       ridge       0.0661     0.3154     NaN     NaN      NaN       NaN       NaN        NaN         -0.0000              False
+15  PE_in_CD    F8+A    catboost       0.1002     0.3095 -0.0026 -0.0066   0.0014      13.0    0.0149      False         -0.0060               True
+16  PE_in_CD    F8+A  elasticnet       0.0677     0.3152 -0.0008 -0.0028   0.0012      12.0    0.0046      False         -0.0003              False
+17  PE_in_CD    F8+A         hgb       0.0886     0.3115 -0.0018 -0.0046   0.0011      13.0    0.0103      False         -0.0040              False
+18  PE_in_CD    F8+A         ols       0.0735     0.3142 -0.0012 -0.0042   0.0018      11.0    0.0075      False         -0.0012              False
+19  PE_in_CD    F8+A       ridge       0.0714     0.3145 -0.0009 -0.0035   0.0016      12.0    0.0053      False         -0.0009              False
+20  PE_in_CD    F8+B    catboost       0.1005     0.3095 -0.0026 -0.0075   0.0023      11.0    0.0151      False         -0.0060               True
+21  PE_in_CD    F8+B  elasticnet       0.0825     0.3126 -0.0034 -0.0083   0.0015      13.0    0.0194      False         -0.0029              False
+22  PE_in_CD    F8+B         hgb       0.0811     0.3128 -0.0005 -0.0012   0.0003       9.0    0.0028      False         -0.0027              False
+23  PE_in_CD    F8+B         ols       0.0846     0.3122 -0.0032 -0.0080   0.0015      13.0    0.0186      False         -0.0032              False
+24  PE_in_CD    F8+B       ridge       0.0847     0.3122 -0.0032 -0.0080   0.0015      13.0    0.0186      False         -0.0032              False
+25  PE_in_CD    F8+C    catboost       0.0975     0.3101 -0.0020 -0.0032  -0.0008      14.0    0.0121      False         -0.0054               True
+26  PE_in_CD    F8+C  elasticnet       0.0765     0.3137 -0.0023 -0.0053   0.0007      12.0    0.0134      False         -0.0018              False
+27  PE_in_CD    F8+C         hgb       0.0845     0.3122 -0.0010 -0.0027   0.0007      11.0    0.0061      False         -0.0032              False
+28  PE_in_CD    F8+C         ols       0.0801     0.3130 -0.0024 -0.0059   0.0010      12.0    0.0141      False         -0.0024              False
+29  PE_in_CD    F8+C       ridge       0.0803     0.3130 -0.0024 -0.0058   0.0010      12.0    0.0141      False         -0.0024              False
+30  PE_in_CD    FULL    catboost       0.1088     0.3080 -0.0041 -0.0099   0.0018      14.0    0.0235      False         -0.0075               True
+31  PE_in_CD    FULL  elasticnet       0.1003     0.3095 -0.0064 -0.0125  -0.0004      15.0    0.0372       True         -0.0059               True
+32  PE_in_CD    FULL         hgb       0.0935     0.3107 -0.0026 -0.0071   0.0019      11.0    0.0151      False         -0.0048              False
+33  PE_in_CD    FULL         ols       0.1037     0.3090 -0.0065 -0.0124  -0.0006      15.0    0.0377       True         -0.0065               True
+34  PE_in_CD    FULL       ridge       0.1036     0.3090 -0.0065 -0.0124  -0.0006      15.0    0.0375       True         -0.0065               True
+35  PE_in_CD  FULL-A    catboost       0.1060     0.3085 -0.0036 -0.0094   0.0022      13.0    0.0207      False         -0.0070               True
+36  PE_in_CD  FULL-A  elasticnet       0.0915     0.3111 -0.0049 -0.0106   0.0008      14.0    0.0284      False         -0.0044              False
+37  PE_in_CD  FULL-A         hgb       0.0862     0.3119 -0.0013 -0.0030   0.0004      11.0    0.0079      False         -0.0035              False
+38  PE_in_CD  FULL-A         ols       0.0936     0.3107 -0.0048 -0.0107   0.0012      14.0    0.0275      False         -0.0048              False
+39  PE_in_CD  FULL-A       ridge       0.0937     0.3107 -0.0048 -0.0107   0.0011      14.0    0.0276      False         -0.0048              False
+40  PE_in_CD  FULL-B    catboost       0.1049     0.3087 -0.0034 -0.0085   0.0017      14.0    0.0195      False         -0.0068               True
+41  PE_in_CD  FULL-B  elasticnet       0.0878     0.3117 -0.0042 -0.0075  -0.0010      13.0    0.0247      False         -0.0037              False
+42  PE_in_CD  FULL-B         hgb       0.0970     0.3101 -0.0031 -0.0072   0.0009      14.0    0.0186      False         -0.0053               True
+43  PE_in_CD  FULL-B         ols       0.0913     0.3111 -0.0043 -0.0079  -0.0008      14.0    0.0253      False         -0.0043              False
+44  PE_in_CD  FULL-B       ridge       0.0909     0.3112 -0.0043 -0.0079  -0.0007      14.0    0.0248      False         -0.0043              False
+45  PE_in_CD  FULL-C    catboost       0.1016     0.3092 -0.0029 -0.0073   0.0015      12.0    0.0162      False         -0.0062               True
+46  PE_in_CD  FULL-C  elasticnet       0.0861     0.3120 -0.0040 -0.0093   0.0013      13.0    0.0230      False         -0.0035              False
+47  PE_in_CD  FULL-C         hgb       0.0905     0.3112 -0.0021 -0.0054   0.0013      15.0    0.0121      False         -0.0043              False
+48  PE_in_CD  FULL-C         ols       0.0920     0.3110 -0.0044 -0.0102   0.0013      12.0    0.0260      False         -0.0044              False
+49  PE_in_CD  FULL-C       ridge       0.0903     0.3112 -0.0042 -0.0096   0.0012      14.0    0.0242      False         -0.0042              False
+50  PE_in_MD      A4    catboost       0.0742     0.2974  0.0008 -0.0026   0.0041       5.0   -0.0045      False         -0.0003              False
+51  PE_in_MD      A4  elasticnet       0.0663     0.2985  0.0004 -0.0029   0.0038       5.0   -0.0017      False          0.0008              False
+52  PE_in_MD      A4         hgb       0.0747     0.2974  0.0008 -0.0021   0.0038       4.0   -0.0046      False         -0.0004              False
+53  PE_in_MD      A4         ols       0.0673     0.2984  0.0006 -0.0030   0.0041       5.0   -0.0026      False          0.0006              False
+54  PE_in_MD      A4       ridge       0.0674     0.2984  0.0006 -0.0029   0.0041       5.0   -0.0027      False          0.0006              False
+55  PE_in_MD      F4    catboost       0.0717     0.2978  0.0012 -0.0022   0.0045       4.0   -0.0070      False          0.0001              False
+56  PE_in_MD      F4  elasticnet       0.0615     0.2993  0.0011 -0.0019   0.0042       5.0   -0.0064      False          0.0015              False
+57  PE_in_MD      F4         hgb       0.0683     0.2985  0.0019 -0.0019   0.0056       4.0   -0.0111      False          0.0007              False
+58  PE_in_MD      F4         ols       0.0617     0.2992  0.0014 -0.0011   0.0039       4.0   -0.0082      False          0.0014              False
+59  PE_in_MD      F4       ridge       0.0618     0.2991  0.0014 -0.0011   0.0039       4.0   -0.0083      False          0.0014              False
+60  PE_in_MD      F8    catboost       0.0787     0.2967     NaN     NaN      NaN       NaN       NaN        NaN         -0.0011              False
+61  PE_in_MD      F8  elasticnet       0.0680     0.2981     NaN     NaN      NaN       NaN       NaN        NaN          0.0003              False
+62  PE_in_MD      F8         hgb       0.0794     0.2966     NaN     NaN      NaN       NaN       NaN        NaN         -0.0012              False
+63  PE_in_MD      F8         ols       0.0699     0.2978     NaN     NaN      NaN       NaN       NaN        NaN             NaN                NaN
+64  PE_in_MD      F8       ridge       0.0701     0.2977     NaN     NaN      NaN       NaN       NaN        NaN         -0.0000              False
+65  PE_in_MD    F8+A    catboost       0.0800     0.2965 -0.0002 -0.0015   0.0011       8.0    0.0013      False         -0.0013              False
+66  PE_in_MD    F8+A  elasticnet       0.0746     0.2972 -0.0009 -0.0028   0.0009      13.0    0.0067      False         -0.0006              False
+67  PE_in_MD    F8+A         hgb       0.0793     0.2966 -0.0000 -0.0004   0.0004       7.0   -0.0001      False         -0.0012              False
+68  PE_in_MD    F8+A         ols       0.0743     0.2973 -0.0005 -0.0037   0.0027       9.0    0.0044      False         -0.0005              False
+69  PE_in_MD    F8+A       ridge       0.0774     0.2967 -0.0011 -0.0026   0.0005      12.0    0.0073      False         -0.0011              False
+70  PE_in_MD    F8+B    catboost       0.0832     0.2959 -0.0007 -0.0028   0.0013       8.0    0.0045      False         -0.0018              False
+71  PE_in_MD    F8+B  elasticnet       0.0749     0.2970 -0.0011 -0.0029   0.0008      13.0    0.0069      False         -0.0007              False
+72  PE_in_MD    F8+B         hgb       0.0804     0.2964 -0.0001 -0.0015   0.0013       9.0    0.0010      False         -0.0013              False
+73  PE_in_MD    F8+B         ols       0.0810     0.2959 -0.0019 -0.0043   0.0006      14.0    0.0111      False         -0.0019              False
+74  PE_in_MD    F8+B       ridge       0.0812     0.2959 -0.0019 -0.0043   0.0006      14.0    0.0111      False         -0.0019              False
+75  PE_in_MD    F8+C    catboost       0.0924     0.2946 -0.0021 -0.0043   0.0001      14.0    0.0138      False         -0.0032              False
+76  PE_in_MD    F8+C  elasticnet       0.0936     0.2943 -0.0038 -0.0091   0.0015      13.0    0.0257      False         -0.0034              False
+77  PE_in_MD    F8+C         hgb       0.0914     0.2948 -0.0018 -0.0050   0.0015      11.0    0.0120      False         -0.0030              False
+78  PE_in_MD    F8+C         ols       0.0960     0.2939 -0.0039 -0.0092   0.0015      13.0    0.0260      False         -0.0039              False
+79  PE_in_MD    F8+C       ridge       0.0960     0.2939 -0.0038 -0.0092   0.0015      13.0    0.0259      False         -0.0039              False
+80  PE_in_MD    FULL    catboost       0.0959     0.2939 -0.0027 -0.0054  -0.0001      14.0    0.0172      False         -0.0039              False
+81  PE_in_MD    FULL  elasticnet       0.1065     0.2921 -0.0060 -0.0104  -0.0016      15.0    0.0385       True         -0.0057               True
+82  PE_in_MD    FULL         hgb       0.0924     0.2946 -0.0019 -0.0049   0.0010      12.0    0.0130      False         -0.0031              False
+83  PE_in_MD    FULL         ols       0.1040     0.2925 -0.0053 -0.0100  -0.0005      14.0    0.0340       True         -0.0053               True
+84  PE_in_MD    FULL       ridge       0.1079     0.2918 -0.0059 -0.0106  -0.0012      14.0    0.0378       True         -0.0059               True
+85  PE_in_MD  FULL-A    catboost       0.0940     0.2943 -0.0024 -0.0051   0.0004      11.0    0.0154      False         -0.0035              False
+86  PE_in_MD  FULL-A  elasticnet       0.1052     0.2923 -0.0058 -0.0101  -0.0016      15.0    0.0372       True         -0.0055               True
+87  PE_in_MD  FULL-A         hgb       0.0918     0.2947 -0.0018 -0.0049   0.0013      12.0    0.0124      False         -0.0030              False
+88  PE_in_MD  FULL-A         ols       0.1073     0.2919 -0.0059 -0.0103  -0.0014      15.0    0.0374       True         -0.0059               True
+89  PE_in_MD  FULL-A       ridge       0.1072     0.2919 -0.0058 -0.0103  -0.0014      15.0    0.0371       True         -0.0059               True
+90  PE_in_MD  FULL-B    catboost       0.0950     0.2941 -0.0025 -0.0046  -0.0005      15.0    0.0163      False         -0.0036              False
+91  PE_in_MD  FULL-B  elasticnet       0.0963     0.2939 -0.0042 -0.0097   0.0013      13.0    0.0283      False         -0.0039              False
+92  PE_in_MD  FULL-B         hgb       0.0912     0.2948 -0.0017 -0.0045   0.0010      11.0    0.0118      False         -0.0029              False
+93  PE_in_MD  FULL-B         ols       0.0956     0.2941 -0.0037 -0.0097   0.0022      11.0    0.0256      False         -0.0037              False
+94  PE_in_MD  FULL-B       ridge       0.0980     0.2936 -0.0041 -0.0098   0.0016      13.0    0.0279      False         -0.0041              False
+95  PE_in_MD  FULL-C    catboost       0.0839     0.2958 -0.0009 -0.0035   0.0018       8.0    0.0052      False         -0.0020              False
+96  PE_in_MD  FULL-C  elasticnet       0.0827     0.2958 -0.0023 -0.0041  -0.0004      13.0    0.0147      False         -0.0019              False
+97  PE_in_MD  FULL-C         hgb       0.0815     0.2962 -0.0003 -0.0011   0.0004      12.0    0.0022      False         -0.0016              False
+98  PE_in_MD  FULL-C         ols       0.0824     0.2959 -0.0019 -0.0057   0.0019      13.0    0.0125      False         -0.0019              False
+99  PE_in_MD  FULL-C       ridge       0.0864     0.2952 -0.0026 -0.0052  -0.0000      13.0    0.0162      False         -0.0026              False
+      target       model block_removed  d_rmse_removed_minus_full  ci_low  ci_high  n_splits_full_better  d_r2_oos_removed_minus_full  block_useful
+0   PE_in_CD         ols             A                     0.0017 -0.0016   0.0050                    12                      -0.0101         False
+1   PE_in_CD         ols             B                     0.0022 -0.0021   0.0064                    11                      -0.0124         False
+2   PE_in_CD         ols             C                     0.0020 -0.0004   0.0045                    13                      -0.0116         False
+3   PE_in_CD         ols   add_A_to_F8                     0.0012 -0.0018   0.0042                    11                      -0.0075         False
+4   PE_in_CD         ols   add_B_to_F8                     0.0032 -0.0015   0.0080                    13                      -0.0186         False
+5   PE_in_CD         ols   add_C_to_F8                     0.0024 -0.0010   0.0059                    12                      -0.0141         False
+6   PE_in_CD       ridge             A                     0.0017 -0.0014   0.0048                    12                      -0.0099         False
+7   PE_in_CD       ridge             B                     0.0022 -0.0018   0.0062                    10                      -0.0127         False
+8   PE_in_CD       ridge             C                     0.0023  0.0001   0.0045                    14                      -0.0133          True
+9   PE_in_CD       ridge   add_A_to_F8                     0.0009 -0.0016   0.0035                    12                      -0.0053         False
+10  PE_in_CD       ridge   add_B_to_F8                     0.0032 -0.0015   0.0080                    13                      -0.0186         False
+11  PE_in_CD       ridge   add_C_to_F8                     0.0024 -0.0010   0.0058                    12                      -0.0141         False
+12  PE_in_CD  elasticnet             A                     0.0016 -0.0014   0.0045                    12                      -0.0088         False
+13  PE_in_CD  elasticnet             B                     0.0022 -0.0022   0.0066                    11                      -0.0125         False
+14  PE_in_CD  elasticnet             C                     0.0024 -0.0002   0.0051                    13                      -0.0142         False
+15  PE_in_CD  elasticnet   add_A_to_F8                     0.0008 -0.0012   0.0028                    12                      -0.0046         False
+16  PE_in_CD  elasticnet   add_B_to_F8                     0.0034 -0.0015   0.0083                    13                      -0.0194         False
+17  PE_in_CD  elasticnet   add_C_to_F8                     0.0023 -0.0007   0.0053                    12                      -0.0134         False
+18  PE_in_CD         hgb             A                     0.0013 -0.0026   0.0052                    12                      -0.0073         False
+19  PE_in_CD         hgb             B                    -0.0005 -0.0027   0.0017                     8                       0.0035         False
+20  PE_in_CD         hgb             C                     0.0005 -0.0018   0.0028                     8                      -0.0030         False
+21  PE_in_CD         hgb   add_A_to_F8                     0.0018 -0.0011   0.0046                    13                      -0.0103         False
+22  PE_in_CD         hgb   add_B_to_F8                     0.0005 -0.0003   0.0012                     9                      -0.0028         False
+23  PE_in_CD         hgb   add_C_to_F8                     0.0010 -0.0007   0.0027                    11                      -0.0061         False
+24  PE_in_CD    catboost             A                     0.0005 -0.0011   0.0022                    10                      -0.0028         False
+25  PE_in_CD    catboost             B                     0.0007 -0.0011   0.0025                     9                      -0.0040         False
+26  PE_in_CD    catboost             C                     0.0012 -0.0008   0.0033                    11                      -0.0072         False
+27  PE_in_CD    catboost   add_A_to_F8                     0.0026 -0.0014   0.0066                    13                      -0.0149         False
+28  PE_in_CD    catboost   add_B_to_F8                     0.0026 -0.0023   0.0075                    11                      -0.0151         False
+29  PE_in_CD    catboost   add_C_to_F8                     0.0020  0.0008   0.0032                    14                      -0.0121          True
+30  PE_in_MD         ols             A                    -0.0006 -0.0017   0.0005                     4                       0.0033         False
+31  PE_in_MD         ols             B                     0.0016 -0.0020   0.0052                     9                      -0.0084         False
+32  PE_in_MD         ols             C                     0.0034  0.0004   0.0064                    14                      -0.0216          True
+33  PE_in_MD         ols   add_A_to_F8                     0.0005 -0.0027   0.0037                     9                      -0.0044         False
+34  PE_in_MD         ols   add_B_to_F8                     0.0019 -0.0006   0.0043                    14                      -0.0111         False
+35  PE_in_MD         ols   add_C_to_F8                     0.0039 -0.0015   0.0092                    13                      -0.0260         False
+36  PE_in_MD       ridge             A                     0.0001 -0.0004   0.0005                     9                      -0.0007         False
+37  PE_in_MD       ridge             B                     0.0018 -0.0015   0.0051                    10                      -0.0099         False
+38  PE_in_MD       ridge             C                     0.0033  0.0001   0.0065                    14                      -0.0216          True
+39  PE_in_MD       ridge   add_A_to_F8                     0.0011 -0.0005   0.0026                    12                      -0.0073         False
+40  PE_in_MD       ridge   add_B_to_F8                     0.0019 -0.0006   0.0043                    14                      -0.0111         False
+41  PE_in_MD       ridge   add_C_to_F8                     0.0038 -0.0015   0.0092                    13                      -0.0259         False
+42  PE_in_MD  elasticnet             A                     0.0002 -0.0001   0.0005                    12                      -0.0013         False
+43  PE_in_MD  elasticnet             B                     0.0018 -0.0015   0.0051                    12                      -0.0102         False
+44  PE_in_MD  elasticnet             C                     0.0037  0.0004   0.0070                    14                      -0.0238          True
+45  PE_in_MD  elasticnet   add_A_to_F8                     0.0009 -0.0009   0.0028                    13                      -0.0067         False
+46  PE_in_MD  elasticnet   add_B_to_F8                     0.0011 -0.0008   0.0029                    13                      -0.0069         False
+47  PE_in_MD  elasticnet   add_C_to_F8                     0.0038 -0.0015   0.0091                    13                      -0.0257         False
+48  PE_in_MD         hgb             A                     0.0001 -0.0004   0.0006                     7                      -0.0006         False
+49  PE_in_MD         hgb             B                     0.0002 -0.0006   0.0010                     9                      -0.0012         False
+50  PE_in_MD         hgb             C                     0.0016 -0.0010   0.0042                    12                      -0.0109         False
+51  PE_in_MD         hgb   add_A_to_F8                     0.0000 -0.0004   0.0004                     7                       0.0001         False
+52  PE_in_MD         hgb   add_B_to_F8                     0.0001 -0.0013   0.0015                     9                      -0.0010         False
+53  PE_in_MD         hgb   add_C_to_F8                     0.0018 -0.0015   0.0050                    11                      -0.0120         False
+54  PE_in_MD    catboost             A                     0.0003 -0.0009   0.0016                    12                      -0.0019         False
+55  PE_in_MD    catboost             B                     0.0002 -0.0014   0.0018                     9                      -0.0009         False
+56  PE_in_MD    catboost             C                     0.0019 -0.0004   0.0042                    12                      -0.0120         False
+57  PE_in_MD    catboost   add_A_to_F8                     0.0002 -0.0011   0.0015                     8                      -0.0013         False
+58  PE_in_MD    catboost   add_B_to_F8                     0.0007 -0.0013   0.0028                     8                      -0.0045         False
+59  PE_in_MD    catboost   add_C_to_F8                     0.0021 -0.0001   0.0043                    14                      -0.0138         False
+{
+ "reproducibility_vs_phase4": {
+  "n": 150,
+  "max_abs_rmse_diff": 0.0016231177051986845
+ },
+ "shortlist": [
+  {
+   "target": "PE_in_CD",
+   "rep": "FULL",
+   "model": "elasticnet",
+   "d_rmse": -0.006437273165259502,
+   "d_r2_oos": 0.037187709539401724
+  },
+  {
+   "target": "PE_in_CD",
+   "rep": "FULL",
+   "model": "ols",
+   "d_rmse": -0.006487061373799808,
+   "d_r2_oos": 0.03765119709769228
+  },
+  {
+   "target": "PE_in_CD",
+   "rep": "FULL",
+   "model": "ridge",
+   "d_rmse": -0.0064787457557791365,
+   "d_r2_oos": 0.03750429360978682
+  },
+  {
+   "target": "PE_in_MD",
+   "rep": "FULL",
+   "model": "elasticnet",
+   "d_rmse": -0.005997481756579344,
+   "d_r2_oos": 0.03850331931274916
+  },
+  {
+   "target": "PE_in_MD",
+   "rep": "FULL",
+   "model": "ols",
+   "d_rmse": -0.0052814802597848,
+   "d_r2_oos": 0.034030097756977275
+  },
+  {
+   "target": "PE_in_MD",
+   "rep": "FULL",
+   "model": "ridge",
+   "d_rmse": -0.0059174988729155074,
+   "d_r2_oos": 0.03783110163831438
+  },
+  {
+   "target": "PE_in_MD",
+   "rep": "FULL-A",
+   "model": "elasticnet",
+   "d_rmse": -0.005807949722908741,
+   "d_r2_oos": 0.03720393677547972
+  },
+  {
+   "target": "PE_in_MD",
+   "rep": "FULL-A",
+   "model": "ols",
+   "d_rmse": -0.005878532285632101,
+   "d_r2_oos": 0.03735517038645312
+  },
+  {
+   "target": "PE_in_MD",
+   "rep": "FULL-A",
+   "model": "ridge",
+   "d_rmse": -0.00584133302009493,
+   "d_r2_oos": 0.037108669648599074
+  }
+ ],
+ "controls": [
+  {
+   "stage": "ctrl_permuted_target",
+   "target": "PERM:PE_in_CD",
+   "model": "hgb",
+   "r2_oos": -0.0001
+  },
+  {
+   "stage": "ctrl_permuted_target",
+   "target": "PERM:PE_in_CD",
+   "model": "ridge",
+   "r2_oos": -0.0012
+  },
+  {
+   "stage": "ctrl_permuted_target",
+   "target": "PERM:PE_in_MD",
+   "model": "hgb",
+   "r2_oos": -0.0017
+  },
+  {
+   "stage": "ctrl_permuted_target",
+   "target": "PERM:PE_in_MD",
+   "model": "ridge",
+   "r2_oos": -0.0005
+  },
+  {
+   "stage": "ctrl_shuffled_B",
+   "target": "PE_in_CD",
+   "model": "hgb",
+   "r2_oos": 0.0848
+  },
+  {
+   "stage": "ctrl_shuffled_B",
+   "target": "PE_in_CD",
+   "model": "ridge",
+   "r2_oos": 0.0656
+  },
+  {
+   "stage": "ctrl_shuffled_B",
+   "target": "PE_in_MD",
+   "model": "hgb",
+   "r2_oos": 0.0813
+  },
+  {
+   "stage": "ctrl_shuffled_B",
+   "target": "PE_in_MD",
+   "model": "ridge",
+   "r2_oos": 0.0712
+  }
+ ]
+}

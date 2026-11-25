@@ -1,0 +1,6 @@
+Target-free diagnostics inspected before locking (2026-11-22); no PE quantity used.
+SE vs own-reference abundance (Spearman): MASH -0.70, FAST +0.46, PPARA -0.93, CIRC +0.39
+|Wald z| median/99%/max: MASH 2.4/9.7/30.4; FAST 4.1/19.6/40.4; PPARA 1.5/8.8/29.0; CIRC 1.3/5.4/10.4
+Reliability tau2/var(eff): MASH 0.92, FAST 0.98, PPARA 0.34, CIRC 0.77
+Block B coverage: 1029/11758 genes in >=1 of 12 sets; mean 1.24 sets per member gene; Hallmark sets span 18-20/20 modules (max share 0.11-0.32); custom sets 5-9 modules
+Products max |rho| with F8: FASTxPPARA 0.06, MASHxFAST 0.18, PPARA dose-consistency indicator 0.11; raw FAST_clean 0.92 (hence difference feature)

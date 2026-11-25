@@ -1,0 +1,26 @@
+title: Dissecting the autonomy of the liver circadian clock
+geo_accession: GSE117134
+status: Public on Jun 11 2019
+submission_date: Jul 16 2018
+last_update_date: Jun 03 2021
+pubmed_id: 31150621 | 34036284
+summary: The mammalian circadian clock system is made up of individual cell and tissue clocks that function as a coherent network, however it remains unclear which rhythmic functions of the liver clock are autonomous or rely on clocks in other tissues. Here, using mice which only have a functioning liver clock, we investigate the autonomous vs non-autonomous reatures of the liver clock and diurnal rhythmicity in the liver
+overall_design: 8-12 week-old, female WT, KO and Liver-RE BMAL1-stop-FL mice (see referenced paper for details) were fed ad libitum normal chow under 12hr light/ 12hr dark schedule. Livers were harvested every 4 hours over the circadian cycle at ZT0, 4, 8, 12, 16, 20 (n=3 per time point per group). Total RNA was extracted and used for RNA-seq.
+type: Expression profiling by high throughput sequencing
+contributor: Kevin,,Koronowski | Kenichiro,,Kinouchi | Patrick,,Welz | Valentina,,Zinna | Muntaha,,Samad | Siwei,,Chen | Pierre,,Baldi | Salvador,,Benitah | Paolo,,Sassone-Corsi
+sample_id: GSM3271898 | GSM3271899 | GSM3271900 | GSM3271901 | GSM3271902 | GSM3271903 | GSM3271904 | GSM3271905 | GSM3271906 | GSM3271907 | GSM3271908 | GSM3271909 | GSM3271910 | GSM3271911 | GSM3271912 | GSM3271913 | GSM3271914 | GSM3271915 | GSM3271916 | GSM3271917 | GSM3271918 | GSM3271919 | GSM3271920 | GSM3271921 | GSM3271922 | GSM3271923 | GSM3271924 | GSM3271925 | GSM3271926 | GSM3271927 | GSM3271928 | GSM3271929 | GSM3271930 | GSM3271931 | GSM3271932 | GSM3271933 | GSM3271934 | GSM3271935 | GSM3271936 | GSM3271937 | GSM3271938 | GSM3271939 | GSM3271940 | GSM3271941 | GSM3271942 | GSM3271943 | GSM3271944 | GSM3271945 | GSM3271946 | GSM3271947 | GSM3271948 | GSM3271949 | GSM3271950 | GSM3271951
+contact_name: Siwei,,Chen
+contact_email: siweic@uci.edu
+contact_laboratory: Pierre Baldi
+contact_department: Computer Science
+contact_institute: University of California, Irvine
+contact_address: 66304 Verano Road South
+contact_city: irvine
+contact_state: CA
+contact_zip/postal_code: 92617
+contact_country: USA
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE117nnn/GSE117134/suppl/GSE117134_casava_gene_expression.tsv.gz
+platform_id: GPL17021
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA481257 | SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP153814

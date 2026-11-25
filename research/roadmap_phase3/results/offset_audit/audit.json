@@ -1,0 +1,57 @@
+{
+  "i_same_samples_order": true,
+  "i_same_gene_ids_order": true,
+  "i_zero_pattern_mismatch_cells": 144,
+  "i_zero_mismatch_count_pos_fpkm0": 144,
+  "i_zero_mismatch_count0_fpkm_pos": 0,
+  "universe_genes": 11888,
+  "universe_genes_found_in_GSE316023": 11872,
+  "ii_implied_length_quantiles_bp": {
+    "0.01": 599.2336080107436,
+    "0.25": 1740.6437719432188,
+    "0.5": 2640.398131223372,
+    "0.75": 3896.5455394247874,
+    "0.99": 9892.795108558694
+  },
+  "ii_spearman_implied_vs_gencode_median_tx_length": 0.49748840097318275,
+  "ii_n_genes_compared": 11870,
+  "ii_median_ratio_implied_to_gencode": 1.5177765364981397,
+  "iii_genes_all_counts_ge10": 11170,
+  "iii_sample_scale_factors_exp_range": [
+    1.0000009935303773,
+    1.0005680718312542
+  ],
+  "iii_var_share_column_constant": 2.108469037352737e-06,
+  "iii_residual_sd_log": 0.09355935404835318,
+  "iii_genes_abs_log2_group_length_ratio_gt_0.263": 304,
+  "iii_genes_abs_log2_group_length_ratio_gt_0.1": 1642,
+  "iv_cells_rel_len_err_gt_1pct": 53,
+  "iv_genes_any_cell_err_gt_1pct": 28,
+  "iv_genes_any_cell_err_gt_1pct_and_detected": 25,
+  "iv_cells_count_pos_fpkm_zero": 0,
+  "iv_genes_no_length_any_sample": 195,
+  "v_normMatrix_finite": true,
+  "v_normMatrix_positive": true,
+  "v_normMatrix_row_geomean_max_abs_log": 2.768618667658984e-15,
+  "v_normMatrix_range": [
+    0.0956735960032299,
+    4.284613078068316
+  ],
+  "v_normMatrix_q01_q99": [
+    0.6644140610731842,
+    1.3432435589678537
+  ],
+  "vi_noninteger_fraction": 0.06233092529972333,
+  "vi_max_rel_library_change": 1.2109006205692195e-05,
+  "documentation": "GEO data_processing: 'FPKM was generated for following process'; mm10; quantification software, length definition and FPKM denominator NOT STATED. Paper (PMC13392390) methods: no RNA-seq quantification details.",
+  "checks_pass": {
+    "i": true,
+    "ii": false,
+    "iii": true,
+    "iv": true,
+    "v": true,
+    "vi": true
+  },
+  "provenance_documented": false,
+  "decision": "no_offset_primary__offset_not_used_as_primary_checks_failed"
+}

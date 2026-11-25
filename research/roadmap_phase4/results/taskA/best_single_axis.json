@@ -1,0 +1,11 @@
+{
+  "primary__PE_in_CD": {
+    "best_single_axis": "ols_MASH"
+  },
+  "primary__PE_in_MD": {
+    "best_single_axis": "ols_FAST"
+  },
+  "positive__Diet_in_Veh": {
+    "best_single_axis": "ols_MASH"
+  }
+}

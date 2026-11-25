@@ -1,0 +1,14 @@
+{
+  "study": "HONG",
+  "n": 15,
+  "groups": {
+    "CON": 3,
+    "PB": 3,
+    "PE": 3,
+    "PP": 3,
+    "PS": 3
+  },
+  "genes_after_prefilter": 19491,
+  "noninteger_cells_rounded": 0,
+  "resultsNames": ["Intercept", "group_PB_vs_CON", "group_PE_vs_CON", "group_PP_vs_CON", "group_PS_vs_CON"]
+}

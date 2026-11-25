@@ -1,0 +1,10 @@
+{
+  "locked_at": "2026-11-22T13:54:43",
+  "note": "locked before any Phase 4 fit",
+  "sha256": {
+    "research_question_and_prediction_targets.md": "274e8b4b3ac351fa0e3e38b79fc56034eff233cdb38513a1396731ab2d736461",
+    "evaluation_protocol.md": "8397d0f731c1f351c6728ec0970befe19370403420d59ab2c9874ef6e45801be",
+    "model_search_spaces.csv": "1c9d23bf6e331a166e2b88d6530eb10d0b71799eb734979bfd397b60e61528ec",
+    "literature_model_justification.md": "f22ac59c34601467f4830d25b8b6daa4d89c99e234891c4b0fab38821e65aa6e"
+  }
+}

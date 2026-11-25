@@ -1,0 +1,9 @@
+{
+  "study": "GSE277772",
+  "n": 6,
+  "groups": {
+    "CON": 3,
+    "PS": 3
+  },
+  "genes_after_prefilter": 10247
+}

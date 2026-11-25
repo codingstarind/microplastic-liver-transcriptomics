@@ -1,0 +1,17 @@
+check,passed,detail,source
+count unit comparable (counts per read pair within 0.6-1.0 in all studies),False,"{'GSE245069': 0.734, 'GSE277772': 0.017, 'GSE294180': 0.775, 'HONG': 1.641}",research/roadmap_phase5b/tables/equivalence_checks.csv
+"HONG: >=98% of the 11,758 feature-table genes present",True,0.9999,research/roadmap_phase5b/tables/equivalence_checks.csv
+"GSE245069: >=98% of the 11,758 feature-table genes present",True,0.9974,research/roadmap_phase5b/tables/equivalence_checks.csv
+frozen prediction gene order == raw_table gene order,True,11758,research/roadmap_phase5b/tables/equivalence_checks.csv
+F8_ols__PE_in_CD: serialized model re-predicts identically from RAW_COLS in locked order,True,max diff 0,research/roadmap_phase5b/tables/equivalence_checks.csv
+F8_ols__PE_in_CD: feature columns,True,"['MASH_eff', 'MASH_se', 'FAST_eff', 'FAST_se', 'PPARA_eff', 'PPARA_se', 'CIRC_eff', 'CIRC_se']",research/roadmap_phase5b/tables/equivalence_checks.csv
+F8C_ridge__PE_in_CD: serialized model re-predicts identically from RAW_COLS in locked order,True,max diff 0,research/roadmap_phase5b/tables/equivalence_checks.csv
+F8C_ridge__PE_in_CD: feature columns,True,"['MASH_eff', 'MASH_se', 'FAST_eff', 'FAST_se', 'PPARA_eff', 'PPARA_se', 'CIRC_eff', 'CIRC_se', 'C_FASTxPPARA', 'C_MASHxFAST', 'C_FAST_morning_dev', 'C_PPARA_consistent']",research/roadmap_phase5b/tables/equivalence_checks.csv
+column-order sensitivity guard,True,reversed order differs,research/roadmap_phase5b/tables/equivalence_checks.csv
+GSE294180 PE_in_CD target = PE minus vehicle (Spearman vs log ratio of group-mean CPM),True,1.0,research/roadmap_phase5b/tables/equivalence_checks.csv
+HONG PE_vs_CON target = exposed minus control (Spearman vs log ratio of group-mean CPM),True,0.999,research/roadmap_phase5b/tables/equivalence_checks.csv
+GSE245069 PSpooled_vs_CON target = exposed minus control (Spearman vs log ratio of group-mean CPM),True,0.995,research/roadmap_phase5b/tables/equivalence_checks.csv
+Phase 5 freeze step never reads external data,True,s02,research/roadmap_phase5b/tables/equivalence_checks.csv
+Phase 5 evaluation scripts contain no estimator .fit(),True,"s04,s05",research/roadmap_phase5b/tables/equivalence_checks.csv
+Phase 4E models reproduce Phase 4E scores,True,"{'R0': {'max_abs_diff_vs_phase4e': 2.220446049250313e-16, 'pure_function_max_abs_diff_vs_phase4e': 2.220446049250313e-16}, 'R2': {'max_abs_diff_vs_phase4e': 4.440892098500626e-16, 'pure_function_max_abs_diff_vs_phase4e': 4.440892098500626e-16}}",research/roadmap_phase5b/tables/equivalence_checks.csv
+4D signature files unchanged,True,sha256,research/roadmap_phase5b/tables/equivalence_checks.csv

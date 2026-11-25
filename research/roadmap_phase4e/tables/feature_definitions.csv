@@ -1,0 +1,15 @@
+feature,source,n_genes_in_universe,data_dependent
+R1_LIPOGENESIS_CORE,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),12,False
+R1_CHOL_SYNTHESIS_CORE,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),21,False
+R1_SANDERSON_PPARA_TARGETS,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),14,False
+R1_HALLMARK_FATTY_ACID_METABOLISM,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),134,False
+R1_HALLMARK_CHOLESTEROL_HOMEOSTASIS,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),69,False
+R1_HALLMARK_INFLAMMATORY_RESPONSE,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),135,False
+R1_HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),143,False
+R1_HALLMARK_XENOBIOTIC_METABOLISM,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),184,False
+R1_HALLMARK_BILE_ACID_METABOLISM,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),104,False
+R1_HALLMARK_PEROXISOME,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),90,False
+R1_HALLMARK_OXIDATIVE_PHOSPHORYLATION,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),186,False
+R1_HALLMARK_MTORC1_SIGNALING,Phase 3 gene_sets.csv (MSigDB 2026.1.Mm / custom core),185,False
+R0_signed_program_score,"Welch t within TRAINING mice of each split (top 50 up/down, |diff|>=1)",100,True
+PCA_PC1-3,"PCA on per-sample z-scored log2CPM, fitted on training mice only",11883,True

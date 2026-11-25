@@ -1,0 +1,5 @@
+,MASH_eff,FAST_eff,PPARA_eff,CIRC_eff
+MASH_eff,1.0,0.057,-0.013,-0.117
+FAST_eff,0.057,1.0,0.038,-0.067
+PPARA_eff,-0.013,0.038,1.0,-0.118
+CIRC_eff,-0.117,-0.067,-0.118,1.0

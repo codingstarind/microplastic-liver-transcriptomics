@@ -1,0 +1,13 @@
+{
+  "study": "GSE245069",
+  "n": 16,
+  "groups": {
+    "CON": 4,
+    "PS05um": 4,
+    "PS5um": 4,
+    "PS80nm": 4
+  },
+  "genes_after_prefilter": 12219,
+  "noninteger_cells_rounded": 22830,
+  "resultsNames": ["Intercept", "group_PS05um_vs_CON", "group_PS5um_vs_CON", "group_PS80nm_vs_CON"]
+}

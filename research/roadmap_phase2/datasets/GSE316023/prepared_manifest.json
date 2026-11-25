@@ -1,0 +1,50 @@
+{
+  "dataset": "GSE316023",
+  "value_type": "estimated_counts",
+  "note": "Deposited non-integer estimated counts (6% of cells non-integer; FPKM file implies a gene length that is ~constant across samples, median CV 1%). Ready matrix: tab-suffix IDs recovered, duplicate symbols resolved by highest mean, values rounded to integers for count models.",
+  "original_shape": [
+    48795,
+    77
+  ],
+  "ready_shape": [
+    43363,
+    77
+  ],
+  "ready_index": "GENCODE vM35 gene symbol (GSE294180 annotation)",
+  "files": {
+    "expression_original.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE316023\\prepared\\expression_original.csv.gz",
+      "md5": "6d11075633cf28c3febcf1dba5482bbf",
+      "sha256": "58f9ff744a96a9b76f098dcf13f37e827304fa0d0ce1f5cc6aa1c12a40491170"
+    },
+    "expression_ready.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE316023\\prepared\\expression_ready.csv.gz",
+      "md5": "56da3391f142918f06ab17c2bc0e9d59",
+      "sha256": "da53e3aee410062f6da1de1a6b23ddba8e0ca76e5b0b055cb15ccabc2483e9d3"
+    }
+  },
+  "mapping_summary": {
+    "dataset": "GSE316023",
+    "total_rows": 48795,
+    "malformed": 665,
+    "tab_suffix_ids": 13094,
+    "duplicated_original_ids": 254,
+    "invalid_id": 0,
+    "valid_ids": 48130,
+    "mapped_to_vM35": 43521,
+    "unmapped": 4609,
+    "unique_vM35_genes": 43363,
+    "rows_lost_to_collapse": 158,
+    "shared_with_GSE294180_all": 43363,
+    "shared_with_GSE294180_filtered": 13242,
+    "detected_in_contrast_samples": 14000,
+    "detected_and_in_GSE294180_filtered": 12893,
+    "status_symbol_exact": 31291,
+    "status_tab_suffix_recovered": 9233,
+    "status_tab_suffix_unmapped": 3853,
+    "status_symbol_mgi_synonym": 2997,
+    "status_symbol_not_in_vM35": 748,
+    "status_malformed": 665,
+    "status_tab_suffix_conflict_with_clean_row": 8
+  }
+}

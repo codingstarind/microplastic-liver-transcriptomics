@@ -1,0 +1,80 @@
+{
+  "versions": {
+    "R": "R version 4.4.3 (2025-02-28)",
+    "DESeq2": "1.46.0",
+    "limma": "3.62.1",
+    "edgeR": "4.4.0",
+    "ashr": "2.2.63"
+  },
+  "seed": 20261122,
+  "GSE316023_primary": {
+    "label": "MASH1_GSE316023_GANvsChow_TA",
+    "coefficient": "diet_GAN_vs_chow",
+    "n_case": 8,
+    "n_control": 8,
+    "samples_case": ["SD_wk23_A_R1", "SD_wk23_A_R2", "SD_wk23_A_R3", "SD_wk23_A_R4", "SD_wk23_A_R5", "SD_wk23_A_R6", "SD_wk23_A_R7", "SD_wk23_A_R8"],
+    "samples_control": ["NC_wk23_A_R1", "NC_wk23_A_R2", "NC_wk23_A_R3", "NC_wk23_A_R4", "NC_wk23_A_R5", "NC_wk23_A_R6", "NC_wk23_A_R7", "NC_wk23_A_R8"],
+    "n_genes": 11888,
+    "n_padj05": 6260,
+    "n_deg": 4777,
+    "n_outlier_replaced": 1,
+    "n_na_p": 2,
+    "offset": false,
+    "design": "~ diet",
+    "reference_level": "chow"
+  },
+  "GSE316023_offset": {
+    "label": "MASH1_GSE316023_GANvsChow_TA_lengthOffset",
+    "coefficient": "diet_GAN_vs_chow",
+    "n_case": 8,
+    "n_control": 8,
+    "samples_case": ["SD_wk23_A_R1", "SD_wk23_A_R2", "SD_wk23_A_R3", "SD_wk23_A_R4", "SD_wk23_A_R5", "SD_wk23_A_R6", "SD_wk23_A_R7", "SD_wk23_A_R8"],
+    "samples_control": ["NC_wk23_A_R1", "NC_wk23_A_R2", "NC_wk23_A_R3", "NC_wk23_A_R4", "NC_wk23_A_R5", "NC_wk23_A_R6", "NC_wk23_A_R7", "NC_wk23_A_R8"],
+    "n_genes": 11888,
+    "n_padj05": 5763,
+    "n_deg": 4486,
+    "n_outlier_replaced": 2,
+    "n_na_p": 2,
+    "offset": true,
+    "design": "~ diet",
+    "reference_level": "chow"
+  },
+  "GSE316023_TN": {
+    "label": "MASH1sens_GSE316023_GANvsChow_TN",
+    "coefficient": "diet_GAN_vs_chow",
+    "n_case": 8,
+    "n_control": 8,
+    "samples_case": ["SD_wk23_B_R1", "SD_wk23_B_R2", "SD_wk23_B_R3", "SD_wk23_B_R4", "SD_wk23_B_R5", "SD_wk23_B_R6", "SD_wk23_B_R7", "SD_wk23_B_R8"],
+    "samples_control": ["NC_wk23_B_R1", "NC_wk23_B_R2", "NC_wk23_B_R3", "NC_wk23_B_R4", "NC_wk23_B_R5", "NC_wk23_B_R6", "NC_wk23_B_R7", "NC_wk23_B_R8"],
+    "n_genes": 11888,
+    "n_padj05": 7155,
+    "n_deg": 6209,
+    "n_outlier_replaced": 63,
+    "n_na_p": 1,
+    "offset": false,
+    "design": "~ diet",
+    "reference_level": "chow"
+  },
+  "n_genes_no_length_offset_fallback": 18,
+  "GSE246328_primary": {
+    "label": "MASH2_GSE246328_GANvsChow_24w",
+    "coefficient": "diet_GAN_vs_chow",
+    "n_case": 7,
+    "n_control": 8,
+    "samples_case": ["16181", "16201", "16211", "16221", "16231", "16241", "16251"],
+    "samples_control": ["16174", "16184", "16194", "16204", "16214", "16224", "16234", "16244"],
+    "n_genes": 11883,
+    "n_padj05": 5252,
+    "n_deg": 4297,
+    "n_outlier_replaced": 139,
+    "n_na_p": 12,
+    "offset": false,
+    "design": "~ diet",
+    "reference_level": "chow"
+  },
+  "GSE294180_pathways": {
+    "source": "results/deseq2/provisional_deposited/vst_matrix.csv.gz",
+    "design": "~ diet * microplastic",
+    "genes": 11888
+  }
+}

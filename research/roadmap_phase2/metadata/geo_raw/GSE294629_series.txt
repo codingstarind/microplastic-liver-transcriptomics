@@ -1,0 +1,27 @@
+title: DIO-MASH mice analysed for hepatic gene expression after treatment with semaglutide
+geo_accession: GSE294629
+status: Public on Apr 25 2025
+submission_date: Apr 15 2025
+last_update_date: Aug 11 2025
+pubmed_id: 40691365
+web_link: https://www.nature.com/articles/s41591-025-03799-0
+summary: Modulation of metabolic, inflammatory, and fibrotic pathways by semaglutide in metabolic dysfunction-associated steatohepatitis | Metabolic dysfunction-associated steatohepatitis (MASH) is a chronic liver disease strongly associated with cardiometabolic risk factors. Semaglutide, a glucagon-like peptide-1 receptor agonist, improves liver histology in MASH, but the underlying signals and pathways driving semaglutide-induced MASH resolution are not well understood. We show that, in two preclinical MASH models, semaglutide improved histological markers of fibrosis and inflammation, and reduced hepatic expression of fibrosis- and inflammation-related gene pathways.
+overall_design: DIO-MASH mice were analysed for hepatic gene expression after treatment with semaglutide. C57BL/6JRj mice (5–6 weeks old) were obtained from Janvier Labs (Le Genest Saint Isle, France) and housed in a controlled environment (12-h light/dark cycle, 21 ± 2.0°C, humidity 50 ± 10%). Mice had ad libitum access to tap water and Gubra Amylin NASH diet (4.49 kcal/g, 40 kcal-% fat; of these, 46% saturated fatty acids by weight, 22% fructose, 10% sucrose, 2% cholesterol; D09100310, Research Diets) for 34 weeks for the efficacy trial. A group was maintained on regular mouse chow (2.85 kcal/g, Altromin 1324, Brogaarden, Hoersholm, Denmark) for comparison. A liver biopsy was taken from the mice 4 weeks before treatment start. After the procedure, animals were single-housed and allowed to recover for 4 weeks prior to treatment start. Only mice with steatosis score 3 or mice with fibrosis score >1 and steatosis score >2 were included. Included animals were then randomized into treatment groups based on mean baseline PSR area% one week before dose start. Mice were administered vehicle or semaglutide 123 µg/kg for 8, 16, or 24 weeks. Vehicle-dosed chow-fed mice and mice switched to chow and dosed with vehicle served as additional controls. Dosing was performed subcutaneously once daily in a volume of 5 ml/kg. To reduce initial gastric discomfort, the dose was increased through daily increments until reaching the target dose on treatment day 5.
+type: Expression profiling by high throughput sequencing
+contributor: Jenny,,Norlin | Kasper,,Almholt | Nikos,,Sidiropoulos
+sample_id: GSM8912743 | GSM8912744 | GSM8912745 | GSM8912746 | GSM8912747 | GSM8912748 | GSM8912749 | GSM8912750 | GSM8912751 | GSM8912752 | GSM8912753 | GSM8912754 | GSM8912755 | GSM8912756 | GSM8912757 | GSM8912758 | GSM8912759 | GSM8912760 | GSM8912761 | GSM8912762 | GSM8912763 | GSM8912764 | GSM8912765 | GSM8912766 | GSM8912767 | GSM8912768 | GSM8912769 | GSM8912770 | GSM8912771 | GSM8912772 | GSM8912773 | GSM8912774 | GSM8912775 | GSM8912776 | GSM8912777 | GSM8912778 | GSM8912779 | GSM8912780 | GSM8912781 | GSM8912782 | GSM8912783 | GSM8912784 | GSM8912785 | GSM8912786 | GSM8912787 | GSM8912788 | GSM8912789 | GSM8912790 | GSM8912791 | GSM8912792 | GSM8912793 | GSM8912794 | GSM8912795 | GSM8912796 | GSM8912797 | GSM8912798 | GSM8912799 | GSM8912801 | GSM8912802 | GSM8912803 | GSM8912804 | GSM8912805 | GSM8912806 | GSM8912807 | GSM8912808 | GSM8912809 | GSM8912810 | GSM8912811 | GSM8912812 | GSM8912813 | GSM8912814 | GSM8912815 | GSM8912816 | GSM8912817 | GSM8912818 | GSM8912819 | GSM8912820
+contact_name: Jenny,,Norlin
+contact_email: jynr@novonordisk.com
+contact_phone: 30799827
+contact_department: Translational Leads Department
+contact_institute: Novo Nordisk
+contact_address: Novo Nordisk Park 1
+contact_city: Maaloev
+contact_state: Denmark
+contact_zip/postal_code: 2760
+contact_country: Denmark
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294629/suppl/GSE294629_processed_file.tsv.gz
+platform_id: GPL21626
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1250965

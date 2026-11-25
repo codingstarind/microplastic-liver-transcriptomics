@@ -1,0 +1,8 @@
+candidate,modal_params,counts
+B0_F8_OLS,{},"{""{}"": 15}"
+B1_F8C_Ridge,{},"{""{}"": 15}"
+B2_F8_HGB,"{""model__learning_rate"": 0.03, ""model__min_samples_leaf"": 50}","{""{\""model__learning_rate\"": 0.03, \""model__min_samples_leaf\"": 50}"": 14, ""{\""model__learning_rate\"": 0.03, \""model__min_samples_leaf\"": 200}"": 1}"
+I2a_robustCD_Ridge,"{""model__alpha"": 1000}","{""{\""model__alpha\"": 1000}"": 12, ""{\""model__alpha\"": 0.1}"": 3}"
+I2b_MLEavg_Ridge,"{""model__alpha"": 1000}","{""{\""model__alpha\"": 1000}"": 15}"
+I2c_robustavg_Ridge,"{""model__alpha"": 1000}","{""{\""model__alpha\"": 1000}"": 15}"
+I3_Huber_normalscore,"{""model__alpha"": 0.0001, ""model__epsilon"": 1.35}","{""{\""model__alpha\"": 0.0001, \""model__epsilon\"": 1.35}"": 6, ""{\""model__alpha\"": 0.0001, \""model__epsilon\"": 1.1}"": 4, ""{\""model__alpha\"": 0.01, \""model__epsilon\"": 1.1}"": 3, ""{\""model__alpha\"": 0.01, \""model__epsilon\"": 1.35}"": 2}"
