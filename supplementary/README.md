@@ -15,7 +15,7 @@ Everything here was copied from, or generated from, the analysis outputs in this
 | [`chat_histories/`](chat_histories/) | Conversation link and readable transcripts (prompts and replies) of the seven Claude Code project sessions |
 | [`prompts/`](prompts/) | Every prompt the team typed to Claude Code, by session |
 | [`figures/`](figures/) | 16 supplementary figures (S01–S16), each mapped to its report section and original file |
-| [`tables/`](tables/) | 17 complete result tables (T01–T17) and the report-number crosswalk (T00) |
+| [`tables/`](tables/) | 16 complete result tables (T01–T15, T17) and the report-number crosswalk (T00) |
 | [`references/`](references/) | The report's 18 references, dataset accessions and their roles, gene-set and annotation versions |
 | [`reproducibility/`](reproducibility/) | Environment records (installed package versions), run order for the whole pipeline, and a check of the report's numbers against the saved outputs |
 

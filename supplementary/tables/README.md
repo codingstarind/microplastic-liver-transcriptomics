@@ -20,5 +20,4 @@ These are copies of complete result tables produced by the analysis code; the or
 | T13 | [T13_interaction_followup.csv](T13_interaction_followup.csv) | Interaction follow-up: top pairs vs null, full vs additive, pair-only vs additive | §4.2 | `research/interaction_followup/TABLE_results_concise.csv` |
 | T14 | [T14_hong_PE_gene_level_transfer.csv](T14_hong_PE_gene_level_transfer.csv) | Gene-level transfer of frozen models to Hong-PE (Spearman, permutation p, verdict) | §4.2 | `research/roadmap_phase5/gene_level_external_results.csv` |
 | T15 | [T15_hong_PE_sample_level.csv](T15_hong_PE_sample_level.csv) | Sample-level results in the external studies | §3.5 | `research/roadmap_phase5/sample_level_external_results.csv` |
-| T16 | [T16_published_gene_replication.csv](T16_published_gene_replication.csv) | Published microplastic liver genes checked in GSE294180 (not in report) | n/a | `research/cross_study_replication/gene_replication_results.csv` |
 | T17 | [T17_pathway_robustness_checks.csv](T17_pathway_robustness_checks.csv) | Pathway fry results under each robustness variant | §5.3 | `results/robustness/provisional_deposited/pathway_robustness.csv` |

@@ -1,3 +1,0 @@
-target,n_genes,var_log2fc,mean_deseq_se2,mean_jackknife_se2,median_jk_over_deseq_se,reliability_deseq,reliability_jackknife,n_contrast_mice,note,source
-PE_in_CD,11758,0.1089054770711222,0.0701850761041387,0.1033016384745969,0.9974470972327474,0.3555413557547395,0.0514559850177744,9,jackknife over all 19 overlapping refits; only contrast mice change the estimate materially; approximate,research/roadmap_phase4c_diagnostics/tables/target_quality.csv
-PE_in_MD,11758,0.0984178576936079,0.0599033314718222,0.087059579310485,0.9852427620064336,0.3913367667653179,0.1154087139194111,10,jackknife over all 19 overlapping refits; only contrast mice change the estimate materially; approximate,research/roadmap_phase4c_diagnostics/tables/target_quality.csv

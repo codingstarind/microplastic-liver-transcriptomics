@@ -53,10 +53,7 @@ Run every command from the repository root. Each folder's `README.md` gives the 
 | 19 | `research/section3_1_figures/` | Report Figures 1 and 2 | Fig. 1–2 |
 | 20 | `supplementary/reproducibility/verify_report_numbers.py` | Checks the report's numbers against steps 1–19 | all |
 
-Not part of the report:
-- `research/roadmap_phase5c/` (paused, nothing scored).
-- `research/cross_study_replication/` (published-gene replication).
-- `research/paper_evidence_audit/` (evidence index used while writing).
+Side folders the report does not use (research strategy, published-gene replication, writing evidence index, paused Phase 5C) are kept locally only and are not in the repository.
 
 **Checking the report's numbers.** This script reads the saved outputs and checks the values printed in the final report. It does not re-run any model. On 2026-11-25 all 75 values matched; the results are in [`../tables/report_number_crosswalk.csv`](../tables/report_number_crosswalk.csv).
 

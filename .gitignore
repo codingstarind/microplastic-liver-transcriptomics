@@ -75,3 +75,11 @@ results/deseq2/*__pilot_length_offset/results_*.csv.gz
 research/*.zip
 research/*.7z
 research/*.rar
+
+# --- Kept locally only (not needed to follow the final report) ---
+milestone_progress.md
+research.rar
+research/roadmap_phase1/
+research/roadmap_phase5c/
+research/cross_study_replication/
+research/paper_evidence_audit/

@@ -60,10 +60,6 @@ Full citations are in [`supplementary/references/`](supplementary/references/).
 
 **Supporting work not reported as results:**
 - [`research/literature/`](research/literature/): literature review.
-- [`research/roadmap_phase1/`](research/roadmap_phase1/): research strategy.
-- [`research/cross_study_replication/`](research/cross_study_replication/): published-gene replication.
-- [`research/paper_evidence_audit/`](research/paper_evidence_audit/): evidence index used while writing.
-- [`research/roadmap_phase5c/`](research/roadmap_phase5c/): paused external study (PRJNA916285); nothing was scored and it is excluded from the report.
 
 Each folder has its own README with commands, inputs and outputs. [`research/README.md`](research/README.md) lists them in order.
 
