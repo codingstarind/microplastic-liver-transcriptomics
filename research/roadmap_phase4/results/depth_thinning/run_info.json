@@ -1,0 +1,14 @@
+{
+  "CD": {
+    "thinning_p": 0.7182,
+    "n_vehicle": 4,
+    "n_padj05": 0,
+    "sd_log2FC": 0.0908
+  },
+  "MD": {
+    "thinning_p": 0.7853,
+    "n_vehicle": 5,
+    "n_padj05": 0,
+    "sd_log2FC": 0.049
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "input": "deposited",
+  "provisional": true,
+  "design": "~diet + microplastic + diet:microplastic",
+  "dropped_samples": "CD_MP_4",
+  "covariate": [],
+  "n_samples": 18,
+  "n_genes_after_prefilter": 13758,
+  "coefficient_names": ["Intercept", "diet_MD_vs_CD", "microplastic_PE_vs_Veh", "dietMD.microplasticPE"],
+  "reference_levels": {
+    "diet": "CD",
+    "microplastic": "Veh"
+  },
+  "cooks_cutoff_F99": 5.0354,
+  "min_replicates_for_replace": 7,
+  "versions": {
+    "R": "R version 4.4.3 (2025-02-28)",
+    "DESeq2": "1.46.0",
+    "ashr": "2.2.63"
+  },
+  "test_families": "one BH-FDR family per contrast (results() call); independent filtering on"
+}

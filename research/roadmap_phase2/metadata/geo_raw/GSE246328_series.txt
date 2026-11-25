@@ -1,0 +1,23 @@
+title: Dietary intervention reverses molecular signatures of hepatocellular senescence in the GAN diet-induced obese and biopsy-confirmed mouse model of NASH
+geo_accession: GSE246328
+status: Public on Jan 16 2024
+submission_date: Oct 26 2023
+last_update_date: Feb 14 2024
+pubmed_id: 38308212
+summary: We applied RNA sequencing (RNA-seq) to study the effects of dietary intervention on hallmarks of NASH and molecular signatures of hepatocellular senescence in the Gubra-Amylin NASH (GAN) diet-induced obese (DIO) mouse model of NASH. GAN DIO-NASH mice with liver biopsy-confirmed NASH and fibrosis received dietary intervention by switching to chow feeding (chow reversal) for 8, 16, or 24 weeks. Untreated GAN DIO-NASH mice and chow-fed C57BL/6J mice served as controls. | We find that chow reversal promoted substantial benefits on metabolic, biochemical and histological outcomes accompanied by marked suppression of gene expression markers of hepatocellular senescence in GAN DIO-NASH mice. These therapeutic benefits were reflected by progressive clearance of senescent hepatocellular cells, making the model suitable for profiling potential senotherapeutics in preclinical drug discovery for NASH.
+overall_design: RNA-seq of poly A-enriched RNA isolated from GAN DIO-NASH mice or chow-reversal sampled at 8 weeks (n = 7), 16 weeks (n = 8), and 24 weeks (n = 8). Untreated GAN DIO-NASH mice at 8 weeks (n = 9), 16 weeks (n = 8), and 24 weeks (n = 7), and chow-fed C57BL/6J mice served as controls (24 weeks, n = 8)
+type: Expression profiling by high throughput sequencing
+contributor: Martin,R,Madsen | Emma,A,Rørbeck
+sample_id: GSM7866830 | GSM7866831 | GSM7866832 | GSM7866833 | GSM7866834 | GSM7866835 | GSM7866836 | GSM7866837 | GSM7866838 | GSM7866839 | GSM7866840 | GSM7866841 | GSM7866842 | GSM7866843 | GSM7866844 | GSM7866845 | GSM7866846 | GSM7866847 | GSM7866848 | GSM7866849 | GSM7866850 | GSM7866851 | GSM7866852 | GSM7866853 | GSM7866854 | GSM7866855 | GSM7866856 | GSM7866857 | GSM7866858 | GSM7866859 | GSM7866860 | GSM7866861 | GSM7866862 | GSM7866863 | GSM7866864 | GSM7866865 | GSM7866866 | GSM7866867 | GSM7866868 | GSM7866869 | GSM7866870 | GSM7866871 | GSM7866872 | GSM7866873 | GSM7866874 | GSM7866875 | GSM7866876 | GSM7866877 | GSM7866878 | GSM7866879 | GSM7866880 | GSM7866881 | GSM7866882 | GSM7866883 | GSM7866884
+contact_name: Henrik,,Hansen
+contact_department: Histology & NGS
+contact_institute: Gubra
+contact_address: Hørsholm Kongevej 11
+contact_city: Hørsholm
+contact_zip/postal_code: 2970
+contact_country: Denmark
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE246nnn/GSE246328/suppl/GSE246328_GAN-DIO-NASH-Senescence_counts.txt.gz
+platform_id: GPL19057
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1032545

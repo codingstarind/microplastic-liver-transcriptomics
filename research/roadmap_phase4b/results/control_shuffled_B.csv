@@ -1,0 +1,5 @@
+target,model,F8,F8+B_real,F8+B_shuffled
+PE_in_CD,hgb,0.0847,0.0866,0.0848
+PE_in_CD,ridge,0.0661,0.0832,0.0656
+PE_in_MD,hgb,0.0814,0.0853,0.0813
+PE_in_MD,ridge,0.072,0.0843,0.0712

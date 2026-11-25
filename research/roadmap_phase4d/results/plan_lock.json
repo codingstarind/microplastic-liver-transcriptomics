@@ -1,0 +1,8 @@
+{
+  "locked_at": "2026-11-22T23:57:21",
+  "sha256": {
+    "analysis_plan.md": "e983435b8ed35cb023902f98a304862627e55b9b6589dbccc058763afcf450e7",
+    "representation_go_nogo.md": "125ad01e8952e9c67842bcdbb79a4c65d8861fad1613a5ae72acc5bde641d151",
+    "frozen_signature_manifest.csv": "8554b3eed12475aad29de43add66cd606d9d9aad9f1d8512d5cee6df15730140"
+  }
+}

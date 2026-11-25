@@ -1,0 +1,158 @@
+         model                    run  rmse_mean  rmse_std  mae_mean  r2_oos_mean  r2_oos_std  spearman_mean  sign_agree_deg_mean  rank_rmse
+0     catboost      primary__PE_in_CD     0.3120    0.0361    0.2032       0.0859      0.0489         0.2771               0.7660        1.0
+1   elasticnet      primary__PE_in_CD     0.3160    0.0366    0.2052       0.0631      0.0309         0.2624               0.7485        6.0
+2          hgb      primary__PE_in_CD     0.3132    0.0359    0.2035       0.0783      0.0447         0.2762               0.7550        2.0
+3         null      primary__PE_in_CD     0.3262    0.0346    0.2138       0.0000      0.0000            NaN               0.4517       12.0
+4     ols_CIRC      primary__PE_in_CD     0.3227    0.0351    0.2116       0.0219      0.0174         0.1039               0.6263       10.0
+5     ols_FAST      primary__PE_in_CD     0.3225    0.0347    0.2117       0.0224      0.0171         0.1352               0.6968        9.0
+6     ols_MASH      primary__PE_in_CD     0.3213    0.0360    0.2081       0.0309      0.0226         0.2079               0.5972        8.0
+7    ols_PPARA      primary__PE_in_CD     0.3262    0.0344    0.2138      -0.0001      0.0030         0.0507               0.4768       11.0
+8      ols_all      primary__PE_in_CD     0.3155    0.0367    0.2050       0.0660      0.0345         0.2636               0.7518        5.0
+9           rf      primary__PE_in_CD     0.3142    0.0349    0.2039       0.0727      0.0257         0.2810               0.7505        3.0
+10       ridge      primary__PE_in_CD     0.3154    0.0367    0.2050       0.0661      0.0341         0.2637               0.7524        4.0
+11        tree      primary__PE_in_CD     0.3199    0.0340    0.2081       0.0380      0.0196         0.2209               0.6839        7.0
+0     catboost      primary__PE_in_MD     0.2967    0.0452    0.1783       0.0785      0.0551         0.3412               0.8590        3.0
+1   elasticnet      primary__PE_in_MD     0.2981    0.0445    0.1807       0.0680      0.0683         0.3081               0.8573        6.0
+2          hgb      primary__PE_in_MD     0.2966    0.0453    0.1787       0.0794      0.0554         0.3328               0.8230        2.0
+3         null      primary__PE_in_MD     0.3089    0.0440    0.1935       0.0000      0.0000            NaN               0.3306       10.0
+4     ols_CIRC      primary__PE_in_MD     0.3083    0.0447    0.1924       0.0046      0.0145         0.0801               0.5189        9.0
+5     ols_FAST      primary__PE_in_MD     0.3018    0.0428    0.1867       0.0447      0.0367         0.2458               0.8018        8.0
+6     ols_MASH      primary__PE_in_MD     0.3092    0.0444    0.1912      -0.0019      0.0341         0.1663               0.6460       12.0
+7    ols_PPARA      primary__PE_in_MD     0.3091    0.0441    0.1930      -0.0010      0.0087         0.0834               0.5116       11.0
+8      ols_all      primary__PE_in_MD     0.2978    0.0445    0.1805       0.0699      0.0715         0.3086               0.8625        5.0
+9           rf      primary__PE_in_MD     0.2964    0.0453    0.1787       0.0806      0.0522         0.3381               0.8215        1.0
+10       ridge      primary__PE_in_MD     0.2977    0.0445    0.1805       0.0701      0.0711         0.3086               0.8625        4.0
+11        tree      primary__PE_in_MD     0.3009    0.0453    0.1825       0.0526      0.0474         0.2879               0.7913        7.0
+0     catboost  positive__Diet_in_Veh     0.4075    0.0310    0.2635       0.3061      0.0604         0.4395               0.8158        1.0
+1   elasticnet  positive__Diet_in_Veh     0.4294    0.0355    0.2771       0.2315      0.0477         0.3910               0.7685        6.0
+2          hgb  positive__Diet_in_Veh     0.4139    0.0328    0.2658       0.2852      0.0540         0.4302               0.8007        2.0
+3         null  positive__Diet_in_Veh     0.4903    0.0406    0.3064       0.0000      0.0000            NaN               0.4919       12.0
+4     ols_CIRC  positive__Diet_in_Veh     0.4806    0.0427    0.2996       0.0399      0.0251         0.1756               0.6178        9.0
+5     ols_FAST  positive__Diet_in_Veh     0.4874    0.0408    0.3080       0.0121      0.0124        -0.0009               0.5635       10.0
+6     ols_MASH  positive__Diet_in_Veh     0.4360    0.0300    0.2836       0.2055      0.0592         0.3497               0.7417        7.0
+7    ols_PPARA  positive__Diet_in_Veh     0.4902    0.0408    0.3060       0.0005      0.0042         0.0439               0.5357       11.0
+8      ols_all  positive__Diet_in_Veh     0.4290    0.0350    0.2770       0.2329      0.0481         0.3923               0.7712        4.0
+9           rf  positive__Diet_in_Veh     0.4247    0.0333    0.2689       0.2469      0.0601         0.4276               0.8021        3.0
+10       ridge  positive__Diet_in_Veh     0.4291    0.0350    0.2770       0.2327      0.0478         0.3922               0.7712        5.0
+11        tree  positive__Diet_in_Veh     0.4432    0.0314    0.2833       0.1792      0.0636         0.3393               0.7267        8.0
+                      run       model comparator metric  mean_diff  ci_low  ci_high    p_nb  n_splits  n_splits_better  better_by_rule
+2       primary__PE_in_CD    ols_MASH       null   rmse    -0.0049 -0.0090  -0.0008  0.0221        15               14            True
+4       primary__PE_in_CD    ols_FAST       null   rmse    -0.0037 -0.0070  -0.0003  0.0337        15               14            True
+7       primary__PE_in_CD   ols_PPARA       null   rmse    -0.0000 -0.0006   0.0006  0.9847        15               10           False
+10      primary__PE_in_CD    ols_CIRC       null   rmse    -0.0035 -0.0068  -0.0003  0.0364        15               14            True
+13      primary__PE_in_CD     ols_all       null   rmse    -0.0107 -0.0171  -0.0043  0.0029        15               15            True
+14      primary__PE_in_CD     ols_all   ols_MASH   rmse    -0.0058 -0.0113  -0.0003  0.0401        15               15            True
+15      primary__PE_in_CD       ridge       null   rmse    -0.0107 -0.0171  -0.0044  0.0027        15               15            True
+16      primary__PE_in_CD       ridge   ols_MASH   rmse    -0.0058 -0.0113  -0.0004  0.0376        15               15            True
+17      primary__PE_in_CD       ridge    ols_all   rmse    -0.0000 -0.0001   0.0001  0.6102        15               10           False
+18      primary__PE_in_CD  elasticnet       null   rmse    -0.0102 -0.0159  -0.0046  0.0017        15               15            True
+19      primary__PE_in_CD  elasticnet   ols_MASH   rmse    -0.0053 -0.0100  -0.0006  0.0295        15               15            True
+20      primary__PE_in_CD  elasticnet    ols_all   rmse     0.0005 -0.0005   0.0015  0.3183        15                7           False
+21      primary__PE_in_CD        tree       null   rmse    -0.0063 -0.0102  -0.0023  0.0045        15               14            True
+22      primary__PE_in_CD        tree   ols_MASH   rmse    -0.0014 -0.0060   0.0033  0.5393        15                9           False
+23      primary__PE_in_CD        tree    ols_all   rmse     0.0045 -0.0024   0.0113  0.1870        15                3           False
+24      primary__PE_in_CD          rf       null   rmse    -0.0120 -0.0166  -0.0074  0.0001        15               15            True
+25      primary__PE_in_CD          rf   ols_MASH   rmse    -0.0071 -0.0117  -0.0025  0.0053        15               15            True
+26      primary__PE_in_CD          rf    ols_all   rmse    -0.0013 -0.0050   0.0025  0.4873        15                9           False
+27      primary__PE_in_CD         hgb       null   rmse    -0.0129 -0.0212  -0.0046  0.0048        15               15            True
+28      primary__PE_in_CD         hgb   ols_MASH   rmse    -0.0080 -0.0165   0.0004  0.0606        15               14           False
+29      primary__PE_in_CD         hgb    ols_all   rmse    -0.0022 -0.0075   0.0030  0.3822        15               10           False
+30      primary__PE_in_CD    catboost       null   rmse    -0.0142 -0.0233  -0.0051  0.0048        15               15            True
+31      primary__PE_in_CD    catboost   ols_MASH   rmse    -0.0093 -0.0182  -0.0004  0.0421        15               14            True
+32      primary__PE_in_CD    catboost    ols_all   rmse    -0.0035 -0.0093   0.0023  0.2162        15               11           False
+35      primary__PE_in_MD    ols_MASH       null   rmse     0.0002 -0.0061   0.0066  0.9356        15                9           False
+38      primary__PE_in_MD    ols_FAST       null   rmse    -0.0071 -0.0143   0.0001  0.0524        15               13           False
+40      primary__PE_in_MD   ols_PPARA       null   rmse     0.0002 -0.0015   0.0018  0.8473        15                8           False
+43      primary__PE_in_MD    ols_CIRC       null   rmse    -0.0006 -0.0032   0.0019  0.6020        15               11           False
+46      primary__PE_in_MD     ols_all       null   rmse    -0.0112 -0.0252   0.0029  0.1098        15               11           False
+47      primary__PE_in_MD     ols_all   ols_FAST   rmse    -0.0040 -0.0115   0.0035  0.2671        15               11           False
+48      primary__PE_in_MD       ridge       null   rmse    -0.0112 -0.0251   0.0028  0.1072        15               11           False
+49      primary__PE_in_MD       ridge   ols_FAST   rmse    -0.0041 -0.0115   0.0034  0.2596        15               11           False
+50      primary__PE_in_MD       ridge    ols_all   rmse    -0.0000 -0.0001   0.0001  0.5138        15                9           False
+51      primary__PE_in_MD  elasticnet       null   rmse    -0.0108 -0.0242   0.0025  0.1034        15               11           False
+52      primary__PE_in_MD  elasticnet   ols_FAST   rmse    -0.0037 -0.0106   0.0032  0.2692        15               12           False
+53      primary__PE_in_MD  elasticnet    ols_all   rmse     0.0003 -0.0005   0.0012  0.4034        15                8           False
+54      primary__PE_in_MD        tree       null   rmse    -0.0081 -0.0166   0.0004  0.0607        15               14           False
+55      primary__PE_in_MD        tree   ols_FAST   rmse    -0.0010 -0.0067   0.0048  0.7252        15                8           False
+56      primary__PE_in_MD        tree    ols_all   rmse     0.0031 -0.0048   0.0110  0.4155        15                5           False
+57      primary__PE_in_MD          rf       null   rmse    -0.0125 -0.0222  -0.0029  0.0144        15               15            True
+58      primary__PE_in_MD          rf   ols_FAST   rmse    -0.0054 -0.0110   0.0002  0.0564        15               14           False
+59      primary__PE_in_MD          rf    ols_all   rmse    -0.0014 -0.0076   0.0049  0.6458        15                9           False
+60      primary__PE_in_MD         hgb       null   rmse    -0.0124 -0.0230  -0.0018  0.0253        15               14            True
+61      primary__PE_in_MD         hgb   ols_FAST   rmse    -0.0053 -0.0110   0.0005  0.0704        15               12           False
+62      primary__PE_in_MD         hgb    ols_all   rmse    -0.0012 -0.0066   0.0042  0.6378        15                8           False
+63      primary__PE_in_MD    catboost       null   rmse    -0.0122 -0.0225  -0.0020  0.0227        15               14            True
+64      primary__PE_in_MD    catboost   ols_FAST   rmse    -0.0051 -0.0107   0.0005  0.0705        15               11           False
+65      primary__PE_in_MD    catboost    ols_all   rmse    -0.0011 -0.0067   0.0045  0.6884        15                9           False
+68  positive__Diet_in_Veh    ols_MASH       null   rmse    -0.0543 -0.0779  -0.0306  0.0002        15               15            True
+70  positive__Diet_in_Veh    ols_FAST       null   rmse    -0.0030 -0.0068   0.0008  0.1159        15               12           False
+73  positive__Diet_in_Veh   ols_PPARA       null   rmse    -0.0001 -0.0013   0.0011  0.8455        15               10           False
+76  positive__Diet_in_Veh    ols_CIRC       null   rmse    -0.0097 -0.0167  -0.0028  0.0095        15               14            True
+79  positive__Diet_in_Veh     ols_all       null   rmse    -0.0613 -0.0801  -0.0425  0.0000        15               15            True
+80  positive__Diet_in_Veh     ols_all   ols_MASH   rmse    -0.0070 -0.0201   0.0060  0.2661        15               13           False
+81  positive__Diet_in_Veh       ridge       null   rmse    -0.0613 -0.0800  -0.0426  0.0000        15               15            True
+82  positive__Diet_in_Veh       ridge   ols_MASH   rmse    -0.0070 -0.0200   0.0061  0.2696        15               13           False
+83  positive__Diet_in_Veh       ridge    ols_all   rmse     0.0001 -0.0001   0.0002  0.5179        15                5           False
+84  positive__Diet_in_Veh  elasticnet       null   rmse    -0.0609 -0.0794  -0.0424  0.0000        15               15            True
+85  positive__Diet_in_Veh  elasticnet   ols_MASH   rmse    -0.0066 -0.0189   0.0057  0.2690        15               13           False
+86  positive__Diet_in_Veh  elasticnet    ols_all   rmse     0.0004 -0.0014   0.0023  0.6173        15                6           False
+87  positive__Diet_in_Veh        tree       null   rmse    -0.0471 -0.0713  -0.0229  0.0009        15               15            True
+88  positive__Diet_in_Veh        tree   ols_MASH   rmse     0.0072 -0.0009   0.0152  0.0766        15                2           False
+89  positive__Diet_in_Veh        tree    ols_all   rmse     0.0142  0.0013   0.0271  0.0335        15                1           False
+90  positive__Diet_in_Veh          rf       null   rmse    -0.0656 -0.0901  -0.0411  0.0001        15               15            True
+91  positive__Diet_in_Veh          rf   ols_MASH   rmse    -0.0113 -0.0200  -0.0027  0.0141        15               14            True
+92  positive__Diet_in_Veh          rf    ols_all   rmse    -0.0043 -0.0183   0.0098  0.5238        15               11           False
+93  positive__Diet_in_Veh         hgb       null   rmse    -0.0764 -0.0987  -0.0542  0.0000        15               15            True
+94  positive__Diet_in_Veh         hgb   ols_MASH   rmse    -0.0222 -0.0363  -0.0080  0.0046        15               15            True
+95  positive__Diet_in_Veh         hgb    ols_all   rmse    -0.0151 -0.0264  -0.0038  0.0126        15               15            True
+96  positive__Diet_in_Veh    catboost       null   rmse    -0.0828 -0.1087  -0.0570  0.0000        15               15            True
+97  positive__Diet_in_Veh    catboost   ols_MASH   rmse    -0.0285 -0.0450  -0.0121  0.0023        15               15            True
+98  positive__Diet_in_Veh    catboost    ols_all   rmse    -0.0215 -0.0369  -0.0061  0.0097        15               15            True
+      target      model  variants_better_than_ols_all  variants_better_than_null  n_variants  loo_better_than_ols_all  loo_better_than_null  n_loo  loo_r2_oos_min  loo_r2_oos_max
+0   PE_in_CD    ols_all                           NaN                          8           8                      NaN                  19.0   19.0        0.047511        0.081716
+1   PE_in_CD      ridge                           8.0                          8           8                     18.0                  19.0   19.0        0.047487        0.081808
+2   PE_in_CD         rf                           6.0                          8           8                      NaN                   NaN    NaN             NaN             NaN
+3   PE_in_CD        hgb                           8.0                          8           8                     19.0                  19.0   19.0        0.068783        0.095546
+4   PE_in_CD   ols_MASH                           0.0                          7           8                      0.0                  18.0   19.0       -0.015749        0.051428
+5   PE_in_CD   ols_FAST                           0.0                          8           8                      0.0                  19.0   19.0        0.009564        0.045163
+6   PE_in_CD  ols_PPARA                           0.0                          7           8                      0.0                  11.0   19.0       -0.001856        0.002182
+7   PE_in_CD   ols_CIRC                           0.0                          8           8                      0.0                  19.0   19.0        0.002362        0.029009
+8   PE_in_MD    ols_all                           NaN                          8           8                      NaN                  19.0   19.0        0.052966        0.108969
+9   PE_in_MD      ridge                           5.0                          8           8                     13.0                  19.0   19.0        0.053257        0.108867
+10  PE_in_MD         rf                           7.0                          8           8                      NaN                   NaN    NaN             NaN             NaN
+11  PE_in_MD        hgb                           6.0                          8           8                     18.0                  19.0   19.0        0.072387        0.114547
+12  PE_in_MD   ols_MASH                           0.0                          2           8                      0.0                   7.0   19.0       -0.027299        0.033860
+13  PE_in_MD   ols_FAST                           1.0                          8           8                      1.0                  19.0   19.0        0.034365        0.056427
+14  PE_in_MD  ols_PPARA                           0.0                          1           8                      0.0                   2.0   19.0       -0.004173        0.003275
+15  PE_in_MD   ols_CIRC                           0.0                          8           8                      0.0                  15.0   19.0       -0.005079        0.010910
+model                     hgb  null  ols_CIRC  ols_FAST  ols_MASH  ols_PPARA  ols_all     rf  ridge
+run                                                                                                
+neg_depth__DEPTH_CD     0.001   0.0    -0.001      -0.0     0.001       -0.0   -0.002 -0.000 -0.002
+neg_depth__DEPTH_MD    -0.005   0.0     0.000      -0.0     0.000        0.0   -0.000 -0.001 -0.000
+neg_permuted__PE_in_CD -0.000   0.0     0.000       0.0    -0.000       -0.0   -0.000  0.000 -0.000
+neg_permuted__PE_in_MD -0.002   0.0     0.000       0.0     0.000       -0.0   -0.000 -0.001 -0.000
+                      run    model    feature   mean    std    min    max  sign_stable
+8   positive__Diet_in_Veh  ols_all   CIRC_eff -0.070  0.014 -0.088 -0.039         True
+9   positive__Diet_in_Veh  ols_all    CIRC_se -0.015  0.009 -0.027  0.004        False
+10  positive__Diet_in_Veh  ols_all   FAST_eff  0.022  0.008  0.008  0.030         True
+11  positive__Diet_in_Veh  ols_all    FAST_se -0.013  0.006 -0.024 -0.003         True
+12  positive__Diet_in_Veh  ols_all   MASH_eff  0.185  0.011  0.168  0.205         True
+13  positive__Diet_in_Veh  ols_all    MASH_se -0.058  0.011 -0.087 -0.048         True
+14  positive__Diet_in_Veh  ols_all  PPARA_eff  0.013  0.004  0.004  0.019         True
+15  positive__Diet_in_Veh  ols_all   PPARA_se  0.000  0.003 -0.005  0.007        False
+32      primary__PE_in_CD  ols_all   CIRC_eff -0.041  0.006 -0.049 -0.028         True
+33      primary__PE_in_CD  ols_all    CIRC_se -0.021  0.006 -0.030 -0.011         True
+34      primary__PE_in_CD  ols_all   FAST_eff  0.035  0.003  0.030  0.040         True
+35      primary__PE_in_CD  ols_all    FAST_se  0.020  0.004  0.013  0.027         True
+36      primary__PE_in_CD  ols_all   MASH_eff  0.060  0.004  0.055  0.067         True
+37      primary__PE_in_CD  ols_all    MASH_se -0.005  0.005 -0.016 -0.001         True
+38      primary__PE_in_CD  ols_all  PPARA_eff -0.012  0.003 -0.020 -0.008         True
+39      primary__PE_in_CD  ols_all   PPARA_se -0.010  0.002 -0.012 -0.008         True
+56      primary__PE_in_MD  ols_all   CIRC_eff  0.031  0.003  0.026  0.037         True
+57      primary__PE_in_MD  ols_all    CIRC_se -0.027  0.004 -0.034 -0.020         True
+58      primary__PE_in_MD  ols_all   FAST_eff  0.058  0.005  0.046  0.063         True
+59      primary__PE_in_MD  ols_all    FAST_se  0.019  0.001  0.017  0.020         True
+60      primary__PE_in_MD  ols_all   MASH_eff  0.040  0.002  0.037  0.045         True
+61      primary__PE_in_MD  ols_all    MASH_se  0.041  0.002  0.037  0.045         True
+62      primary__PE_in_MD  ols_all  PPARA_eff -0.021  0.002 -0.025 -0.018         True
+63      primary__PE_in_MD  ols_all   PPARA_se -0.005  0.001 -0.008 -0.004         True

@@ -1,0 +1,19 @@
+{
+  "label": "provisional_deposited",
+  "n_genes_tested_interaction": 12391,
+  "n_interaction_fdr_lt_0.05": 87,
+  "patterns": {
+    "CD-only, interaction supported": 31,
+    "MD-only, interaction supported": 31,
+    "Opposing": 22,
+    "Attenuated under MD": 3
+  },
+  "n_muscle_tracking_among_interaction_genes": 23,
+  "frac_muscle_tracking_among_tested": 0.010168670809458477,
+  "median_abs_interaction_log2FC_fdr_genes": 1.27774116138234,
+  "median_interaction_ci_width_all_genes": 0.7980438178741021,
+  "n_genes_PE_effect_same_sign_both_diets": 640,
+  "of_which_interaction_fdr_lt_0.05": 3,
+  "of_which_interaction_ci_excludes_0": 37,
+  "n_genes_PE_effect_opposite_sign_both_diets_ci": 37
+}

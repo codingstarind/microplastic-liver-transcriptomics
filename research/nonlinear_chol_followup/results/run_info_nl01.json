@@ -1,0 +1,19 @@
+{
+  "seed": 20261125,
+  "B": 2000,
+  "k_matched": 10,
+  "max_abs_diff_F8OLS_vs_lipid_followup": 3.3881317890172014e-21,
+  "reproduction_max_absdiff": {
+    "rmse": 1.1102230246251565e-16,
+    "r2": 4.2327252813834093e-16,
+    "sign": 0.0
+  },
+  "group_sizes": {
+    "CHOL": 21,
+    "LIPO": 12,
+    "PPARA": 14,
+    "OTHER": 11711
+  },
+  "primary_family": "CHOL x {CatBoost,HGB} x {OLS,Ridge} x {CD,MD}; module-cluster t; Holm(8)",
+  "followup_trigger": false
+}

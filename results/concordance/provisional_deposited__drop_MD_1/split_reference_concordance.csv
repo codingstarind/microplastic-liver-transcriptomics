@@ -1,0 +1,13 @@
+comparison,shared_group,pe_reference,diet_side,spearman_all_genes,sign_agreement_top500_diet_genes,hallmark_mean_lfc_spearman,spearman_all_genes_null_median,spearman_all_genes_null_q95,spearman_all_genes_perm_p_one_sided,sign_agreement_top500_diet_genes_null_median,sign_agreement_top500_diet_genes_null_q95,sign_agreement_top500_diet_genes_perm_p_one_sided,hallmark_mean_lfc_spearman_null_median,hallmark_mean_lfc_spearman_null_q95,hallmark_mean_lfc_spearman_perm_p_one_sided
+PE_in_CD vs Diet_in_Veh,CD+Veh,CD_1_S39|CD_2_S40,CD_3_S41|CD_4_S42,0.3612,0.782,0.2152,0.005,0.3149,0.0476,0.546,0.784,0.1429,0.0952,0.5811,0.3333
+PE_in_CD vs Diet_in_Veh,CD+Veh,CD_1_S39|CD_3_S41,CD_2_S40|CD_4_S42,0.3194,0.766,0.3486,-0.0106,0.2869,0.0476,0.542,0.802,0.1429,0.1593,0.4238,0.2381
+PE_in_CD vs Diet_in_Veh,CD+Veh,CD_1_S39|CD_4_S42,CD_2_S40|CD_3_S41,0.3776,0.756,0.4556,0.0041,0.3245,0.0476,0.522,0.79,0.1905,0.0248,0.5849,0.1429
+PE_in_CD vs Diet_in_Veh,CD+Veh,CD_2_S40|CD_3_S41,CD_1_S39|CD_4_S42,0.3477,0.792,0.1881,0.011,0.2742,0.0476,0.54,0.792,0.0952,0.0234,0.4318,0.2381
+PE_in_CD vs Diet_in_Veh,CD+Veh,CD_2_S40|CD_4_S42,CD_1_S39|CD_3_S41,0.3132,0.75,0.0057,-0.0092,0.3132,0.0952,0.494,0.75,0.0952,0.0057,0.5047,0.5238
+PE_in_CD vs Diet_in_Veh,CD+Veh,CD_3_S41|CD_4_S42,CD_1_S39|CD_2_S40,0.4118,0.782,0.2722,0.0083,0.3164,0.0476,0.522,0.782,0.0952,-0.0073,0.417,0.1905
+PE_in_MD vs Diet_in_Veh,MD+Veh,MD_2_S44|MD_3_S45,MD_4_S46|MD_5_S47,0.1104,0.55,-0.2401,-0.0041,0.1851,0.1905,0.522,0.656,0.381,-0.0932,0.3968,0.7619
+PE_in_MD vs Diet_in_Veh,MD+Veh,MD_2_S44|MD_4_S46,MD_3_S45|MD_5_S47,0.0023,0.516,-0.2346,0.0088,0.1396,0.5714,0.494,0.614,0.4762,0.0019,0.2848,0.8571
+PE_in_MD vs Diet_in_Veh,MD+Veh,MD_2_S44|MD_5_S47,MD_3_S45|MD_4_S46,0.084,0.598,-0.3439,0.008,0.1821,0.2381,0.472,0.672,0.2381,0.0151,0.3563,0.9524
+PE_in_MD vs Diet_in_Veh,MD+Veh,MD_3_S45|MD_4_S46,MD_2_S44|MD_5_S47,-0.0244,0.46,-0.1513,-0.0231,0.1243,0.5714,0.5,0.63,0.6667,0.0435,0.3462,0.7143
+PE_in_MD vs Diet_in_Veh,MD+Veh,MD_3_S45|MD_5_S47,MD_2_S44|MD_4_S46,0.1125,0.596,-0.2012,-0.0218,0.2032,0.2857,0.494,0.664,0.2857,0.0642,0.3103,0.7619
+PE_in_MD vs Diet_in_Veh,MD+Veh,MD_4_S46|MD_5_S47,MD_2_S44|MD_3_S45,0.1444,0.688,0.0866,-0.0035,0.1444,0.0952,0.49,0.688,0.0952,0.0102,0.1984,0.381

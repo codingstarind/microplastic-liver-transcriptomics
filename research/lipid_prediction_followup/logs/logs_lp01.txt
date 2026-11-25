@@ -1,0 +1,7 @@
+            abs_diff_rmse   abs_diff_r2
+rep  model                             
+F8   ols     8.326673e-17  2.914335e-16
+F8+C ols     1.110223e-16  3.191891e-16
+     ridge   8.326673e-17  1.804112e-16
+FULL ols     5.551115e-17  9.020562e-17
+     ridge   5.551115e-17  8.673617e-17

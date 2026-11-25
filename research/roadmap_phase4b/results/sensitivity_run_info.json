@@ -1,0 +1,32 @@
+{
+  "variants": [
+    "V1_MASH2",
+    "V2_FASTclean",
+    "V3_PPARA10v0",
+    "V4_CIRC_T2",
+    "V5_strict_universe",
+    "V6_alt_muscle",
+    "V7_chromosome_groups"
+  ],
+  "loo": [
+    "CD_1",
+    "CD_2",
+    "CD_3",
+    "CD_4",
+    "CD_MP_1",
+    "CD_MP_2",
+    "CD_MP_3",
+    "CD_MP_4",
+    "CD_MP_5",
+    "MD_1",
+    "MD_2",
+    "MD_3",
+    "MD_4",
+    "MD_5",
+    "MD_MP_1",
+    "MD_MP_2",
+    "MD_MP_3",
+    "MD_MP_4",
+    "MD_MP_5"
+  ]
+}

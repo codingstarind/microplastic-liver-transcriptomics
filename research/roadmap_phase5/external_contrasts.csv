@@ -1,0 +1,12 @@
+study,contrast,role,exposed_groups,n_control,n_exposed,method,genes_tested,genes_in_frozen_feature_table,n_padj_lt_0_05,n_padj_lt_0_10,median_lfcSE,signal_share
+HONG,PE_vs_CON,PRIMARY,PE,3,3,DESeq2 Wald MLE,19491,11735,1133,1833,0.354137771040961,0.5263446103087086
+HONG,PE_vs_CON__6mice_only,sensitivity (6-mouse model),PE,3,3,DESeq2 Wald MLE,17743,11706,1173,1798,0.306035075520353,0.4898420243488455
+HONG,PS_vs_CON,"exploratory specificity (same lab, shared controls)",PS,3,3,DESeq2 Wald MLE,19491,11735,73,155,0.354872211980635,0.40076606639893764
+HONG,PP_vs_CON,"exploratory specificity (same lab, shared controls)",PP,3,3,DESeq2 Wald MLE,19491,11735,1296,1964,0.353584825007881,0.5305574435632597
+HONG,PB_vs_CON,"exploratory specificity (same lab, shared controls)",PB,3,3,DESeq2 Wald MLE,19491,11735,1130,1728,0.355135188607193,0.5396611408527265
+GSE245069,PSpooled_vs_CON,SECONDARY cross-polymer,PS_80nm;PS_0.5um;PS_5um,4,12,DESeq2 Wald MLE,12219,11295,1451,1941,0.134581897672763,0.6523368086319377
+GSE245069,PSpooled_vs_CON__limmavoom_unrounded,"sensitivity (limma-voom, unrounded)",PS_80nm;PS_0.5um;PS_5um,4,12,limma-voom (unrounded),12219,11295,1079,1733,0.12276245898048,0.6613725310765945
+GSE245069,PS80nm_vs_CON,exploratory size (shared control),PS_80nm,4,4,DESeq2 Wald MLE,12219,11295,666,1046,0.16422228907157,0.538372958233754
+GSE245069,PS05um_vs_CON,exploratory size (shared control),PS_0.5um,4,4,DESeq2 Wald MLE,12219,11295,1321,1792,0.16440130540637,0.6065915689436866
+GSE245069,PS5um_vs_CON,exploratory size (shared control),PS_5um,4,4,DESeq2 Wald MLE,12219,11295,1588,2116,0.164296675674648,0.6765001087842594
+GSE277772,PS_vs_CON,exploratory (normalised values; not validation),PS,3,3,limma-trend on log2(norm+1),10247,9076,66,174,0.092568937447578,0.651611223677306

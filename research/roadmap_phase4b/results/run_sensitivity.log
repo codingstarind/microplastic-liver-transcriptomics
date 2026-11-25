@@ -1,0 +1,28 @@
+1950 tasks
+[Parallel(n_jobs=19)]: Using backend LokyBackend with 19 concurrent workers.
+[Parallel(n_jobs=19)]: Done 174 tasks      | elapsed:   51.4s
+[Parallel(n_jobs=19)]: Done 534 tasks      | elapsed:  9.1min
+[Parallel(n_jobs=19)]: Done 1038 tasks      | elapsed:  9.9min
+[Parallel(n_jobs=19)]: Done 1686 tasks      | elapsed: 12.9min
+[Parallel(n_jobs=19)]: Done 1913 out of 1950 | elapsed: 13.7min remaining:   15.8s
+[Parallel(n_jobs=19)]: Done 1950 out of 1950 | elapsed: 13.8min finished
+       kind    target     rep       model   n  n_better  mean_d_rmse  min_d_r2  mean_d_r2  max_d_r2  robust
+0       loo  PE_in_CD    FULL  elasticnet  19        19      -0.0065    0.0300     0.0382    0.0419    True
+1       loo  PE_in_CD    FULL         ols  19        19      -0.0064    0.0313     0.0372    0.0409    True
+2       loo  PE_in_CD    FULL       ridge  19        19      -0.0066    0.0323     0.0384    0.0426    True
+3       loo  PE_in_MD    FULL  elasticnet  19        19      -0.0066    0.0244     0.0420    0.0550    True
+4       loo  PE_in_MD    FULL         ols  19        19      -0.0056    0.0184     0.0362    0.0522    True
+5       loo  PE_in_MD    FULL       ridge  19        19      -0.0063    0.0224     0.0403    0.0553    True
+6       loo  PE_in_MD  FULL-A  elasticnet  19        19      -0.0065    0.0252     0.0411    0.0534    True
+7       loo  PE_in_MD  FULL-A         ols  19        19      -0.0062    0.0231     0.0396    0.0526    True
+8       loo  PE_in_MD  FULL-A       ridge  19        19      -0.0062    0.0229     0.0395    0.0525    True
+9   variant  PE_in_CD    FULL  elasticnet   7         7      -0.0061    0.0232     0.0372    0.0498    True
+10  variant  PE_in_CD    FULL         ols   7         7      -0.0060    0.0218     0.0367    0.0503    True
+11  variant  PE_in_CD    FULL       ridge   7         7      -0.0062    0.0244     0.0377    0.0503    True
+12  variant  PE_in_MD    FULL  elasticnet   7         7      -0.0059    0.0171     0.0396    0.0500    True
+13  variant  PE_in_MD    FULL         ols   7         7      -0.0049    0.0078     0.0333    0.0422    True
+14  variant  PE_in_MD    FULL       ridge   7         7      -0.0056    0.0144     0.0384    0.0519    True
+15  variant  PE_in_MD  FULL-A  elasticnet   7         7      -0.0057    0.0128     0.0385    0.0519    True
+16  variant  PE_in_MD  FULL-A         ols   7         7      -0.0055    0.0117     0.0377    0.0534    True
+17  variant  PE_in_MD  FULL-A       ridge   7         7      -0.0055    0.0118     0.0376    0.0533    True
+done in 826s

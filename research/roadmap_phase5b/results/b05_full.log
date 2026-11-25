@@ -1,0 +1,41 @@
+nested CV done 140s
+external + labellings done
+bootstrap 1000 done 464s
+           candidate  train_spearman  cv_spearman  cv_r2  rho_hong_pe  delta_rho_hong_vs_B0  P_delta_gt_0  rank_of_true  rho_controlfree_median  P_controlfree_gt_0    A1    A2    A3    A4                               verdict
+           B0_F8_OLS           0.274        0.264  0.066        0.219                 0.000         0.000             4                   0.049               0.665 False False  True False                            comparator
+        B1_F8C_Ridge           0.281        0.270  0.081        0.142                -0.076         0.139             5                   0.013               0.534 False False  True False                            comparator
+           B2_F8_HGB           0.378        0.276  0.079        0.206                -0.012         0.369             4                   0.066               0.740 False False  True False                            comparator
+  I2a_robustCD_Ridge           0.255        0.246  0.063        0.217                -0.002         0.556             3                   0.060               0.717 False False  True False               no external improvement
+    I2b_MLEavg_Ridge           0.242        0.234  0.052        0.293                 0.074         0.865             4                   0.108               0.864  True False False False fails internal or bootstrap criterion
+ I2c_robustavg_Ridge           0.224        0.217  0.048        0.281                 0.062         0.883             4                   0.120               0.899  True False False False fails internal or bootstrap criterion
+I3_Huber_normalscore           0.276        0.265    NaN        0.220                 0.001         0.211             4                   0.023               0.562 False False  True False               no external improvement
+outcome               GSE245069_PSpooled  HONG_PB  HONG_PE  HONG_PE_unit0.472  HONG_PE_unit0.5  HONG_PP  HONG_PS  HONG_controlfree_PE_minus_otherpolymers
+candidate                                                                                                                                                
+B0_F8_OLS                         -0.069    0.187    0.219              0.221            0.220    0.389    0.088                                    0.002
+B1_F8C_Ridge                      -0.080    0.129    0.142              0.145            0.144    0.330    0.053                                   -0.057
+B2_F8_HGB                         -0.050    0.172    0.206              0.209            0.208    0.354    0.069                                    0.016
+I2a_robustCD_Ridge                -0.060    0.182    0.217              0.219            0.218    0.351    0.071                                    0.048
+I2b_MLEavg_Ridge                   0.067    0.214    0.293              0.296            0.295    0.423    0.132                                    0.078
+I2c_robustavg_Ridge                0.091    0.199    0.281              0.284            0.283    0.376    0.102                                    0.125
+I3_Huber_normalscore              -0.070    0.192    0.220              0.222            0.221    0.395    0.092                                   -0.010
+           candidate                                                  modal_params                                                                                                                                                                                                                                 counts
+           B0_F8_OLS                                                            {}                                                                                                                                                                                                                             {"{}": 15}
+        B1_F8C_Ridge                                                            {}                                                                                                                                                                                                                             {"{}": 15}
+           B2_F8_HGB {"model__learning_rate": 0.03, "model__min_samples_leaf": 50}                                                                                     {"{\"model__learning_rate\": 0.03, \"model__min_samples_leaf\": 50}": 14, "{\"model__learning_rate\": 0.03, \"model__min_samples_leaf\": 200}": 1}
+  I2a_robustCD_Ridge                                        {"model__alpha": 1000}                                                                                                                                                                         {"{\"model__alpha\": 1000}": 12, "{\"model__alpha\": 0.1}": 3}
+    I2b_MLEavg_Ridge                                        {"model__alpha": 1000}                                                                                                                                                                                                       {"{\"model__alpha\": 1000}": 15}
+ I2c_robustavg_Ridge                                        {"model__alpha": 1000}                                                                                                                                                                                                       {"{\"model__alpha\": 1000}": 15}
+I3_Huber_normalscore              {"model__alpha": 0.0001, "model__epsilon": 1.35} {"{\"model__alpha\": 0.0001, \"model__epsilon\": 1.35}": 6, "{\"model__alpha\": 0.0001, \"model__epsilon\": 1.1}": 4, "{\"model__alpha\": 0.01, \"model__epsilon\": 1.1}": 3, "{\"model__alpha\": 0.01, \"model__epsilon\": 1.35}": 2}
+                split rep            model  n  auc  auc_lo  frac_boot_auc_eq_1  bal_acc  bal_acc_lo  bal_acc_hi                            metric_prob  value  value_lo  value_hi
+S1_train316TA_test246  R0          R0_rule 15  1.0     1.0                 1.0    1.000       1.000       1.000 misclassification rate (hard 0/1 rule)  0.000     0.000     0.000
+S1_train316TA_test246  R1 logistic_default 15  1.0     1.0                 1.0    1.000       1.000       1.000                                  Brier  0.010     0.005     0.016
+S1_train316TA_test246  R2 logistic_default 15  1.0     1.0                 1.0    1.000       1.000       1.000                                  Brier  0.009     0.004     0.013
+S1_train316TA_test246  R2      l2_logistic 15  1.0     1.0                 1.0    1.000       1.000       1.000                                  Brier  0.002     0.001     0.003
+S1_train316TA_test246  R0      l2_logistic 15  1.0     1.0                 1.0    1.000       1.000       1.000                                  Brier  0.006     0.002     0.012
+S1_train316TA_test246 PCA      l2_logistic 15  1.0     1.0                 1.0    0.688       0.562       0.875                                  Brier  0.187     0.116     0.273
+S2_train246_test316TA  R0          R0_rule 16  1.0     1.0                 1.0    0.812       0.625       0.938 misclassification rate (hard 0/1 rule)  0.188     0.062     0.375
+S2_train246_test316TA  R1 logistic_default 16  1.0     1.0                 1.0    0.938       0.812       1.000                                  Brier  0.042     0.018     0.074
+S2_train246_test316TA  R2 logistic_default 16  1.0     1.0                 1.0    0.938       0.812       1.000                                  Brier  0.049     0.022     0.084
+S2_train246_test316TA  R2      l2_logistic 16  1.0     1.0                 1.0    1.000       1.000       1.000                                  Brier  0.028     0.008     0.056
+S2_train246_test316TA  R0      l2_logistic 16  1.0     1.0                 1.0    0.812       0.625       1.000                                  Brier  0.100     0.038     0.163
+S2_train246_test316TA PCA      l2_logistic 16  1.0     1.0                 1.0    0.750       0.562       0.938                                  Brier  0.158     0.068     0.244

@@ -1,0 +1,37 @@
+{
+  "requested": [
+    [
+      "R0",
+      "l2_logistic"
+    ],
+    [
+      "R2",
+      "l2_logistic"
+    ]
+  ],
+  "valid_and_applied": [
+    [
+      "R0",
+      "l2_logistic"
+    ],
+    [
+      "R2",
+      "l2_logistic"
+    ]
+  ],
+  "models": [
+    {
+      "model": "R0_l2_logistic",
+      "best_params": "{\"clf__C\": 10}",
+      "n_up": 50,
+      "n_dn": 50
+    },
+    {
+      "model": "R2_l2_logistic",
+      "best_params": "{\"clf__C\": 10}",
+      "n_up": 50,
+      "n_dn": 50
+    }
+  ],
+  "decision": "APPLIED"
+}

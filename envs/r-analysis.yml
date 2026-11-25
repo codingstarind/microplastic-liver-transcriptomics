@@ -1,0 +1,15 @@
+# R/Bioconductor environment for tximport, DESeq2 factorial modelling and gene-set analysis.
+name: mpliver-r
+channels: [conda-forge, bioconda]
+dependencies:
+  - r-base=4.4
+  - bioconductor-tximport
+  - bioconductor-deseq2
+  - bioconductor-apeglm
+  - bioconductor-fgsea
+  - bioconductor-edger
+  - bioconductor-limma
+  - r-ashr
+  - r-msigdbr
+  - r-jsonlite
+  - r-data.table

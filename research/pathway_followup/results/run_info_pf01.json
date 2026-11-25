@@ -1,0 +1,27 @@
+{
+  "n_genes_in_background": 11883,
+  "n_set_genes_singscore": {
+    "PPARA_targets": 14,
+    "mTORC1": 185,
+    "Chol_homeostasis": 69,
+    "Chol_synthesis": 21,
+    "Glycolysis": 159,
+    "DNA_repair": 141,
+    "Lipogenesis": 12
+  },
+  "n_set_genes_unique": {
+    "PPARA_targets": 11,
+    "mTORC1": 133,
+    "Chol_homeostasis": 38,
+    "Chol_synthesis": 1,
+    "Glycolysis": 132,
+    "DNA_repair": 137,
+    "Lipogenesis": 5
+  },
+  "fast_signature": {
+    "n_up": 50,
+    "n_down": 50,
+    "source": "roadmap_phase4d/signatures/FAST_main_n50.csv"
+  },
+  "gene_sets_source": "roadmap_phase3/results/gene_sets.csv"
+}

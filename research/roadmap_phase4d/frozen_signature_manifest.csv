@@ -1,0 +1,10 @@
+signature,role,universe,n_per_direction_cap,n_up,n_down,candidates_up,candidates_down,file,sha256
+MASH_main_n50,primary,main,50,50,50,742,136,MASH_main_n50.csv,403e84e7fcfccc9b3970e9e7ddd8e3c929198d2e99a8fb5c6479fe5bba5ee427
+FAST_main_n50,primary,main,50,50,50,285,536,FAST_main_n50.csv,83a3eff4f1e198533b61cb58d767e91bba524d845bf3ece042b4a2a8d46f0fc5
+PPARA_main_n50,secondary,main,50,50,50,584,584,PPARA_main_n50.csv,24ef5dea092227c90cd52157550cbbadf6a7acfcd728eba2ec6c50891472fa20
+MASH_main_n25,primary,main,25,25,25,742,136,MASH_main_n25.csv,c4152454b7c7560f3e5d43190e827a0a778d256ebc1a639c9855735fa4f74d5e
+FAST_main_n25,primary,main,25,25,25,285,536,FAST_main_n25.csv,a5aa889941167a6cee32591da06119653d334454225480bc9ca60a1e9525916a
+PPARA_main_n25,secondary,main,25,25,25,584,584,PPARA_main_n25.csv,8b3d6ad3ceb2d18b95c3a21166d53726ecaa69ecb4e140877eb183692d7e87a2
+MASH_alt_n50,primary,alt,50,50,50,759,138,MASH_alt_n50.csv,125632935c69e159046303a0bcf329644b61685feb79f0253445e28606565e2e
+FAST_alt_n50,primary,alt,50,50,50,285,536,FAST_alt_n50.csv,9f54739ada9d9279e1fa88ad5b7bfe4640e2080106b7043efd4167577c2b55c4
+PPARA_alt_n50,secondary,alt,50,50,50,582,584,PPARA_alt_n50.csv,3e4869e6a6b428ae58bcd6a163e5cad69280419b3f57842f3a0da87363553335

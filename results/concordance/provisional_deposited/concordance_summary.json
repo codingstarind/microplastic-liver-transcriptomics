@@ -1,0 +1,83 @@
+{
+  "label": "provisional_deposited",
+  "n_genes": 9941,
+  "min_mean_normalised_count": 50,
+  "naive_shared_reference": {
+    "PE_in_CD": {
+      "spearman_all_genes": 0.5401983177452709,
+      "sign_agreement_top500_diet_genes": 0.856,
+      "hallmark_mean_lfc_spearman": 0.49743097238895556
+    },
+    "PE_in_MD": {
+      "spearman_all_genes": -0.08488128918213365,
+      "sign_agreement_top500_diet_genes": 0.442,
+      "hallmark_mean_lfc_spearman": -0.40811524609843935
+    }
+  },
+  "split_reference": {
+    "PE_in_CD vs Diet_in_Veh": {
+      "spearman_all_genes": {
+        "min": 0.2945512873255093,
+        "median": 0.33017336035519296,
+        "max": 0.4021227258312258,
+        "null_median_of_medians": -0.0071845701560829135,
+        "perm_p_range": [
+          0.047619047619047616,
+          0.09523809523809523
+        ]
+      },
+      "sign_agreement_top500_diet_genes": {
+        "min": 0.724,
+        "median": 0.756,
+        "max": 0.776,
+        "null_median_of_medians": 0.537,
+        "perm_p_range": [
+          0.09523809523809523,
+          0.19047619047619047
+        ]
+      },
+      "hallmark_mean_lfc_spearman": {
+        "min": -0.041152460984393756,
+        "median": 0.23726290516206483,
+        "max": 0.45786314525810323,
+        "null_median_of_medians": 0.049315726290516206,
+        "perm_p_range": [
+          0.19047619047619047,
+          0.6190476190476191
+        ]
+      }
+    },
+    "PE_in_MD vs Diet_in_Veh": {
+      "spearman_all_genes": {
+        "min": -0.029654983417889337,
+        "median": 0.052587122420711396,
+        "max": 0.1684763369693396,
+        "null_median_of_medians": -0.005925788467729906,
+        "perm_p_range": [
+          0.09523809523809523,
+          0.5714285714285714
+        ]
+      },
+      "sign_agreement_top500_diet_genes": {
+        "min": 0.438,
+        "median": 0.545,
+        "max": 0.686,
+        "null_median_of_medians": 0.499,
+        "perm_p_range": [
+          0.14285714285714285,
+          0.8095238095238095
+        ]
+      },
+      "hallmark_mean_lfc_spearman": {
+        "min": -0.39150060024009603,
+        "median": -0.19073229291716687,
+        "max": 0.16388955582232892,
+        "null_median_of_medians": 0.014741896758703481,
+        "perm_p_range": [
+          0.23809523809523808,
+          0.9642857142857143
+        ]
+      }
+    }
+  }
+}

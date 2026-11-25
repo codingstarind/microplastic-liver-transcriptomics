@@ -1,0 +1,13 @@
+{
+  "n_symbols_in_annotation": 56897,
+  "n_symbols_deposited": 55836,
+  "n_symbols_ours": 55836,
+  "n_missing_deposited": 1061,
+  "n_missing_ours": 1061,
+  "n_missing_in_both": 1061,
+  "n_missing_only_deposited": 0,
+  "n_missing_only_ours": 0,
+  "examples_missing_only_deposited": [],
+  "examples_missing_only_ours": [],
+  "n_duplicate_transcripts_removed_by_salmon_index": 1582
+}

@@ -1,0 +1,7 @@
+,read_pairs,read_pairs,read_pairs,summed_gene_counts,summed_gene_counts,summed_gene_counts,gene_counts_per_read_pair_proxy,gene_counts_per_read_pair_proxy,gene_counts_per_read_pair_proxy
+,mean,min,max,mean,min,max,mean,min,max
+group,,,,,,,,,
+CD+Veh,18475823.25,17465466,19126519,14894290.5,13940970,15456729,0.806,0.798,0.81
+CD+PE,14751135.6,13534559,16538318,11276093.0,10398820,12654401,0.765,0.754,0.768
+MD+Veh,18215662.6,16992568,19071343,14525258.8,13406037,15417813,0.797,0.775,0.811
+MD+PE,15376040.2,14528623,16350939,11938310.0,11163063,12757617,0.776,0.768,0.784

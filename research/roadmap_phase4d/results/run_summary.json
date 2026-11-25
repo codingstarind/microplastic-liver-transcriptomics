@@ -1,0 +1,22 @@
+{
+  "positive_control_MASH_Diet_in_Veh": {
+    "estimate": 0.21514147300939718,
+    "ci": [
+      0.15746923477190863,
+      0.2728137112468857
+    ],
+    "p": 9.284207883737542e-07,
+    "PASS": true
+  },
+  "background_genes": 13777,
+  "depth_yield_separation": {
+    "depth_PE_min": 23.6901,
+    "depth_PE_max": 23.9793,
+    "depth_Veh_min": 24.0184,
+    "depth_Veh_max": 24.1891,
+    "quality_PE_max": 0.7839,
+    "quality_Veh_min": 0.7752
+  },
+  "parallelism": "none needed: vectorised numpy; BLAS threads=1",
+  "seed": 20261122
+}

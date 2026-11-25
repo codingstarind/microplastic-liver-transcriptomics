@@ -1,0 +1,7 @@
+model,spearman_CD_MD_median_sd,spearman_CD_MD_excess,top_pair_CD,top_pair_MD,target,spearman_between_models
+catboost,0.4953475643130815,0.25287356321839083,FAST_eff x CIRC_se,FAST_eff x CIRC_se,,
+hgb,0.29720853858784896,-0.015873015873015872,FAST_eff x CIRC_se,FAST_eff x CIRC_se,,
+catboost vs hgb,,,,,PE_in_CD,0.7088122605363985
+catboost vs hgb,,,,,PE_in_MD,0.6732348111658456
+hgb vs catboost,,,,,PE_in_CD,0.7088122605363985
+hgb vs catboost,,,,,PE_in_MD,0.6732348111658456

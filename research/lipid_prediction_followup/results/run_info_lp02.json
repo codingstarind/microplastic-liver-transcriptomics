@@ -1,0 +1,28 @@
+{
+  "seed": 20261125,
+  "B_bootstrap": 2000,
+  "n_permutations": 2000,
+  "n_genes": 11758,
+  "n_modules": 20,
+  "primary_models": [
+    "F8-OLS",
+    "F8+C-Ridge",
+    "FULL-OLS"
+  ],
+  "secondary_models": [
+    "F8+C-OLS",
+    "FULL-Ridge"
+  ],
+  "group_sizes": {
+    "LIPO": 12,
+    "CHOL": 21,
+    "PPARA": 14,
+    "LIPID_any": 47,
+    "LIPO_only": 12,
+    "CHOL_only": 21,
+    "PPARA_only": 14,
+    "LIPID_multi": 0,
+    "OTHER": 11711,
+    "OTHER_noB12": 10729
+  }
+}

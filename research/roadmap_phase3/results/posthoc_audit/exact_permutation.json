@@ -1,0 +1,44 @@
+{
+  "n_allocations": 12870,
+  "n_genes": 11888,
+  "case_columns": [
+    "SD_wk23_A_R1",
+    "SD_wk23_A_R2",
+    "SD_wk23_A_R3",
+    "SD_wk23_A_R4",
+    "SD_wk23_A_R5",
+    "SD_wk23_A_R6",
+    "SD_wk23_A_R7",
+    "SD_wk23_A_R8"
+  ],
+  "control_columns": [
+    "NC_wk23_A_R1",
+    "NC_wk23_A_R2",
+    "NC_wk23_A_R3",
+    "NC_wk23_A_R4",
+    "NC_wk23_A_R5",
+    "NC_wk23_A_R6",
+    "NC_wk23_A_R7",
+    "NC_wk23_A_R8"
+  ],
+  "observed_stat": 0.3563390546412346,
+  "observed_matches_original_montecarlo": true,
+  "observed_allocation_stat_from_enumeration": 0.35633905464123455,
+  "exact_one_sided_p": 0.03597513597513598,
+  "n_allocations_ge_observed": 463,
+  "exact_q99": 0.39044268225719814,
+  "exact_q95": 0.3438699169171231,
+  "exact_max": 0.4602259681315868,
+  "exact_median": 0.0,
+  "balanced_4v4_n": 4900,
+  "balanced_4v4_max": 0.2878242263775697,
+  "note": "Post-hoc verification; locked decision (FAIL on c1) unchanged.",
+  "original_montecarlo": {
+    "n_perm": 1000,
+    "observed_rho_meandiff": 0.3563390546412346,
+    "null_q99": 0.3820524070255195,
+    "null_max": 0.42795828333024194,
+    "null_median": -0.011122068383385822,
+    "perm_p": 0.03296703296703297
+  }
+}

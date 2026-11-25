@@ -1,0 +1,9 @@
+{
+  "locked_at": "2026-11-23T00:16:50",
+  "sha256": {
+    "00_task_and_estimands.md": "e2ca0f9aa90c8a4c91c49e7f7547209831431c2b06b1301b85bd0b914475d292",
+    "01_model_feasibility_and_leakage_audit.md": "2fbbdf0063ec882b76ad8f6e7bb2caceafacff6da545c0a15369163d39ee58b7",
+    "02_literature_and_representation_choices.md": "cb02947cf40b06364b1d89ca0efe0e1d71dba2952cbdc00c58a8d5f5818ddca9",
+    "03_predeclared_model_evaluation_plan.md": "9c827983bb664724a7ac59889839dad0ebba2b82a883226bbcd0fd50b5c8ce32"
+  }
+}

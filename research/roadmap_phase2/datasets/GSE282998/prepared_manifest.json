@@ -1,0 +1,47 @@
+{
+  "dataset": "GSE282998",
+  "value_type": "targeted_probe_counts",
+  "note": "TempO-Seq whole-transcriptome probe counts (30,146 probes, ~21.4k genes), FFPE. Ready = one probe per gene (highest mean across the arm, as in Heintz et al. 2025). Integer counts.",
+  "original_shape": [
+    30146,
+    48
+  ],
+  "ready_shape": [
+    21198,
+    48
+  ],
+  "ready_index": "GENCODE vM35 gene symbol (GSE294180 annotation)",
+  "files": {
+    "expression_original.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE282998\\prepared\\expression_original.csv.gz",
+      "md5": "ade111a91dae4bf8d6e29ee334c3851a",
+      "sha256": "27b39ea760b2375e9864bd4da88db44b0b340206aea371a58ffa7a2525ab08f7"
+    },
+    "expression_ready.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE282998\\prepared\\expression_ready.csv.gz",
+      "md5": "869b3c5d9f6d1ac54f6c57dcc5c9fbdd",
+      "sha256": "dd0eae765da8480ccc3e440cc53f8aa146dd9acf10de72c2b4a28b069a61f641"
+    }
+  },
+  "mapping_summary": {
+    "dataset": "GSE282998",
+    "total_rows": 30146,
+    "malformed": 0,
+    "tab_suffix_ids": 0,
+    "duplicated_original_ids": 0,
+    "invalid_id": 0,
+    "valid_ids": 30146,
+    "mapped_to_vM35": 29933,
+    "unmapped": 213,
+    "unique_vM35_genes": 21198,
+    "rows_lost_to_collapse": 8735,
+    "shared_with_GSE294180_all": 21198,
+    "shared_with_GSE294180_filtered": 12245,
+    "detected_in_contrast_samples": 10765,
+    "detected_and_in_GSE294180_filtered": 10295,
+    "status_symbol_exact": 27822,
+    "status_symbol_mgi_synonym": 2109,
+    "status_symbol_not_in_vM35": 213,
+    "status_symbol_case": 2
+  }
+}

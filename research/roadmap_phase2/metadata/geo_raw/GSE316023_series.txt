@@ -1,0 +1,24 @@
+title: AI digital pathology as a key tool providing in-depth understanding of the progression and regression of MASH and fibrosis in male mouse models
+geo_accession: GSE316023
+status: Public on Jun 02 2026
+submission_date: Jan 09 2026
+last_update_date: Sep 01 2026
+pubmed_id: 42486853
+summary: Bulk RNA sequencing (RNA-seq) was performed on mouse liver samples to characterize transcriptomic changes that occur over time when mice are fed the GAN (Gubra-Amylin NASH) diet. The aim was to compare molecular signatures between mice housed under standard vivarium conditions (TA) and those housed under thermoneutral (TN) conditions, and to use these data as an initial validation of our diet-induced disease model.
+overall_design: Male C57BL/6J mice (7–8 weeks old) were obtained from Jackson Laboratories and maintained on a 12-hour light/dark cycle (lights on at 06:00). Animals were housed either at ambient temperature (TA; 21 ± 1°C) or at thermoneutrality (TN; 29 ± 1°C) and given ad libitum access to water and food (normal chow, NC Lab5001, or GAN diet D09100310, Research Diets) for up to 32 weeks. For bulk RNA-seq, mice were euthanized by cardiac puncture under isoflurane anesthesia after a 5-hour fast, and livers were collected at weeks 12, 16, 23, and 32. Group sizes were up to n = 8 per condition; an additional normal-chow–fed control group was included at the 23-week time point.
+type: Expression profiling by high throughput sequencing
+contributor: Ashmita,,Saigal | Wendy,,Blumenschein | Yang,,Liu | Saswata,,Talukdar
+sample_id: GSM9443395 | GSM9443396 | GSM9443397 | GSM9443398 | GSM9443399 | GSM9443400 | GSM9443401 | GSM9443402 | GSM9443403 | GSM9443404 | GSM9443405 | GSM9443406 | GSM9443407 | GSM9443408 | GSM9443409 | GSM9443410 | GSM9443411 | GSM9443412 | GSM9443413 | GSM9443414 | GSM9443415 | GSM9443416 | GSM9443417 | GSM9443418 | GSM9443419 | GSM9443420 | GSM9443421 | GSM9443422 | GSM9443423 | GSM9443424 | GSM9443425 | GSM9443426 | GSM9443427 | GSM9443428 | GSM9443429 | GSM9443430 | GSM9443431 | GSM9443432 | GSM9443433 | GSM9443434 | GSM9443435 | GSM9443436 | GSM9443437 | GSM9443438 | GSM9443439 | GSM9443440 | GSM9443441 | GSM9443442 | GSM9443443 | GSM9443444 | GSM9443445 | GSM9443446 | GSM9443447 | GSM9443448 | GSM9443449 | GSM9443450 | GSM9443451 | GSM9443452 | GSM9443453 | GSM9443454 | GSM9443455 | GSM9443456 | GSM9443457 | GSM9443458 | GSM9443459 | GSM9443460 | GSM9443461 | GSM9443462 | GSM9443463 | GSM9443464 | GSM9443465 | GSM9443466 | GSM9443467 | GSM9443468 | GSM9443469 | GSM9443470 | GSM9443471
+contact_name: ashmita,,Saigal
+contact_email: ashmita.saigal@merck.com
+contact_institute: Merck & Co., Inc.
+contact_address: 213 E Grand Ave, South San Francisco, CA-94080, USA
+contact_city: South San Francisco
+contact_state: California
+contact_zip/postal_code: 94080
+contact_country: USA
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE316nnn/GSE316023/suppl/GSE316023_COUNT_NCOMMS-25-40823-T.csv.gz | ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE316nnn/GSE316023/suppl/GSE316023_FPKM_NCOMMS-25-40823-T.csv.gz
+platform_id: GPL24247
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1400485

@@ -1,0 +1,8 @@
+[Parallel(n_jobs=14)]: Using backend LokyBackend with 14 concurrent workers.
+[Parallel(n_jobs=14)]: Done  46 out of  60 | elapsed:  9.0min remaining:  2.7min
+[Parallel(n_jobs=14)]: Done  60 out of  60 | elapsed: 11.3min finished
+  target    model     n  max_abs_diff  mean_abs_diff  corr
+PE_in_CD catboost 35274  2.220446e-16   4.468068e-17   1.0
+PE_in_CD      hgb 35274  1.110223e-16   4.538765e-17   1.0
+PE_in_MD catboost 35274  9.974660e-17   4.467583e-17   1.0
+PE_in_MD      hgb 35274  9.974660e-17   4.469008e-17   1.0

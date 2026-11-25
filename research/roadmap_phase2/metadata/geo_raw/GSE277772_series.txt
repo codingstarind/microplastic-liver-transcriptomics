@@ -1,0 +1,23 @@
+title: Whole transcriptome analysis of mouse liver tissues after treatment with or without polystyrene microplastics
+geo_accession: GSE277772
+status: Public on Mar 22 2025
+submission_date: Sep 23 2024
+last_update_date: Mar 24 2025
+pubmed_id: 39956511
+web_link: https://www.sciencedirect.com/science/article/pii/S0269749125002234?via%3Dihub
+summary: Six-week-old male C57BL/6 mice were orally dosed with 0.4 mg/day PS-MPs twice weekly for eight weeks. When the study ended, the mice were humanely euthanized. Their livers were harvested and the transcriptome analysis of these livers was evaluated.
+overall_design: Six-week-old male C57BL/6 mice were orally dosed with 0.4 mg/day PS-MPs for 8 weeks. When the study ended, the mice were humanely euthanized, their livers were harvested, and the histology of their livers was analyzed.
+type: Expression profiling by high throughput sequencing
+contributor: Yu-Jhe,,Chiu | Yung-Li,,Wang | Hui-Wen,,Chiu | Yu-Hsuan,,Lee
+sample_id: GSM8529295 | GSM8529296 | GSM8529297 | GSM8529298 | GSM8529299 | GSM8529300
+contact_name: Hui-Wen,,Chiu
+contact_institute: Taipei medical university
+contact_address: No.301, Yuantong Rd., Zhonghe Dist., New Taipei City
+contact_city: Taipei
+contact_zip/postal_code: 235
+contact_country: Taiwan
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277772/suppl/GSE277772_RAW.tar
+platform_id: GPL24247
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1164147

@@ -1,0 +1,22 @@
+title: Hepatic gene expression profiles during fed–fasted–refed state in mice
+geo_accession: GSE225697
+status: Public on Feb 24 2023
+submission_date: Feb 21 2023
+last_update_date: Jan 08 2026
+pubmed_id: 36936413 | 40539266
+summary: This SuperSeries is composed of the SubSeries listed below.
+overall_design: Refer to individual Series
+type: Expression profiling by high throughput sequencing | Non-coding RNA profiling by high throughput sequencing
+sample_id: GSM7054359 | GSM7054360 | GSM7054361 | GSM7054362 | GSM7054363 | GSM7054364 | GSM7054365 | GSM7054366 | GSM7054367 | GSM7054368 | GSM7054369 | GSM7054370 | GSM7054371 | GSM7054372 | GSM7054373 | GSM7054374 | GSM7054375 | GSM7054376
+contact_name: NANA,,JI
+contact_email: 17354281868@139.com
+contact_phone: 18001796093
+contact_institute: Fudan university
+contact_address: Dongan road 130
+contact_city: shanghai
+contact_zip/postal_code: 200000
+contact_country: China
+platform_id: GPL13112
+platform_taxid: 10090
+sample_taxid: 10090
+relation: SuperSeries of: GSE225695 | SuperSeries of: GSE225696 | BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA937176

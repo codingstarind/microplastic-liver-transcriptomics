@@ -1,0 +1,17 @@
+check,passed,detail
+count unit comparable (counts per read pair within 0.6-1.0 in all studies),False,"{'GSE245069': 0.734, 'GSE277772': 0.017, 'GSE294180': 0.775, 'HONG': 1.641}"
+"HONG: >=98% of the 11,758 feature-table genes present",True,0.9999
+"GSE245069: >=98% of the 11,758 feature-table genes present",True,0.9974
+frozen prediction gene order == raw_table gene order,True,11758
+F8_ols__PE_in_CD: serialized model re-predicts identically from RAW_COLS in locked order,True,max diff 0
+F8_ols__PE_in_CD: feature columns,True,"['MASH_eff', 'MASH_se', 'FAST_eff', 'FAST_se', 'PPARA_eff', 'PPARA_se', 'CIRC_eff', 'CIRC_se']"
+F8C_ridge__PE_in_CD: serialized model re-predicts identically from RAW_COLS in locked order,True,max diff 0
+F8C_ridge__PE_in_CD: feature columns,True,"['MASH_eff', 'MASH_se', 'FAST_eff', 'FAST_se', 'PPARA_eff', 'PPARA_se', 'CIRC_eff', 'CIRC_se', 'C_FASTxPPARA', 'C_MASHxFAST', 'C_FAST_morning_dev', 'C_PPARA_consistent']"
+column-order sensitivity guard,True,reversed order differs
+GSE294180 PE_in_CD target = PE minus vehicle (Spearman vs log ratio of group-mean CPM),True,1.0
+HONG PE_vs_CON target = exposed minus control (Spearman vs log ratio of group-mean CPM),True,0.999
+GSE245069 PSpooled_vs_CON target = exposed minus control (Spearman vs log ratio of group-mean CPM),True,0.995
+Phase 5 freeze step never reads external data,True,s02
+Phase 5 evaluation scripts contain no estimator .fit(),True,"s04,s05"
+Phase 4E models reproduce Phase 4E scores,True,"{'R0': {'max_abs_diff_vs_phase4e': 2.220446049250313e-16, 'pure_function_max_abs_diff_vs_phase4e': 2.220446049250313e-16}, 'R2': {'max_abs_diff_vs_phase4e': 4.440892098500626e-16, 'pure_function_max_abs_diff_vs_phase4e': 4.440892098500626e-16}}"
+4D signature files unchanged,True,sha256

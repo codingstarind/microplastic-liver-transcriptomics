@@ -1,0 +1,10 @@
+{
+  "locked_at": "2026-11-22T21:47:19",
+  "status": "EXPLORATORY; locked after Phase 4 results, before any Phase 4B PE scoring",
+  "sha256": {
+    "literature_feature_model_matrix.csv": "513a8421dca52b33eaa68d1b69f859f3c01e33277fb39322e3434204d689f6f8",
+    "feature_engineering_plan.md": "e02caccb64b7a10010ef138d2401cbfa47ebe8e92505c52affd98d4caa97d401",
+    "comparison_protocol.md": "2d456b02634a192257c4119a7e839b5314ca3e94385c814b992ade7cd0275d20",
+    "results/feature_diagnostics.txt": "b5b5b71723414b7221d47860245af81613e5aebd3257979a3ac9486dede08c9e"
+  }
+}

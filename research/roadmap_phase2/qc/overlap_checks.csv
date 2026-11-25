@@ -1,0 +1,6 @@
+check,result,detail
+GSM shared between series (excluding SuperSeries),0,GSE225697 SuperSeries GSMs excluded by design
+GSE246328 library IDs also in GSE294629,54,54/55 GSE246328 libraries re-deposited in GSE294629 (77 libraries)
+SRA runs with identical read+base counts in >1 series,3,GSE261893:GSM8153700|GSE261725:GSM8149671|GSE286116:GSM8717938|GSE262399:GSM8164488 ; GSE261893:GSM8153701|GSE261725:GSM8149672|GSE286116:GSM8717939|GSE262399:GSM8164489 ; GSE261893:GSM8153702|GSE261725:GSM8149673|GSE286116:GSM8717940|GSE262399:GSM8164490
+Hong-lab control count columns identical to GSE261893,3,"GSE261725,GSE286116,GSE262399"
+Duplicate GSM in sample_metadata_master,0,

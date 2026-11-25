@@ -1,0 +1,4 @@
+split,train_study,n_train,n_train_pos,test_study,n_test,n_test_pos,overlap_gsm
+S1_train316TA_test246,GSE316023,16,8,GSE246328,15,7,0
+S2_train246_test316TA,GSE246328,15,7,GSE316023,16,8,0
+S1b_train316TA+TN_test246,GSE316023,32,16,GSE246328,15,7,0

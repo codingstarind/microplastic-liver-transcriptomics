@@ -1,0 +1,45 @@
+{
+  "dataset": "GSE225695",
+  "value_type": "estimated_counts",
+  "note": "Deposited HISAT2/StringTie 'count' columns from xlsx (non-integer cells: 125800); StringTie-derived counts are estimates. Ensembl->vM35, many-to-one summed. n=3/group.",
+  "original_shape": [
+    22565,
+    9
+  ],
+  "ready_shape": [
+    21561,
+    9
+  ],
+  "ready_index": "GENCODE vM35 gene symbol (GSE294180 annotation)",
+  "files": {
+    "expression_original.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE225695\\prepared\\expression_original.csv.gz",
+      "md5": "a2e771e4703a7cd2cc067573a1160b9c",
+      "sha256": "83adbe2110845cec2841b7d8ab33ec7b72bfa95d8102be0f19485f841f0d3931"
+    },
+    "expression_ready.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE225695\\prepared\\expression_ready.csv.gz",
+      "md5": "3a8b1af8a759b4324b0bf1ee6c84de3c",
+      "sha256": "b2a8428dacf82cc21d4d89e96c4ea67c09e03d1ef70eda4d400ab436ea8c3a2f"
+    }
+  },
+  "mapping_summary": {
+    "dataset": "GSE225695",
+    "total_rows": 22565,
+    "malformed": 0,
+    "tab_suffix_ids": 0,
+    "duplicated_original_ids": 0,
+    "invalid_id": 0,
+    "valid_ids": 22565,
+    "mapped_to_vM35": 21565,
+    "unmapped": 1000,
+    "unique_vM35_genes": 21561,
+    "rows_lost_to_collapse": 4,
+    "shared_with_GSE294180_all": 21561,
+    "shared_with_GSE294180_filtered": 12395,
+    "detected_in_contrast_samples": 11696,
+    "detected_and_in_GSE294180_filtered": 11497,
+    "status_ensembl_match": 21565,
+    "status_ensembl_not_in_vM35": 1000
+  }
+}

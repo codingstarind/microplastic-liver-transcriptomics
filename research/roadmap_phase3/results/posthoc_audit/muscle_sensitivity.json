@@ -1,0 +1,97 @@
+{
+  "status": "POST-HOC EXPLORATORY; does not replace locked results",
+  "primary_locked_309_list": {
+    "MASH1_vs_Diet": {
+      "n_genes": 11886,
+      "spearman": 0.3550966824334874,
+      "n_sig_both": 1247,
+      "sign_agree_sig_both": 0.7874899759422614,
+      "n_deg_overlap": 747,
+      "jaccard": 0.13851288707583906
+    },
+    "MASH2_vs_Diet": {
+      "n_genes": 11871,
+      "spearman": 0.32345038620959793,
+      "n_sig_both": 1034,
+      "sign_agree_sig_both": 0.7127659574468085,
+      "n_deg_overlap": 694,
+      "jaccard": 0.13975030205396696
+    },
+    "MASH1_vs_MASH2": {
+      "n_genes": 11871,
+      "spearman": 0.5566969326521675,
+      "n_sig_both": 3306,
+      "sign_agree_sig_both": 0.8986690865093769,
+      "n_deg_overlap": 2493,
+      "jaccard": 0.3791634980988593
+    }
+  },
+  "alt_88_muscle_restricted": {
+    "MASH1_vs_Diet": {
+      "n_genes": 12008,
+      "spearman": 0.35795108772945977,
+      "n_sig_both": 1262,
+      "sign_agree_sig_both": 0.7908082408874801,
+      "n_deg_overlap": 764,
+      "jaccard": 0.13936519518423932
+    },
+    "MASH2_vs_Diet": {
+      "n_genes": 11992,
+      "spearman": 0.32973837961908886,
+      "n_sig_both": 1056,
+      "sign_agree_sig_both": 0.7168560606060606,
+      "n_deg_overlap": 713,
+      "jaccard": 0.1402990948445494
+    },
+    "MASH1_vs_MASH2": {
+      "n_genes": 11992,
+      "spearman": 0.5597896716049034,
+      "n_sig_both": 3379,
+      "sign_agree_sig_both": 0.8981947321692808,
+      "n_deg_overlap": 2556,
+      "jaccard": 0.3820056792706621
+    }
+  },
+  "readmitted_watch_genes": {
+    "Pdk4": {
+      "MASH1": 0.355777011682011,
+      "MASH2": 0.431769327139961,
+      "Diet_in_Veh": 1.98127459360845
+    },
+    "Plin4": {
+      "MASH1": 2.59815954673931,
+      "MASH2": 3.0405212178005,
+      "Diet_in_Veh": 2.48950014673468
+    },
+    "Col1a1": {
+      "MASH1": 3.04625349072899,
+      "MASH2": 4.23871075671743,
+      "Diet_in_Veh": 1.2860733899317
+    },
+    "Col1a2": {
+      "MASH1": 2.28215665114562,
+      "MASH2": 3.54219916946451,
+      "Diet_in_Veh": 1.08005740335269
+    },
+    "Lpl": {
+      "MASH1": 2.65249779404943,
+      "MASH2": 3.73354030513612,
+      "Diet_in_Veh": 2.42493532122943
+    },
+    "Cpt1b": {
+      "MASH1": 1.22038247246795,
+      "MASH2": -0.641726006386264,
+      "Diet_in_Veh": 1.45751630936586
+    },
+    "Cav1": {
+      "MASH1": 0.853996908889521,
+      "MASH2": 1.09829164432003,
+      "Diet_in_Veh": 0.932628574261813
+    },
+    "Vldlr": {
+      "MASH1": 1.08559511209359,
+      "MASH2": 0.352871792577103,
+      "Diet_in_Veh": 1.34396591581541
+    }
+  }
+}

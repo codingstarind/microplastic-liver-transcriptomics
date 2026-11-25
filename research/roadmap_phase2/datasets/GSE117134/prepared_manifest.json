@@ -1,0 +1,46 @@
+{
+  "dataset": "GSE117134",
+  "value_type": "RPKM",
+  "note": "Deposited RPKM only (same in-house pipeline as GSE107787). Ready = WT samples only.",
+  "original_shape": [
+    18079,
+    54
+  ],
+  "ready_shape": [
+    17880,
+    18
+  ],
+  "ready_index": "GENCODE vM35 gene symbol (GSE294180 annotation)",
+  "files": {
+    "expression_original.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE117134\\prepared\\expression_original.csv.gz",
+      "md5": "02d8202ebb8a14d42a27544636edd89b",
+      "sha256": "8cae5211e2e27de6b8c77e906e5d241af14c7e25006d51751f6abcd5d367f968"
+    },
+    "expression_ready.csv.gz": {
+      "path": "D:\\mpliver_work\\phase2_refs\\GSE117134\\prepared\\expression_ready.csv.gz",
+      "md5": "768e89fbe828567d7a7f5cad00f985f3",
+      "sha256": "5e895f09fe1bae91a6a0fba580d92c8385a08bd60bd8bce3083cba7d2b908f2d"
+    }
+  },
+  "mapping_summary": {
+    "dataset": "GSE117134",
+    "total_rows": 18079,
+    "malformed": 0,
+    "tab_suffix_ids": 0,
+    "duplicated_original_ids": 0,
+    "invalid_id": 0,
+    "valid_ids": 18079,
+    "mapped_to_vM35": 17895,
+    "unmapped": 184,
+    "unique_vM35_genes": 17880,
+    "rows_lost_to_collapse": 15,
+    "shared_with_GSE294180_all": 17880,
+    "shared_with_GSE294180_filtered": 12600,
+    "detected_in_contrast_samples": 10359,
+    "detected_and_in_GSE294180_filtered": 10137,
+    "status_symbol_exact": 17146,
+    "status_symbol_mgi_synonym": 749,
+    "status_symbol_not_in_vM35": 184
+  }
+}

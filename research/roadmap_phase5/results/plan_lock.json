@@ -1,0 +1,32 @@
+{
+  "locked_at": "2026-11-23T06:42:57",
+  "seed": 20261122,
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "sha256": {
+    "roadmap_phase5\\locked_plan.md": "b10e8eae400f7eae8bc2d34b1ca2c3ea030e0c4cd76687a6b068063b5d7e74d1",
+    "roadmap_phase4d\\signatures\\FAST_main_n50.csv": "83a3eff4f1e198533b61cb58d767e91bba524d845bf3ece042b4a2a8d46f0fc5",
+    "roadmap_phase4d\\signatures\\MASH_main_n50.csv": "403e84e7fcfccc9b3970e9e7ddd8e3c929198d2e99a8fb5c6479fe5bba5ee427",
+    "roadmap_phase4d\\signatures\\PPARA_main_n50.csv": "24ef5dea092227c90cd52157550cbbadf6a7acfcd728eba2ec6c50891472fa20",
+    "roadmap_phase4d\\frozen_signature_manifest.csv": "8554b3eed12475aad29de43add66cd606d9d9aad9f1d8512d5cee6df15730140",
+    "roadmap_phase4d\\results\\cache\\gene_lengths.csv": "a54096194815e5548256bb573adf88dfd88fe4aee122e78a53f1fa7d4944d4d8",
+    "roadmap_phase3\\results\\gene_sets.csv": "cd0024ffffa960f1b72f8bb6bcb40d61322b92284856cad35b95406be4e5c863",
+    "roadmap_phase2\\metadata\\phase3_gene_universe.csv": "6dc6868a029418fc0533f478850fad16ac9b44d95142b5b991756b3ff65a379c",
+    "roadmap_phase4e\\scripts\\e01_mash_state_models.py": "fd6a962bd8a9fe69a2561b3ad942b03b34741e81e07bf4cbe04026b146726d8d",
+    "roadmap_phase4e\\scripts\\e03_apply_to_gse294180.py": "ac22807e698bfcdae96e11b0724225a800699cf282fef5d1a8c4510a5cdfabec",
+    "roadmap_phase4e\\results\\gse294180_frozen_model_scores.csv": "de225097fea255fbda810a106cfef462629044f6650ca2512f961e148ebb8af1",
+    "roadmap_phase4b\\scripts\\p4b_features.py": "0a57ca3b10724531d9d498b1cecb690cb399f8d083861e40a9eb0d452284ed1c",
+    "roadmap_phase4\\scripts\\p4_data.py": "0f7227f80fa1689b3db77504d448a0aa38f3ce61dacf1024de12dfe7463ead5b",
+    "roadmap_phase4c_diagnostics\\tables\\fix_experiment_summary.csv": "a814bbea94ce0fff9b10b4a32b65d1c7ff5684918f49ba173a5ff340751f4303",
+    "C:\\Users\\Soham\\Desktop\\microplastic\\results\\deseq2\\provisional_deposited\\results_PE_in_CD.csv.gz": "80c270226674168eaafa809029ac9735559fe48b3fd378fd80b67103ab003fb6",
+    "C:\\Users\\Soham\\Desktop\\microplastic\\results\\deseq2\\provisional_deposited\\results_PE_in_MD.csv.gz": "0df6c201ed35de56451caa834580296aa0082362611b3107df73fc39fa5dea45",
+    "D:\\mpliver_work\\phase2_refs\\GSE261893\\GSE261893_readcount_Con_PE.txt.gz": "7fabe38b0c22c2b88d3019103b3ab153776b188a2e1fe308c966ba6ea0ded409",
+    "D:\\mpliver_work\\phase2_refs\\GSE245069\\GSE245069_gene_expression.txt.gz": "024d5c5a1d02f17de2e16a00015c6673294d1d3d4f8a9d02d3ba3a993a44ab21"
+  }
+}

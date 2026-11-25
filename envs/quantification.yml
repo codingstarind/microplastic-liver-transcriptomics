@@ -1,0 +1,8 @@
+# Re-quantification pilot: same tool versions as the original authors (GEO GSE294180).
+name: mpliver-quant
+channels: [conda-forge, bioconda]
+dependencies:
+  - salmon=1.10.3
+  - fastp=0.23.4
+  - sra-tools=3.2
+  - curl

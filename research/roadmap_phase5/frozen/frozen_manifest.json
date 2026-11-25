@@ -1,0 +1,40 @@
+{
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "files": {
+    "gene_F8_ols__PE_in_CD.joblib": "db3edf5ea9dfcbb9ee5eac44588cb7430f8bbba302fbb9b51d2ee0aabbd62da8",
+    "gene_F8C_ridge__PE_in_CD.joblib": "37a0a76acb2759a38f377d8cbb47b4ebf2173bb604d21c34ba726a7b195055ca",
+    "gene_FAST_only_ols__PE_in_CD.joblib": "c7d4e264f7037d8b2baf99da0f26ee5f4472c65f26f0c05ec21d56b7322ee3d9",
+    "gene_MASH_only_ols__PE_in_CD.joblib": "3114e1d1c053a355c166bfe47b64a18a2f928205311cd66b8bc2f45dd72c7cf3",
+    "gene_F8_ols__PE_in_MD.joblib": "4b5fe32d23ab3e70727bc88a6b80ea8e66e290dd0cc5d08b8f0eb37aeead9ebe",
+    "gene_F8C_ridge__PE_in_MD.joblib": "4935ed456cb76273554de5ac25b6b05fa96e8b2da5d1043eebd7ed4b24fe974e",
+    "gene_FAST_only_ols__PE_in_MD.joblib": "e701368c33140fd5a623f46b0d14185b9980cf662da342f8e8215417be5c4b4e",
+    "gene_MASH_only_ols__PE_in_MD.joblib": "bad4757aa281b498d9bf806e9ea8fd03577b5dea7e2d86fb644fdc21761b73c8",
+    "gene_level_frozen_predictions.csv.gz": "9e22bd9e4e97cd4fee6e42672a127ab2b6de994d98c6bf3580736b734368d551",
+    "phase4e_R0_l2_logistic_params.json": "1774a441e0da2221be8f53ab04c35ee61294fe4fabe850527bdca16bbb495c6f",
+    "phase4e_R2_l2_logistic_params.json": "1ba71bd1d009d40e9923a8e3ad382a227bd5ac509f97b17bfaf1273f965654ee",
+    "phase4d_background_genes.csv": "e46391a445a6403bd489bb7350ce435ca2505a2dbe16b7dc0c797535289e61ff"
+  },
+  "F8_full_fit_signs_match_phase4c_fold_median": {
+    "PE_in_CD": true,
+    "PE_in_MD": true
+  },
+  "phase4e_reproduction": {
+    "R0": {
+      "max_abs_diff_vs_phase4e": 2.220446049250313e-16,
+      "pure_function_max_abs_diff_vs_phase4e": 2.220446049250313e-16
+    },
+    "R2": {
+      "max_abs_diff_vs_phase4e": 4.440892098500626e-16,
+      "pure_function_max_abs_diff_vs_phase4e": 4.440892098500626e-16
+    }
+  },
+  "phase4d_background_n": 13777,
+  "phase4d_signature_hashes_verified": true
+}

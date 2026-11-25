@@ -1,0 +1,24 @@
+title: Long term exposure of PP-MP has no effect on the metabolism of mice.
+geo_accession: GSE286116
+status: Public on Apr 17 2025
+submission_date: Jan 08 2025
+last_update_date: Apr 17 2025
+summary: Microplastics are defined as plastics ranging in size from 0.1μm to 5mm. Currently, research is being conducted across various fields to examine the effects of microplastics. Some studies demonstrated negative impacts on cells and mice. However, there is a lack of research on the effects by long-term exposure to microplastics. Most of the papers evaluated cytotoxicity with period of less than 2 months. Therefore, in this study, we investigated the potential issues that may arise from prolonged exposure through food mixed with Polypropylene microplastic (PP-MP) for over a year. We divided our study into short, mid, and long-term periods to assess cytotoxicity through Glucose tolerance test, Insulin tolerance test, analysis of insulin and c-peptide levels, hanging, grip, treadmill, Y-maze and open field tests, Respiratory Exchange Ratio, Energy Expenditure, Activity, and body composition. Through this, we comprehensively examined potential issues related to mouse behavior, muscle, metabolism and other factors. After dissection, RNA sequencing was carried out to investigate the effects on genes. For further verification, RT-qPCR was conducted. To summarize, our study provides evidence suggesting that treatment of microplastics for a short term has adverse effects, but with prolonged exposure, their effects tend to diminish.
+overall_design: To assess the impact of prolonged Polypropylene Microplastic (PP-MP) exposure on mice, hepatic gene expression profiles were analyzed.
+type: Expression profiling by high throughput sequencing
+contributor: Bokyung,,Kim | Gyeong Bae,,Song | Jeein,,Hong | Gijeong,,Woo | Mi Jung,,Choi | Sungguan,,Hong
+sample_id: GSM8717938 | GSM8717939 | GSM8717940 | GSM8717941 | GSM8717942 | GSM8717943
+contact_name: sungguan,,hong
+contact_email: sungguanhong@cau.ac.kr
+contact_department: Chemistry
+contact_institute: Chung-Ang
+contact_address: 84, Heukseok-ro, Dongjak-gu, Seoul, 104-407
+contact_city: seoul
+contact_state: none
+contact_zip/postal_code: 06974
+contact_country: South Korea
+supplementary_file: ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE286nnn/GSE286116/suppl/GSE286116_RAW.tar | ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE286nnn/GSE286116/suppl/GSE286116_readcount_Con_PP.txt.gz
+platform_id: GPL24247
+platform_taxid: 10090
+sample_taxid: 10090
+relation: BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1207961

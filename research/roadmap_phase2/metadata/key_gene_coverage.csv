@@ -1,0 +1,59 @@
+program,gene,in_GSE294180_filtered,GSE107787,GSE117134,GSE225695,GSE246328,GSE282998,GSE316023
+MASH/fibrosis/inflammation,Ccl2,True,False,False,False,True,True,True
+MASH/fibrosis/inflammation,Cd68,True,True,True,True,True,True,True
+MASH/fibrosis/inflammation,Col1a1,True,True,True,True,True,True,True
+MASH/fibrosis/inflammation,Col3a1,True,True,True,True,True,True,True
+MASH/fibrosis/inflammation,Gpnmb,True,False,False,False,True,False,True
+MASH/fibrosis/inflammation,Lgals3,True,True,True,True,True,True,True
+MASH/fibrosis/inflammation,Mmp12,True,False,False,False,True,False,True
+MASH/fibrosis/inflammation,Timp1,False,False,False,False,True,True,True
+MASH/fibrosis/inflammation,Trem2,True,False,False,True,True,False,True
+PPARa targets,Acot1,True,True,True,True,True,True,True
+PPARa targets,Acox1,True,True,True,True,True,True,True
+PPARa targets,Angptl4,True,True,True,True,True,True,True
+PPARa targets,Cd36,True,True,True,True,True,True,True
+PPARa targets,Cpt1a,True,True,True,True,True,True,True
+PPARa targets,Cyp4a10,True,True,True,True,True,True,True
+PPARa targets,Cyp4a14,True,True,True,True,True,True,True
+PPARa targets,Ehhadh,True,True,True,True,True,True,True
+PPARa targets,Fgf21,True,True,False,True,True,True,True
+PPARa targets,Hmgcs2,True,True,True,True,True,True,True
+PPARa targets,Pdk4,True,True,True,True,True,True,True
+PPARa targets,Plin2,True,True,True,True,True,True,True
+PPARa targets,Plin4,True,True,False,True,True,True,True
+PPARa targets,Ppara,True,True,True,True,True,True,True
+cholesterol/SREBP2,Cyp51,True,True,True,True,True,True,True
+cholesterol/SREBP2,Fdps,True,True,True,True,True,True,True
+cholesterol/SREBP2,Hmgcr,True,True,True,True,True,True,True
+cholesterol/SREBP2,Hmgcs1,True,True,True,True,True,True,True
+cholesterol/SREBP2,Idi1,True,True,True,True,True,True,True
+cholesterol/SREBP2,Insig1,True,True,True,True,True,True,True
+cholesterol/SREBP2,Ldlr,True,True,True,True,True,True,True
+cholesterol/SREBP2,Pcsk9,True,True,True,True,True,True,True
+cholesterol/SREBP2,Sqle,True,True,True,True,True,True,True
+clock,Bmal1,True,True,True,True,True,True,True
+clock,Clock,True,True,True,True,True,True,True
+clock,Cry1,True,True,True,True,True,True,True
+clock,Dbp,True,True,True,True,True,True,True
+clock,Nfil3,True,True,True,True,True,True,True
+clock,Nr1d1,True,True,True,True,True,True,True
+clock,Nr1d2,True,True,True,True,True,True,True
+clock,Per1,True,True,True,True,True,False,True
+clock,Per2,True,True,True,True,True,False,True
+clock,Per3,True,True,True,True,True,True,True
+clock,Tef,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Acaca,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Acly,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Elovl6,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Fasn,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Me1,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Mlxipl,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Pnpla3,True,True,True,False,True,True,True
+lipogenesis/SREBP1,Scd1,True,True,True,True,True,True,True
+lipogenesis/SREBP1,Srebf1,True,True,True,True,True,True,True
+skeletal muscle (technical),Acta1,True,False,False,False,False,True,False
+skeletal muscle (technical),Ckm,True,False,False,False,False,False,False
+skeletal muscle (technical),Myh1,True,False,False,False,False,False,False
+skeletal muscle (technical),Myh4,True,False,False,False,False,False,False
+skeletal muscle (technical),Mylpf,True,False,False,False,True,True,True
+skeletal muscle (technical),Tnnt3,True,False,False,False,False,False,False

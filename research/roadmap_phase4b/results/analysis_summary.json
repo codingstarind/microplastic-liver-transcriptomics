@@ -1,0 +1,121 @@
+{
+  "reproducibility_vs_phase4": {
+    "n": 150,
+    "max_abs_rmse_diff": 0.0016231177051986845
+  },
+  "shortlist": [
+    {
+      "target": "PE_in_CD",
+      "rep": "FULL",
+      "model": "elasticnet",
+      "d_rmse": -0.006437273165259502,
+      "d_r2_oos": 0.037187709539401724
+    },
+    {
+      "target": "PE_in_CD",
+      "rep": "FULL",
+      "model": "ols",
+      "d_rmse": -0.006487061373799808,
+      "d_r2_oos": 0.03765119709769228
+    },
+    {
+      "target": "PE_in_CD",
+      "rep": "FULL",
+      "model": "ridge",
+      "d_rmse": -0.0064787457557791365,
+      "d_r2_oos": 0.03750429360978682
+    },
+    {
+      "target": "PE_in_MD",
+      "rep": "FULL",
+      "model": "elasticnet",
+      "d_rmse": -0.005997481756579344,
+      "d_r2_oos": 0.03850331931274916
+    },
+    {
+      "target": "PE_in_MD",
+      "rep": "FULL",
+      "model": "ols",
+      "d_rmse": -0.0052814802597848,
+      "d_r2_oos": 0.034030097756977275
+    },
+    {
+      "target": "PE_in_MD",
+      "rep": "FULL",
+      "model": "ridge",
+      "d_rmse": -0.0059174988729155074,
+      "d_r2_oos": 0.03783110163831438
+    },
+    {
+      "target": "PE_in_MD",
+      "rep": "FULL-A",
+      "model": "elasticnet",
+      "d_rmse": -0.005807949722908741,
+      "d_r2_oos": 0.03720393677547972
+    },
+    {
+      "target": "PE_in_MD",
+      "rep": "FULL-A",
+      "model": "ols",
+      "d_rmse": -0.005878532285632101,
+      "d_r2_oos": 0.03735517038645312
+    },
+    {
+      "target": "PE_in_MD",
+      "rep": "FULL-A",
+      "model": "ridge",
+      "d_rmse": -0.00584133302009493,
+      "d_r2_oos": 0.037108669648599074
+    }
+  ],
+  "controls": [
+    {
+      "stage": "ctrl_permuted_target",
+      "target": "PERM:PE_in_CD",
+      "model": "hgb",
+      "r2_oos": -0.0001
+    },
+    {
+      "stage": "ctrl_permuted_target",
+      "target": "PERM:PE_in_CD",
+      "model": "ridge",
+      "r2_oos": -0.0012
+    },
+    {
+      "stage": "ctrl_permuted_target",
+      "target": "PERM:PE_in_MD",
+      "model": "hgb",
+      "r2_oos": -0.0017
+    },
+    {
+      "stage": "ctrl_permuted_target",
+      "target": "PERM:PE_in_MD",
+      "model": "ridge",
+      "r2_oos": -0.0005
+    },
+    {
+      "stage": "ctrl_shuffled_B",
+      "target": "PE_in_CD",
+      "model": "hgb",
+      "r2_oos": 0.0848
+    },
+    {
+      "stage": "ctrl_shuffled_B",
+      "target": "PE_in_CD",
+      "model": "ridge",
+      "r2_oos": 0.0656
+    },
+    {
+      "stage": "ctrl_shuffled_B",
+      "target": "PE_in_MD",
+      "model": "hgb",
+      "r2_oos": 0.0813
+    },
+    {
+      "stage": "ctrl_shuffled_B",
+      "target": "PE_in_MD",
+      "model": "ridge",
+      "r2_oos": 0.0712
+    }
+  ]
+}

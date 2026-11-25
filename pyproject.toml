@@ -17,8 +17,15 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+# Research-phase scripts under research/ are kept exactly as they were run; lint covers
+# src/, scripts/, analysis/, tests/ and supplementary/.
+extend-exclude = ["research"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "B"]
 # zip() over plot axes and items of different length is intentional in the figure code.
 ignore = ["B905"]
+
+[tool.ruff.lint.per-file-ignores]
+# Record-keeping scripts with long literal table rows and paths.
+"supplementary/**/*.py" = ["E501"]

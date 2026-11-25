@@ -1,0 +1,8 @@
+                                output  identical_shape  max_abs_numeric_diff  non_numeric_equal
+                   cv_fold_metrics.csv             True                   0.0               True
+               external_candidates.csv             True                   0.0               True
+                   labelling_ranks.csv             True                   0.0               True
+            hyperparameter_choices.csv             True                   NaN               True
+         mash_classifier_bootstrap.csv             True                   0.0               True
+candidate_predictions_all_genes.csv.gz             True                   0.0               True
+             bootstrap replicates 0-49             True                   0.0               True

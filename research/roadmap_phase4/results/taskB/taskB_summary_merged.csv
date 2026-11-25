@@ -1,0 +1,8 @@
+model,internal_balanced_accuracy_mean,internal_balanced_accuracy_std,internal_roc_auc_mean,internal_roc_auc_std,internal_brier_mean,internal_brier_std,external_balanced_accuracy,external_roc_auc,external_sensitivity,external_specificity,external_brier,external_tn,external_fp,external_fn,external_tp,GSE294180_mean_pGAN_CD,GSE294180_mean_pGAN_MD
+dummy,0.5,0.0,0.5,0.0,0.5,0.0,0.5,0.5,0.0,1.0,0.467,8,0,7,0,0.0,0.0
+logistic_l2,1.0,0.0,1.0,0.0,0.019,0.009,1.0,1.0,1.0,1.0,0.025,8,0,0,7,0.21,0.71
+gaussian_nb,1.0,0.0,1.0,0.0,0.0,0.0,0.938,0.938,1.0,0.875,0.067,7,1,0,7,0.0,1.0
+tree_gini,0.938,0.086,0.938,0.086,0.062,0.086,0.875,0.875,1.0,0.75,0.133,6,2,0,7,0.0,0.0
+tree_entropy,0.938,0.086,0.938,0.086,0.062,0.086,0.875,0.875,1.0,0.75,0.133,6,2,0,7,0.0,0.0
+rf,1.0,0.0,1.0,0.0,0.009,0.005,0.938,1.0,1.0,0.875,0.044,7,1,0,7,0.4,0.79
+hgb,1.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,8,0,0,7,0.0,0.8

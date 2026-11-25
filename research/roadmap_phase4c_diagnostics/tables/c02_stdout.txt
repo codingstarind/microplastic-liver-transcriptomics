@@ -1,0 +1,89 @@
+  target        model     n  obs_sd  pred_sd  pred_to_obs_sd  calibration_slope                                 calib_ci  rho_absresid_targetSE                         rho_absresid_SE_ci  rho_absresid_baseMean                     rho_absresid_baseMean_ci  r2_oos_gene_mean
+PE_in_CD       F8_ols 11758   0.330    0.087           0.264              0.944 (0.7717848879997518, 1.1658196707218327)                  0.395    (0.364021853658461, 0.4265807397266009)                 -0.233  (-0.2924780812365991, -0.17812971320441431)             0.063
+PE_in_CD   F8+C_ridge 11758   0.330    0.099           0.301              0.921   (0.7651531103639404, 1.13139480470199)                  0.396    (0.363765008103685, 0.4264657051694153)                 -0.238   (-0.298732557165608, -0.18465033570728073)             0.078
+PE_in_CD F8+B+C_ridge 11758   0.330    0.103           0.312              0.959 (0.7926537472619415, 1.1118674426431636)                  0.395 (0.36303670931375587, 0.42588120125128776)                 -0.241  (-0.3003488772601615, -0.18758182717176097)             0.091
+PE_in_CD  F8_catboost 11758   0.330    0.096           0.289              1.041 (0.8418164247058957, 1.2164769551930266)                  0.399 (0.36592386317968395, 0.43546246194469934)                 -0.243  (-0.3010730825295891, -0.18756630748861602)             0.092
+PE_in_MD       F8_ols 11758   0.314    0.097           0.309              0.852 (0.5702048376700782, 1.0631025586437033)                  0.439  (0.38803225215036674, 0.4885041931786562)                 -0.308  (-0.36147409714523837, -0.2557340152235945)             0.071
+PE_in_MD   F8+C_ridge 11758   0.314    0.094           0.301              0.978   (0.81192857675897, 1.1572253621750068)                  0.446  (0.4006167366745486, 0.49376971105034617)                 -0.317  (-0.37139418540619673, -0.2601291416509094)             0.091
+PE_in_MD F8+B+C_ridge 11758   0.314    0.097           0.310              1.012 (0.8399731158050608, 1.1349015028189446)                  0.449   (0.40291966035028864, 0.495349246433028)                 -0.321  (-0.3734105024755097, -0.26841602154894073)             0.103
+PE_in_MD  F8_catboost 11758   0.314    0.087           0.276              0.977 (0.7798333285241451, 1.1878265411705364)                  0.439  (0.3882685384338765, 0.48773032883261763)                 -0.307 (-0.36272282781301884, -0.25256076766222346)             0.077
+  target  model                                grouping           group    n  rmse  r2_oos  sign_acc  mean_resid
+PE_in_CD F8_ols                       target_SE_tercile low_SE_reliable 3920 0.150   0.107     0.621       0.002
+PE_in_CD F8_ols                       target_SE_tercile          mid_SE 3919 0.216   0.102     0.607       0.002
+PE_in_CD F8_ols                       target_SE_tercile   high_SE_noisy 3919 0.487   0.051     0.579      -0.007
+PE_in_CD F8_ols                       baseMean_quintile           bm_Q1 2352 0.497   0.023     0.555      -0.015
+PE_in_CD F8_ols                       baseMean_quintile           bm_Q2 2351 0.314   0.048     0.603      -0.018
+PE_in_CD F8_ols                       baseMean_quintile           bm_Q3 2352 0.227   0.081     0.625      -0.006
+PE_in_CD F8_ols                       baseMean_quintile           bm_Q4 2351 0.204   0.173     0.614       0.005
+PE_in_CD F8_ols                       baseMean_quintile           bm_Q5 2352 0.269   0.126     0.614       0.027
+PE_in_CD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q1 2352 0.069  -4.430     0.541      -0.002
+PE_in_CD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q2 2351 0.100  -0.509     0.575      -0.005
+PE_in_CD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q3 2352 0.149  -0.049     0.605      -0.002
+PE_in_CD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q4 2351 0.238   0.055     0.634      -0.006
+PE_in_CD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q5 2352 0.646   0.087     0.657       0.008
+PE_in_MD F8_ols                       target_SE_tercile low_SE_reliable 3920 0.120   0.284     0.671      -0.003
+PE_in_MD F8_ols                       target_SE_tercile          mid_SE 3919 0.173   0.193     0.638       0.009
+PE_in_MD F8_ols                       target_SE_tercile   high_SE_noisy 3919 0.481   0.034     0.558      -0.033
+PE_in_MD F8_ols                       baseMean_quintile           bm_Q1 2352 0.522  -0.002     0.525      -0.049
+PE_in_MD F8_ols                       baseMean_quintile           bm_Q2 2351 0.294   0.067     0.613       0.002
+PE_in_MD F8_ols                       baseMean_quintile           bm_Q3 2352 0.171   0.169     0.644       0.002
+PE_in_MD F8_ols                       baseMean_quintile           bm_Q4 2351 0.181   0.233     0.660       0.004
+PE_in_MD F8_ols                       baseMean_quintile           bm_Q5 2352 0.196   0.263     0.671      -0.004
+PE_in_MD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q1 2352 0.073  -5.516     0.518      -0.001
+PE_in_MD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q2 2351 0.095  -0.513     0.601      -0.003
+PE_in_MD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q3 2352 0.134  -0.010     0.644      -0.010
+PE_in_MD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q4 2351 0.200   0.155     0.696      -0.004
+PE_in_MD F8_ols DIAGNOSTIC-ONLY post-hoc |observed| bin         absy_Q5 2352 0.622   0.084     0.653      -0.027
+  target  model                                         grouping                                      group     n  rmse  r2_oos  sign_acc  mean_resid
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)                        CHOL_SYNTHESIS_CORE    21 0.510   0.649     1.000      -0.421
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)              HALLMARK_BILE_ACID_METABOLISM    80 0.232  -0.017     0.600       0.027
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)           HALLMARK_CHOLESTEROL_HOMEOSTASIS    48 0.469   0.212     0.625      -0.102
+PE_in_CD F8_ols predefined_pathway (first-listed set if several) HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION   133 0.355  -0.051     0.549      -0.052
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)             HALLMARK_FATTY_ACID_METABOLISM   116 0.408   0.174     0.526       0.112
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)             HALLMARK_INFLAMMATORY_RESPONSE   132 0.474   0.093     0.621       0.044
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)                  HALLMARK_MTORC1_SIGNALING   135 0.363   0.077     0.667      -0.051
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)         HALLMARK_OXIDATIVE_PHOSPHORYLATION   149 0.214   0.123     0.651      -0.044
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)                        HALLMARK_PEROXISOME    38 0.217   0.134     0.553      -0.010
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)             HALLMARK_XENOBIOTIC_METABOLISM   151 0.350  -0.082     0.550       0.049
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)                           LIPOGENESIS_CORE    12 1.461   0.196     0.917      -1.241
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)                    SANDERSON_PPARA_TARGETS    14 0.345   0.171     0.714       0.243
+PE_in_CD F8_ols predefined_pathway (first-listed set if several)                                     no_set 10729 0.312   0.049     0.602       0.000
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)                        CHOL_SYNTHESIS_CORE    21 0.617   0.600     1.000      -0.533
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)              HALLMARK_BILE_ACID_METABOLISM    80 0.264   0.279     0.700      -0.019
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)           HALLMARK_CHOLESTEROL_HOMEOSTASIS    48 0.314   0.316     0.688       0.058
+PE_in_MD F8_ols predefined_pathway (first-listed set if several) HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION   133 0.295   0.040     0.541      -0.048
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)             HALLMARK_FATTY_ACID_METABOLISM   116 0.262   0.236     0.664      -0.006
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)             HALLMARK_INFLAMMATORY_RESPONSE   132 0.369  -0.035     0.583      -0.050
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)                  HALLMARK_MTORC1_SIGNALING   135 0.268   0.091     0.615      -0.006
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)         HALLMARK_OXIDATIVE_PHOSPHORYLATION   149 0.153   0.208     0.631      -0.079
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)                        HALLMARK_PEROXISOME    38 0.184  -0.193     0.816      -0.044
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)             HALLMARK_XENOBIOTIC_METABOLISM   151 0.297  -0.083     0.576       0.028
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)                           LIPOGENESIS_CORE    12 0.988   0.321     0.917      -0.735
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)                    SANDERSON_PPARA_TARGETS    14 0.406   0.358     0.857       0.080
+PE_in_MD F8_ols predefined_pathway (first-listed set if several)                                     no_set 10729 0.303   0.054     0.621      -0.006
+  target  n_genes  var_log2fc  mean_deseq_se2  mean_jackknife_se2  median_jk_over_deseq_se  reliability_deseq  reliability_jackknife  n_contrast_mice                                                                                                     note
+PE_in_CD    11758      0.1089          0.0702              0.1033                   0.9974             0.3555                 0.0515                9 jackknife over all 19 overlapping refits; only contrast mice change the estimate materially; approximate
+PE_in_MD    11758      0.0984          0.0599              0.0871                   0.9852             0.3913                 0.1154               10 jackknife over all 19 overlapping refits; only contrast mice change the estimate materially; approximate
+  target dropped_mouse  in_contrast  rms_change  max_abs_change  spearman_with_full  n_na
+PE_in_CD       CD_MP_2         True      0.1861          3.2831              0.8538    30
+PE_in_MD       MD_MP_2         True      0.1636          5.0291              0.9344    25
+PE_in_CD          CD_2         True      0.1296          4.2440              0.9400    32
+PE_in_MD          MD_1         True      0.1231          2.4410              0.9244    62
+PE_in_MD       MD_MP_4         True      0.1138          1.9468              0.9216    52
+PE_in_CD          CD_4         True      0.1023          1.6206              0.9395    24
+PE_in_CD       CD_MP_1         True      0.0986          2.1339              0.9536    17
+PE_in_CD          CD_3         True      0.0958          1.1948              0.9493    16
+     target  rho_with_tx_length  rho_with_baseMean  rho_with_depth_thinning_effect
+   PE_in_CD               0.078             -0.012                           0.001
+   PE_in_MD               0.138             -0.023                          -0.018
+Diet_in_Veh               0.045             -0.119                             NaN
+  target  icc_target_by_module  icc_oof_resid_by_module  r2_random_gene_cv_DIAGNOSTIC  r2_module_grouped_cv
+PE_in_CD                0.0143                   0.0036                        0.0685                0.0660
+PE_in_MD                0.0499                   0.0211                        0.0691                0.0699
+                  run  r2_oos dropped   target
+loo_CD_MP_2__PE_in_CD  0.0475 CD_MP_2 PE_in_CD
+   loo_CD_3__PE_in_CD  0.0488    CD_3 PE_in_CD
+loo_MD_MP_2__PE_in_MD  0.0530 MD_MP_2 PE_in_MD
+loo_MD_MP_4__PE_in_MD  0.0558 MD_MP_4 PE_in_MD
+   loo_MD_3__PE_in_MD  0.0579    MD_3 PE_in_MD
+loo_MD_MP_5__PE_in_MD  0.0632 MD_MP_5 PE_in_MD

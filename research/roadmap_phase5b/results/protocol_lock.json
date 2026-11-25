@@ -1,0 +1,13 @@
+{
+  "locked_at": "2026-11-23T14:30:50",
+  "note": "Phase 5 external outcomes were already seen; all 5B external comparisons are post-external exploratory.",
+  "sha256": {
+    "03_resampling_and_nested_cv_protocol.md": "8c4b8cb467135c1fe4b5be27602669f08446f18702f841ef1e1886982546927b",
+    "04_targeted_interventions.md": "5d50f7b6fd27c4e556633d4d8d7247ecaa0dfd4e3e362462f7ccefc668e5d193",
+    "b04_intervention_targets.R": "a449a7a4dd526227f8a02d9e10b45895c65ab4a117b94947b10934a702b3b216",
+    "b05_interventions.py": "22173a3c1abd54d8d9b62582bbf73de069f93673e2f1c9570ac7514ce95aa444",
+    "b00_common.py": "650f5c33eb0eff5405932dcf624d5ecced35a18ecd7b4186a75b784e2bc5b50c",
+    "plan_lock.json": "c94de10f6a6c164f64c2e6b5b8062ee45df08e6d5160be4f307bf791fce46f7c",
+    "frozen_manifest.json": "677b76ec2f7d1ee44af36d546011489070bbba3c11d988f10916937caddd40a7"
+  }
+}
