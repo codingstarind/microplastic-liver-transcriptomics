@@ -26,7 +26,7 @@ These folders are listed in the order the work was done. Each folder has its own
 - Steps that fit CatBoost use the interpreter that has catboost 1.2.10 installed (`C:\Python314\python.exe` in our runs).
 - R steps run in the WSL conda environment `mpliver-r`.
 
-Versions: [`../supplementary/reproducibility/README.md`](../supplementary/reproducibility/README.md).
+Versions: see the Software section of the [main README](../README.md#software).
 
 **Large inputs.** Reference-study matrices are downloaded by `roadmap_phase2/scripts/` into `D:/mpliver_work/phase2_refs/`, which can be overridden with the environment variable `MPLIVER_P2_DATA`. They are not committed.
 
