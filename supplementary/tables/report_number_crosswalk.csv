@@ -1,0 +1,76 @@
+report_section,item,reported,source_value,source_file,match
+2.2,Main PE gene entries,55836,55836.0,results/tables/filter_summary.json,True
+2.2,Genes kept (>=10 reads in >=4 mice),13777,13777.0,results/tables/filter_summary.json,True
+2.2,Percent of counts kept,99.86,99.861223,results/tables/filter_summary.json,True
+Fig. 1 / 4.1,PC1 % after muscle exclusion,20.8,20.84,results/tables/pca_variance_explained.csv,True
+Fig. 1 / 4.1,PC2 % after muscle exclusion,17.9,17.94,results/tables/pca_variance_explained.csv,True
+3.1,Muscle-associated genes excluded,135,135.0,results/tables/muscle_tracking_genes.csv,True
+4.1,"ARI, k = 2 vs diet (muscle genes removed)",1.00,1.0,results/tables/clustering_label_agreement.csv,True
+4.1,Diet-associated genes (BH-FDR < 0.05),2262,2262.0,results/deseq2/provisional_deposited/contrast_summary.csv,True
+4.1,PE-associated genes under CD,858,858.0,results/deseq2/provisional_deposited/contrast_summary.csv,True
+4.1,PE-associated genes under MD,472,472.0,results/deseq2/provisional_deposited/contrast_summary.csv,True
+Fig. 2 / 4.1,"fry FDR, PPARa targets, CD",0.0406,0.040644,results/pathways/provisional_deposited/limma_fry_camera.csv,True
+Fig. 2 / 4.1,"fry FDR, PPARa targets, MD",0.5175,0.517513,results/pathways/provisional_deposited/limma_fry_camera.csv,True
+4.1,Hallmark sets with fry FDR < 0.05 (CD + MD),0,0.0,results/pathways/provisional_deposited/limma_fry_camera.csv,True
+Table 2,"Lipogenesis q, CD",< 0.001,3.8e-05,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Lipogenesis q, MD",0.0002,0.00021,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Chol_synthesis q, CD",0.012,0.012356,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Chol_synthesis q, MD",0.0001,7.3e-05,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"FAST q, CD",0.016,0.016055,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"FAST q, MD",0.018,0.017859,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Chol_homeostasis q, CD",0.125,0.125069,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Chol_homeostasis q, MD",0.016,0.015632,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"DNA_repair q, CD",0.472,0.472348,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"DNA_repair q, MD",0.016,0.015632,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"PPARA_targets q, CD",0.064,0.064426,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"PPARA_targets q, MD",0.339,0.338858,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"mTORC1 q, CD",0.125,0.125069,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"mTORC1 q, MD",0.125,0.125366,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Glycolysis q, CD",0.317,0.316687,research/pathway_followup/TABLE_results_concise.csv,True
+Table 2,"Glycolysis q, MD",0.418,0.418093,research/pathway_followup/TABLE_results_concise.csv,True
+4.2,ROC-AUC MASH-1 -> MASH-2,1.00,1.0,research/roadmap_phase4e/results/external_metrics.csv,True
+4.2,Balanced accuracy MASH-1 -> MASH-2,1.00,1.0,research/roadmap_phase4e/results/external_metrics.csv,True
+4.2,Test mice MASH-1 -> MASH-2,15,15.0,research/roadmap_phase4e/results/external_metrics.csv,True
+3.3,Selected C MASH-1 -> MASH-2,10,10.0,research/roadmap_phase4e/results/external_metrics.csv,True
+4.2,ROC-AUC MASH-2 -> MASH-1,1.00,1.0,research/roadmap_phase4e/results/external_metrics.csv,True
+4.2,Balanced accuracy MASH-2 -> MASH-1,1.00,1.0,research/roadmap_phase4e/results/external_metrics.csv,True
+4.2,Test mice MASH-2 -> MASH-1,16,16.0,research/roadmap_phase4e/results/external_metrics.csv,True
+3.3,Selected C MASH-2 -> MASH-1,10,10.0,research/roadmap_phase4e/results/external_metrics.csv,True
+4.2,"Permutation p, MASH-1 -> MASH-2",0.0995,0.099502,research/roadmap_phase4e/results/permutation_summary.json,True
+4.2,"Permutation p, MASH-2 -> MASH-1",0.0348,0.034826,research/roadmap_phase4e/results/permutation_summary.json,True
+Table 3,PE_in_CD shift (log-odds),0.835,0.834692,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,PE_in_CD raw p,.0362,0.036222,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,PE_in_CD Holm p,.0724,0.072444,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,PE_in_MD shift (log-odds),1.663,1.663018,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,PE_in_MD raw p,.000208,0.000208,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,PE_in_MD Holm p,.000623,0.000623,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,Interaction shift (log-odds),0.828,0.828325,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,Interaction raw p,.1175,0.117517,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+Table 3,Interaction Holm p,.1175,0.117517,research/roadmap_phase4e/results/gse294180_frozen_model_contrasts.csv,True
+4.2,"MD shift, full model",1.66,1.663018,research/pathway_followup/results/ablation_gse294180_contrasts.csv,True
+4.2,"MD shift, both cholesterol inputs removed",0.01,0.007325,research/pathway_followup/results/ablation_gse294180_contrasts.csv,True
+4.2,"MD shift, PPARa targets removed",1.35,1.350093,research/pathway_followup/results/ablation_gse294180_contrasts.csv,True
+Table 4,"Cholesterol synthesis (21 genes), F8 OLS, PE_in_CD",.648,0.647953,research/lipid_prediction_followup/results/group_metrics_all.csv,True
+Table 4,"Other genes, F8 OLS, PE_in_CD",.052,0.051908,research/lipid_prediction_followup/results/group_metrics_all.csv,True
+Table 4,"Cholesterol synthesis (21 genes), F8 OLS, PE_in_MD",.600,0.600173,research/lipid_prediction_followup/results/group_metrics_all.csv,True
+Table 4,"Other genes, F8 OLS, PE_in_MD",.057,0.056812,research/lipid_prediction_followup/results/group_metrics_all.csv,True
+Table 4,Cholesterol-synthesis genes,21,21.0,research/lipid_prediction_followup/results/group_metrics_all.csv,True
+4.2,Gene modules spanned by cholesterol genes,6,6.0,research/lipid_prediction_followup/results/group_metrics_all.csv,True
+Table 4,"All genes, F8 OLS, PE_in_CD",.066,0.06601,research/roadmap_phase4b/model_comparison_results.csv,True
+Table 4,"All genes, FULL OLS (28 features), PE_in_CD",.104,0.103661,research/roadmap_phase4b/model_comparison_results.csv,True
+Table 4,"All genes, F8 OLS, PE_in_MD",.070,0.069924,research/roadmap_phase4b/model_comparison_results.csv,True
+Table 4,"All genes, FULL OLS (28 features), PE_in_MD",.104,0.103954,research/roadmap_phase4b/model_comparison_results.csv,True
+Table 5,"F8-OLS R2, CD",.648,0.647953,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-OLS R2, MD",.600,0.600173,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-Ridge R2, CD",.644,0.644208,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-Ridge R2, MD",.598,0.598212,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-CatBoost R2, CD",.659,0.658724,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-CatBoost R2, MD",.424,0.424077,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-HGB R2, CD",.614,0.613892,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+Table 5,"F8-HGB R2, MD",.481,0.481238,research/nonlinear_chol_followup/TABLE_results_concise.csv,True
+4.2,Lipogenesis genes,12,12.0,research/interaction_followup/results/pair_only_vs_additive_heldout.csv,True
+4.2,"Lipogenesis CD R2, additive",0.163,0.163272,research/interaction_followup/results/pair_only_vs_additive_heldout.csv,True
+4.2,"Lipogenesis CD R2, with FAST_eff x CIRC_se",0.292,0.292219,research/interaction_followup/results/pair_only_vs_additive_heldout.csv,True
+4.2,Holm-adjusted p,0.054,0.053971,research/interaction_followup/results/pair_only_vs_additive_heldout.csv,True
+4.2,"Hong-PE Spearman rho, frozen F8-OLS",0.22,0.218545,research/roadmap_phase5/gene_level_external_results.csv,True
+4.2,Hong-PE mouse-label permutation p,0.25,0.25,research/roadmap_phase5/gene_level_external_results.csv,True
